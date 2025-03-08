@@ -1,9 +1,9 @@
 const cacheName = "echenDeligani-portfolio-0.1.0";
 const contentToCache = [
     "Build/Echen.loader.js",
-    "Build/Echen.framework.js",
-    "Build/Echen.data",
-    "Build/Echen.wasm",
+    "Build/Echen.framework.js.unityweb",
+    "Build/Echen.data.unityweb",
+    "Build/Echen.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
