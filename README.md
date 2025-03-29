@@ -1,6 +1,6 @@
 # Unity Portfolio Website
 
-A modern, responsive portfolio website featuring Unity WebGL integration with optimized performance and graceful loading.
+A modern, responsive portfolio website featuring Unity WebGL integration with optimized performance, offline support, and enhanced security features.
 
 ## Features
 
@@ -10,19 +10,38 @@ A modern, responsive portfolio website featuring Unity WebGL integration with op
   - Platform detection and optimization
   - Error handling and retry mechanism
   - Performance monitoring
+  - Memory management for Unity instances
 
 - **Portfolio Management**
   - Dynamic work categories
   - Lazy loading of images
   - Responsive grid layout
   - Modal view for detailed information
+  - Work details page with rich content
 
 - **Performance Optimizations**
-  - Efficient resource loading
+  - Efficient resource loading with preloading
   - Memory management for Unity
   - Lazy loading of sections
   - Optimized animations
   - Service worker for offline support
+  - DNS prefetching and preconnect
+  - Resource caching strategies
+
+- **Security Features**
+  - Content Security Policy (CSP)
+  - Strict referrer policy
+  - X-Content-Type-Options
+  - Secure headers configuration
+  - HTTPS enforcement
+
+- **Progressive Web App (PWA)**
+  - Service worker implementation
+  - Offline functionality
+  - App manifest
+  - Installable on devices
+  - Cache management
+  - Background sync
 
 - **Accessibility**
   - ARIA landmarks
@@ -31,43 +50,27 @@ A modern, responsive portfolio website featuring Unity WebGL integration with op
   - High contrast mode
   - Reduced motion support
 
-- **Internationalization**
-  - Multi-language support
-  - RTL language support
-  - Dynamic content translation
-  - Locale-specific formatting
-
 ## Project Structure
 
 ```
 Portfolio-Website/
 ├── assets/
-│   ├── icons/          # Website icons
-│   └── images/         # Static images
+│   ├── icons/          # Website icons and favicons
+│   └── images/         # Static images and placeholders
 ├── css/
 │   └── style.css       # Main stylesheet
 ├── js/
-│   ├── core/           # Core functionality
-│   │   └── app.js      # Application orchestrator
-│   ├── services/       # Feature services
-│   │   ├── unityService.js
-│   │   ├── workService.js
-│   │   ├── contactService.js
-│   │   ├── navigationService.js
-│   │   ├── animationService.js
-│   │   ├── themeService.js
-│   │   ├── mediaService.js
-│   │   ├── analyticsService.js
-│   │   ├── cacheService.js
-│   │   ├── accessibilityService.js
-│   │   └── i18nService.js
-│   └── utils/          # Utility functions
-├── data/
-│   └── works/          # Portfolio data
-├── locales/            # Translation files
-├── index.html          # Main HTML file
+│   ├── particle-loader.js  # Loading animation
+│   ├── unity-loader.js     # Unity integration
+│   └── main.js            # Main application logic
+├── data/               # Portfolio content data
+├── Build/             # Unity WebGL build files
+├── index.html         # Main HTML file
+├── work-details.html  # Work item details page
 ├── manifest.webmanifest # Web app manifest
-└── service-worker.js   # Service worker
+├── service-worker.js  # Service worker for offline support
+├── offline.html       # Offline fallback page
+└── nginx.conf        # Nginx configuration
 ```
 
 ## Unity Integration
@@ -79,12 +82,14 @@ The Unity WebGL build is integrated with the following optimizations:
    - Progress tracking
    - Graceful error handling
    - Automatic retry mechanism
+   - Preloading of critical assets
 
 2. **Performance Management**
    - Memory cleanup when switching sections
    - Canvas size optimization
    - Platform-specific settings
    - Resource preloading
+   - Cache management for Unity files
 
 3. **Orientation Handling**
    - Automatic orientation detection
@@ -96,29 +101,21 @@ The Unity WebGL build is integrated with the following optimizations:
 
 1. **Unity Build Setup**
    - Build your Unity project for WebGL
-   - Place build files in the appropriate directory
-   - Update build configuration in `unityService.js`
+   - Place build files in the `Build/` directory
+   - Update Unity template settings in `index.html`
 
 2. **Portfolio Content**
-   - Add work items to `data/works/`
+   - Add work items to `data/` directory
    - Update images in `assets/images/`
    - Configure categories and details
 
-3. **Localization**
-   - Add translation files to `locales/`
-   - Update language selector in HTML
-   - Configure RTL support if needed
-
-4. **Development**
+3. **Development**
    ```bash
-   # Install dependencies
-   npm install
+   # Using a local server (e.g., Python)
+   python -m http.server 8000
 
-   # Start development server
-   npm run dev
-
-   # Build for production
-   npm run build
+   # Or using Node.js http-server
+   npx http-server
    ```
 
 ## Performance Considerations
@@ -128,12 +125,14 @@ The Unity WebGL build is integrated with the following optimizations:
    - Implement memory management
    - Handle orientation changes
    - Monitor frame rate
+   - Cache Unity files appropriately
 
 2. **Resource Loading**
    - Lazy load images
    - Preload critical assets
    - Implement caching
    - Use service worker
+   - DNS prefetching
 
 3. **Memory Management**
    - Clean up resources
@@ -148,6 +147,20 @@ The Unity WebGL build is integrated with the following optimizations:
 - Safari (latest)
 - Edge (latest)
 - Mobile browsers (iOS 12+, Android 5+)
+
+## Security Considerations
+
+1. **Content Security**
+   - Strict CSP implementation
+   - Secure headers
+   - HTTPS enforcement
+   - XSS protection
+
+2. **Resource Protection**
+   - Cache control headers
+   - Referrer policy
+   - Content type options
+   - Secure resource loading
 
 ## Contributing
 
@@ -167,4 +180,4 @@ Echen Deligani
 
 ## Version
 
-1.0.0 
+1.1.0 
