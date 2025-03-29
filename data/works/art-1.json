@@ -13,65 +13,90 @@
     "role": "Character Artist & VFX Designer",
     "images": [
         {
-            "url": "assets/images/works/movies/exo_01.jpg",
-            "thumbnail": "assets/images/works/movies/exo_01_thumb.jpg",
+            "url": "assets/images/works/movies/mo-01.jpg",
+            "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
             "caption": "Alien creature concept design for sci-fi film"
         },
         {
-            "url": "assets/images/works/movies/pf_01.jpg",
-            "thumbnail": "assets/images/works/movies/pf_01_thumb.jpg",
+            "url": "assets/images/works/movies/mo-02.jpg",
+            "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg",
             "caption": "Hero character close-up with detailed texture work"
         },
         {
-            "url": "assets/images/works/movies/pf_02.jpg",
-            "thumbnail": "assets/images/works/movies/pf_02_thumb.jpg",
+            "url": "assets/images/works/movies/mo-03.jpg",
+            "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg",
             "caption": "Final rendered key frame from feature animation"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/movies/exo_01.jpg",
-            "thumbnail": "assets/images/works/movies/exo_01_thumb.jpg",
+            "url": "assets/images/works/movies/mo-04.jpg",
+            "thumbnail": "assets/images/works/movies/mo-04_thumb.jpg",
             "caption": "Alien creature concept design for sci-fi film"
         },
         {
-            "url": "assets/images/works/movies/pf_01.jpg",
-            "thumbnail": "assets/images/works/movies/pf_01_thumb.jpg",
+            "url": "assets/images/works/movies/mo-05.jpg",
+            "thumbnail": "assets/images/works/movies/mo-05_thumb.jpg",
             "caption": "Hero character close-up with detailed texture work"
         },
         {
-            "url": "assets/images/works/movies/pf_02.jpg",
-            "thumbnail": "assets/images/works/movies/pf_02_thumb.jpg",
+            "url": "assets/images/works/movies/mo-06.jpg",
+            "thumbnail": "assets/images/works/movies/mo-06_thumb.jpg",
             "caption": "Final rendered key frame from feature animation"
         },
         {
-            "url": "assets/images/works/movies/pf_03.jpg",
-            "thumbnail": "assets/images/works/movies/pf_03_thumb.jpg",
+            "url": "assets/images/works/movies/mo-07.jpg",
+            "thumbnail": "assets/images/works/movies/mo-07_thumb.jpg",
             "caption": "Hero character close-up with detailed texture work"
         },
         {
-            "url": "assets/images/works/movies/pf_04.jpg",
-            "thumbnail": "assets/images/works/movies/pf_04_thumb.jpg",
+            "url": "assets/images/works/movies/mo-08.jpg",
+            "thumbnail": "assets/images/works/movies/mo-08_thumb.jpg",
             "caption": "Creature animation rig and technical breakdown"
         },
         {
-            "url": "assets/images/works/movies/pas_01.jpg",
-            "thumbnail": "assets/images/works/movies/pas_01_thumb.jpg",
+            "url": "assets/images/works/movies/mo-09.jpg",
+            "thumbnail": "assets/images/works/movies/mo-09_thumb.jpg",
             "caption": "Final rendered key frame from feature animation"
         },
         {
-            "url": "assets/images/works/movies/pas_02.jpg",
-            "thumbnail": "assets/images/works/movies/pas_02_thumb.jpg",
+            "url": "assets/images/works/movies/mo-10.jpg",
+            "thumbnail": "assets/images/works/movies/mo-10_thumb.jpg",
             "caption": "Storyboard to 3D comparison for narrative sequence"
         },
         {
-            "url": "assets/videos/works/movies/pf_01.mp4",
-            "thumbnail": "assets/videos/works/movies/pf_01_thumb.mp4",
+            "url": "assets/images/works/movies/mo-11.jpg",
+            "thumbnail": "assets/images/works/movies/mo-11_thumb.jpg",
             "caption": "Storyboard to 3D comparison for narrative sequence1"
         },
         {
-            "url": "assets/videos/works/movies/pf_02.mp4",
-            "thumbnail": "assets/videos/works/movies/pf_02_thumb.mp4",
+            "url": "assets/images/works/movies/mo-12.jpg",
+            "thumbnail": "assets/images/works/movies/mo-12_thumb.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/mo-13.jpg",
+            "thumbnail": "assets/images/works/movies/mo-13_thumb.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/mo-14.jpg",
+            "thumbnail": "assets/images/works/movies/mo-14_thumb.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/mo-15.jpg",
+            "thumbnail": "assets/images/works/movies/mo-15_thumb.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/mo-16.jpg",
+            "thumbnail": "assets/images/works/movies/mo-16_thumb.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/mo-17.jpg",
+            "thumbnail": "assets/images/works/movies/mo-17_thumb.jpg",
             "caption": "Storyboard to 3D comparison for narrative sequence2"
         }
     ],
@@ -80,46 +105,43 @@
             "title": "Concept Development",
             "description": "Initial sketches and concept exploration, working closely with directors to establish the visual direction for the characters and environments.",
             "date": "January 2020",
-            "image": "assets/videos/works/movies/pf_02.mp4",
-            "thumbnail": "assets/videos/works/movies/pf_02_thumb.mp4"
+            "image": "assets/images/works/movies/mo-01.jpg",
+            "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg"
         },
         {
             "title": "3D Modeling & Sculpting",
             "description": "Creating detailed 3D models and sculptures using ZBrush and Maya, focusing on anatomical accuracy and creative design elements to bring characters to life.",
             "date": "March 2020",
-            "image": "assets/images/works/movies/process2.jpg",
-            "thumbnail": "assets/images/works/movies/process2_thumb.jpg"
+            "image": "assets/images/works/movies/mo-02.jpg",
+            "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg"
         },
         {
             "title": "Texturing & Shading",
             "description": "Developing realistic materials and textures using Substance Painter and custom shader networks to achieve the desired visual style for the production.",
             "date": "June 2020",
-            "image": "assets/images/works/movies/process3.jpg",
-            "thumbnail": "assets/images/works/movies/process3_thumb.jpg"
+            "image": "assets/images/works/movies/mo-03.jpg",
+            "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg"
         },
         {
             "title": "Animation & Rigging",
             "description": "Building skeletal structures and control systems for the characters, enabling smooth and expressive animations that convey personality and emotion.",
             "date": "September 2020",
-            "image": "assets/images/works/movies/process4.jpg",
-            "thumbnail": "assets/images/works/movies/process4_thumb.jpg"
+            "image": "assets/images/works/movies/mo-04.jpg",
+            "thumbnail": "assets/images/works/movies/mo-04_thumb.jpg"
         },
         {
             "title": "Visual Effects Integration",
             "description": "Creating and integrating particle-based effects, dynamic simulations, and procedural animations to enhance the visual storytelling of key sequences.",
             "date": "January 2021",
-            "image": "assets/images/works/movies/process5.jpg",
-            "thumbnail": "assets/images/works/movies/process5_thumb.jpg"
+            "image": "assets/images/works/movies/mo-05.jpg",
+            "thumbnail": "assets/images/works/movies/mo-05_thumb.jpg"
         },
         {
             "title": "Final Rendering & Compositing",
             "description": "Optimizing lighting setups and render passes to achieve the highest quality visual output, then combining all elements in the compositing stage for the finished look.",
             "date": "March 2021",
-            "image": "assets/images/works/movies/process6.jpg",
-            "thumbnail": "assets/images/works/movies/process6_thumb.jpg"
+            "image": "assets/images/works/movies/mo-06.jpg",
+            "thumbnail": "assets/images/works/movies/mo-07_thumb.jpg"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/movies-animations",
-    "progressUrl": "https://yourportfolio.com/progress/movies-animations",
-    "thumbnail": "assets/images/works/movies/movie1_thumb.jpg"
+    ]
 }
