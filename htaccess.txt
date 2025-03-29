@@ -1,0 +1,14 @@
+<IfModule mod_headers.c>
+    <FilesMatch "\.unityweb$">
+        Header set Content-Type "application/octet-stream"
+        Header set Content-Encoding "gzip"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+    AddType application/octet-stream .unityweb
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE application/octet-stream
+</IfModule>

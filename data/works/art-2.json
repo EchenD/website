@@ -1,0 +1,82 @@
+{
+    "id": "art-2",
+    "title": "Sculptures",
+    "fullDescription": "A personal collection of six intricate sculptures created using ZBrush, 3ds Max, and Photoshop. Each sculpture represents a fusion of traditional art techniques with modern digital sculpting. Turntable videos on YouTube showcase the full 360° view of these pieces, emphasizing texture, detail, and form.",
+    "date": "2022 - 2024",
+    "tools": [
+        "ZBrush",
+        "3ds Max",
+        "Photoshop"
+    ],
+    "role": "Sculptor & Digital Artist",
+    "images": [
+        {
+            "url": "assets/images/works/sculptures/sculpture1.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture1_thumb.jpg",
+            "caption": "Dynamic pose sculpture with intricate detailing"
+        },
+        {
+            "url": "assets/images/works/sculptures/sculpture2.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture2_thumb.jpg",
+            "caption": "Abstract form exploring organic curves and surfaces"
+        },
+        {
+            "url": "assets/images/works/sculptures/sculpture3.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture3_thumb.jpg",
+            "caption": "Turntable view showcasing sculpture depth and texture"
+        }
+    ],
+    "gallery": [
+        {
+            "url": "assets/images/works/sculptures/sculpture1.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture1_thumb.jpg",
+            "caption": "Dynamic pose sculpture with intricate detailing"
+        },
+        {
+            "url": "assets/images/works/sculptures/sculpture2.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture2_thumb.jpg",
+            "caption": "Abstract form exploring organic curves and surfaces"
+        },
+        {
+            "url": "assets/images/works/sculptures/sculpture3.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture3_thumb.jpg",
+            "caption": "Turntable view showcasing sculpture depth and texture"
+        },
+        {
+            "url": "assets/images/works/sculptures/sculpture4.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture4_thumb.jpg",
+            "caption": "Detailed view of surface texturing"
+        },
+        {
+            "url": "assets/images/works/sculptures/sculpture5.jpg",
+            "thumbnail": "assets/images/works/sculptures/sculpture5_thumb.jpg",
+            "caption": "Close-up of sculptural details"
+        }
+    ],
+    "process": [
+        {
+            "title": "Inspiration & Sketching",
+            "description": "Gathering inspiration from classical sculptures and modern art, followed by initial sketches.",
+            "date": "January 2022",
+            "image": "assets/images/works/sculptures/process1.jpg",
+            "thumbnail": "assets/images/works/sculptures/process1_thumb.jpg"
+        },
+        {
+            "title": "Digital Sculpting",
+            "description": "Using ZBrush and 3ds Max to build detailed 3D models, experimenting with forms and textures.",
+            "date": "March 2022",
+            "image": "assets/images/works/sculptures/process2.jpg",
+            "thumbnail": "assets/images/works/sculptures/process2_thumb.jpg"
+        },
+        {
+            "title": "Rendering & Post-Processing",
+            "description": "Final rendering using advanced lighting and shading techniques, then refining details in Photoshop.",
+            "date": "June 2022",
+            "image": "assets/images/works/sculptures/process3.jpg",
+            "thumbnail": "assets/images/works/sculptures/process3_thumb.jpg"
+        }
+    ],
+    "galleryUrl": "https://yourportfolio.com/gallery/sculptures",
+    "progressUrl": "https://yourportfolio.com/progress/sculptures",
+    "thumbnail": "assets/images/works/sculptures/sculpture1_thumb.jpg"
+}

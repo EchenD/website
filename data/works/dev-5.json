@@ -1,0 +1,84 @@
+{
+    "id": "dev-5",
+    "title": "VR/AR & Interactive Projects",
+    "fullDescription": "A diverse collection of VR, AR, Kinect, and interactive installations developed for exhibitions and events. These projects explore the intersection of technology and art, delivering immersive experiences that enhance audience engagement through innovative simulation and interactive design.",
+    "date": "2016 - 2023",
+    "tools": [
+        "Unity3D",
+        "C#",
+        "ARKit",
+        "Vuforia",
+        "Kinect SDK"
+    ],
+    "role": "Senior Unity Developer & Technical Artist",
+    "images": [
+        {
+            "url": "assets/images/works/vr-ar/vrar1.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar1_thumb.jpg",
+            "caption": "Immersive VR setup for interactive storytelling"
+        },
+        {
+            "url": "assets/images/works/vr-ar/vrar2.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar2_thumb.jpg",
+            "caption": "Augmented reality installation engaging live audiences"
+        },
+        {
+            "url": "assets/images/works/vr-ar/vrar3.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar3_thumb.jpg",
+            "caption": "Interactive project using Kinect for gesture-based control"
+        }
+    ],
+    "gallery": [
+        {
+            "url": "assets/images/works/vr-ar/vrar1.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar1_thumb.jpg",
+            "caption": "Immersive VR setup for interactive storytelling"
+        },
+        {
+            "url": "assets/images/works/vr-ar/vrar2.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar2_thumb.jpg",
+            "caption": "Augmented reality installation engaging live audiences"
+        },
+        {
+            "url": "assets/images/works/vr-ar/vrar3.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar3_thumb.jpg",
+            "caption": "Interactive project using Kinect for gesture-based control"
+        },
+        {
+            "url": "assets/images/works/vr-ar/vrar4.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar4_thumb.jpg",
+            "caption": "Mixed reality experience prototype"
+        },
+        {
+            "url": "assets/images/works/vr-ar/vrar5.jpg",
+            "thumbnail": "assets/images/works/vr-ar/vrar5_thumb.jpg",
+            "caption": "Motion tracking visualization system"
+        }
+    ],
+    "process": [
+        {
+            "title": "Concept & Ideation",
+            "description": "Designing interactive experiences that merge physical and digital realms.",
+            "date": "January 2016",
+            "image": "assets/images/works/vr-ar/process1.jpg",
+            "thumbnail": "assets/images/works/vr-ar/process1_thumb.jpg"
+        },
+        {
+            "title": "Prototype Development",
+            "description": "Rapid prototyping to test immersive VR/AR concepts and interactive mechanisms.",
+            "date": "March 2016",
+            "image": "assets/images/works/vr-ar/process2.jpg",
+            "thumbnail": "assets/images/works/vr-ar/process2_thumb.jpg"
+        },
+        {
+            "title": "Implementation & Testing",
+            "description": "Final integration with real-time sensors and iterative testing for flawless user interaction.",
+            "date": "June 2016",
+            "image": "assets/images/works/vr-ar/process3.jpg",
+            "thumbnail": "assets/images/works/vr-ar/process3_thumb.jpg"
+        }
+    ],
+    "galleryUrl": "https://yourportfolio.com/gallery/vr-ar",
+    "progressUrl": "https://yourportfolio.com/progress/vr-ar",
+    "thumbnail": "assets/images/works/vr-ar/vrar1_thumb.jpg"
+}

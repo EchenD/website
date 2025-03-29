@@ -1,0 +1,82 @@
+{
+    "id": "dev-4",
+    "title": "Alef WebGL Game",
+    "fullDescription": "An educational quest game developed in WebGL for Alef University. The game leverages immersive third-person gameplay to raise awareness about climate change, attracting over 11,000 users. It combines interactive storytelling with a rich visual experience to engage and educate players.",
+    "date": "2020 - 2023",
+    "tools": [
+        "WebGL",
+        "JavaScript",
+        "Three.js"
+    ],
+    "role": "Lead Technical Artist & Developer",
+    "images": [
+        {
+            "url": "assets/images/works/alef-webgl/alef1.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef1_thumb.jpg",
+            "caption": "Immersive third-person game environment showcasing natural landscapes"
+        },
+        {
+            "url": "assets/images/works/alef-webgl/alef2.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef2_thumb.jpg",
+            "caption": "Interactive quest elements and narrative-driven gameplay"
+        },
+        {
+            "url": "assets/images/works/alef-webgl/alef3.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef3_thumb.jpg",
+            "caption": "User interface designed to facilitate educational content delivery"
+        }
+    ],
+    "gallery": [
+        {
+            "url": "assets/images/works/alef-webgl/alef1.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef1_thumb.jpg",
+            "caption": "Immersive third-person game environment showcasing natural landscapes"
+        },
+        {
+            "url": "assets/images/works/alef-webgl/alef2.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef2_thumb.jpg",
+            "caption": "Interactive quest elements and narrative-driven gameplay"
+        },
+        {
+            "url": "assets/images/works/alef-webgl/alef3.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef3_thumb.jpg",
+            "caption": "User interface designed to facilitate educational content delivery"
+        },
+        {
+            "url": "assets/images/works/alef-webgl/alef4.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef4_thumb.jpg",
+            "caption": "Environmental storytelling elements"
+        },
+        {
+            "url": "assets/images/works/alef-webgl/alef5.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/alef5_thumb.jpg",
+            "caption": "Interactive climate change visualization"
+        }
+    ],
+    "process": [
+        {
+            "title": "Concept & Storyboarding",
+            "description": "Defining the educational narrative and visual storytelling approach.",
+            "date": "January 2020",
+            "image": "assets/images/works/alef-webgl/process1.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/process1_thumb.jpg"
+        },
+        {
+            "title": "Interactive Development",
+            "description": "Building interactive elements using WebGL and real-time rendering techniques.",
+            "date": "March 2020",
+            "image": "assets/images/works/alef-webgl/process2.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/process2_thumb.jpg"
+        },
+        {
+            "title": "User Engagement",
+            "description": "Implementing engaging gameplay mechanics to educate and entertain simultaneously.",
+            "date": "June 2020",
+            "image": "assets/images/works/alef-webgl/process3.jpg",
+            "thumbnail": "assets/images/works/alef-webgl/process3_thumb.jpg"
+        }
+    ],
+    "galleryUrl": "https://yourportfolio.com/gallery/alef-webgl",
+    "progressUrl": "https://yourportfolio.com/progress/alef-webgl",
+    "thumbnail": "assets/images/works/alef-webgl/alef1_thumb.jpg"
+}

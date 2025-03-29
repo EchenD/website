@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Details - Echen Deligani Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/work-details.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header>
+            <nav>
+                <div class="nav-brand">
+                    <h1>Echen Deligani</h1>
+                    <span class="nav-subtitle">Art meets technology. Every pixel tells a story.</span>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="index.html#landing" class="nav-link">Home</a></li>
+                    <li><a href="index.html#works" class="nav-link">Works</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="work-details-container">
+                <div class="work-header">
+                    <h1 id="work-title">Loading...</h1>
+                    <div class="work-meta">
+                        <span id="work-date"></span>
+                        <span id="work-category"></span>
+                        <span id="work-role"></span>
+                    </div>
+                </div>
+
+                <div class="work-gallery">
+                    <div id="gallery-container"></div>
+                    <div class="gallery-nav">
+                        <button id="prev-image" aria-label="Previous image">&lt;</button>
+                        <button id="next-image" aria-label="Next image">&gt;</button>
+                    </div>
+                </div>
+
+                <div class="work-description">
+                    <p id="work-description"></p>
+                </div>
+
+                <div class="work-process">
+                    <h2>Process</h2>
+                    <div id="process-steps"></div>
+                </div>
+
+                <div class="work-tools">
+                    <h2>Tools Used</h2>
+                    <div id="tools-list"></div>
+                </div>
+
+                <div class="work-links">
+                    <h2>Related Links</h2>
+                    <div id="links-list"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; <span id="current-year">2025</span> Echen Deligani</p>
+                <div class="social-links">
+                    <a href="https://github.com/EchenD" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/echen-deligani/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/work-details.js"></script>
+</body>
+
+</html>

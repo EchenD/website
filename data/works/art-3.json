@@ -1,0 +1,82 @@
+{
+    "id": "art-3",
+    "title": "Game Art Collaborations",
+    "fullDescription": "A curated collection of artworks produced during collaborations on various game projects. This portfolio features concept art, in-game assets, character designs, and environmental illustrations created for titles such as LandRocker, Battle of Rovers, Avatar Maker, and Alef Games.",
+    "date": "2019 - 2025",
+    "tools": [
+        "Photoshop",
+        "3ds Max",
+        "Substance Painter"
+    ],
+    "role": "Art Director",
+    "images": [
+        {
+            "url": "assets/images/works/game-art/bor_01.jpg",
+            "thumbnail": "assets/images/works/game-art/bor_01.jpg",
+            "caption": "Initial character concept for a fantasy game"
+        },
+        {
+            "url": "assets/images/works/game-art/lr_00.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_00.jpg",
+            "caption": "Detailed environment design from an interactive game level"
+        },
+        {
+            "url": "assets/images/works/game-art/game3.jpg",
+            "thumbnail": "assets/images/works/game-art/game3_thumb.jpg",
+            "caption": "High-resolution asset illustration for in-game use"
+        }
+    ],
+    "gallery": [
+        {
+            "url": "assets/images/works/game-art/game1.jpg",
+            "thumbnail": "assets/images/works/game-art/game1_thumb.jpg",
+            "caption": "Initial character concept for a fantasy game"
+        },
+        {
+            "url": "assets/images/works/game-art/game2.jpg",
+            "thumbnail": "assets/images/works/game-art/game2_thumb.jpg",
+            "caption": "Detailed environment design from an interactive game level"
+        },
+        {
+            "url": "assets/images/works/game-art/game3.jpg",
+            "thumbnail": "assets/images/works/game-art/game3_thumb.jpg",
+            "caption": "High-resolution asset illustration for in-game use"
+        },
+        {
+            "url": "assets/images/works/game-art/game4.jpg",
+            "thumbnail": "assets/images/works/game-art/game4_thumb.jpg",
+            "caption": "Character animation sequence breakdown"
+        },
+        {
+            "url": "assets/images/works/game-art/game5.jpg",
+            "thumbnail": "assets/images/works/game-art/game5_thumb.jpg",
+            "caption": "Environment concept art for fantasy game"
+        }
+    ],
+    "process": [
+        {
+            "title": "Concept Development",
+            "description": "Ideation sessions to establish visual style and game aesthetics.",
+            "date": "January 2019",
+            "image": "assets/images/works/game-art/lr_010.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_010.jpg"
+        },
+        {
+            "title": "Asset Production",
+            "description": "Creation of high-fidelity assets and characters, optimized for real-time rendering.",
+            "date": "March 2019",
+            "image": "assets/images/works/game-art/lr_012.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_012.jpg"
+        },
+        {
+            "title": "Iterative Refinement",
+            "description": "Collaborative feedback and iterative revisions to ensure the art aligns with game design.",
+            "date": "June 2019",
+            "image": "assets/images/works/game-art/lr_013.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_013.jpg"
+        }
+    ],
+    "galleryUrl": "https://yourportfolio.com/gallery/game-art",
+    "progressUrl": "https://yourportfolio.com/progress/game-art",
+    "thumbnail": "assets/images/works/game-art/game1_thumb.jpg"
+}

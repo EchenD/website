@@ -1,0 +1,82 @@
+{
+    "id": "art-6",
+    "title": "Miscellaneous Art Projects",
+    "fullDescription": "A diverse collection of experimental and one-off art projects. This category encompasses concept art explorations, experimental digital collages, and creative exercises that challenge traditional boundaries and spark innovation.",
+    "date": "2010 - 2024",
+    "tools": [
+        "Photoshop",
+        "Illustrator",
+        "Mixed Media"
+    ],
+    "role": "Multidisciplinary Artist",
+    "images": [
+        {
+            "url": "assets/images/works/misc-art/her_01.jpg",
+            "thumbnail": "assets/images/works/misc-art/her_01_thumb.jpg",
+            "caption": "Initial concept sketch that led to an experimental digital collage"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc2.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc2_thumb.jpg",
+            "caption": "A dynamic fusion of textures, colors, and forms"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc3.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc3_thumb.jpg",
+            "caption": "A unique art experiment blending various media and techniques"
+        }
+    ],
+    "gallery": [
+        {
+            "url": "assets/images/works/misc-art/misc1.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc1_thumb.jpg",
+            "caption": "Initial concept sketch that led to an experimental digital collage"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc2.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc2_thumb.jpg",
+            "caption": "A dynamic fusion of textures, colors, and forms"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc3.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc3_thumb.jpg",
+            "caption": "A unique art experiment blending various media and techniques"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc4.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc4_thumb.jpg",
+            "caption": "Mixed media exploration of abstract concepts"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc5.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc5_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        }
+    ],
+    "process": [
+        {
+            "title": "Idea Generation",
+            "description": "Exploring uncharted creative territories and sketching multiple ideas.",
+            "date": "January 2010",
+            "image": "assets/images/works/misc-art/process1.jpg",
+            "thumbnail": "assets/images/works/misc-art/process1_thumb.jpg"
+        },
+        {
+            "title": "Experimental Execution",
+            "description": "Combining various media and digital techniques to create a unique aesthetic.",
+            "date": "March 2010",
+            "image": "assets/images/works/misc-art/process2.jpg",
+            "thumbnail": "assets/images/works/misc-art/process2_thumb.jpg"
+        },
+        {
+            "title": "Review & Iteration",
+            "description": "Evaluating outcomes and refining the work based on experimental feedback.",
+            "date": "June 2010",
+            "image": "assets/images/works/misc-art/process3.jpg",
+            "thumbnail": "assets/images/works/misc-art/process3_thumb.jpg"
+        }
+    ],
+    "galleryUrl": "https://yourportfolio.com/gallery/misc-art",
+    "progressUrl": "https://yourportfolio.com/progress/misc-art",
+    "thumbnail": "assets/images/works/misc-art/misc1_thumb.jpg"
+}

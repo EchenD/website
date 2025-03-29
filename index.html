@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Echen Deligani's Portfolio - Game Developer and Designer">
+    <title>Echen Deligani Portfolio</title>
+
+    <!-- Unity WebGL Support -->
+    <meta name="unity:webgl:template" content="Portfolio-Website">
+    <meta name="unity:webgl:build" content="Echen">
+    <meta name="unity:webgl:version" content="1.0.0">
+    <meta name="unity:webgl:company" content="EchenDeligani">
+    <meta name="unity:webgl:product" content="Portfolio">
+
+    <!-- Performance Optimization -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' blob: https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: blob: https:; connect-src 'self' https://www.google-analytics.com https://api.emailjs.com; worker-src 'self' blob:; frame-src 'self'; font-src 'self' https://cdnjs.cloudflare.com;">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="assets/icons/loading-spinner.gif" as="image">
+    <link rel="preload" href="js/particle-loader.js" as="script">
+    <link rel="preload" href="js/unity-loader.js" as="script">
+    <link rel="preload" href="js/main.js" as="script">
+    <link rel="preload" href="css/style.css" as="style">
+
+    <!-- Performance Optimization -->
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+</head>
+
+<body>
+    <!-- Page Loading Overlay -->
+    <div id="page-loading" aria-label="Loading">
+        <img src="assets/icons/loading-spinner.gif" alt="Loading..." width="30" height="8">
+    </div>
+
+    <!-- Main content wrapper -->
+    <div class="content-wrapper">
+        <!-- Header Navigation -->
+        <header>
+            <nav>
+                <div class="nav-brand">
+                    <h1>Echen Deligani</h1>
+                    <span class="nav-subtitle">Art meets technology. Every pixel tells a story.</span>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation" id="navToggleBtn">
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#landing" class="nav-link">Home</a></li>
+                    <li><a href="#works" class="nav-link">Works</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Landing Section with Unity WebGL -->
+            <section id="landing" class="section active">
+                <div class="section-content">
+                    <div id="portfolio-container">
+                        <canvas id="portfolio-canvas" tabindex="-1"></canvas>
+                        <div id="portfolio-loading-bar" aria-label="Unity loading progress">
+                            <canvas id="loading-animation"></canvas>
+                            <div class="loading-text">Loading...</div>
+                        </div>
+                        <div id="portfolio-warning" role="alert"></div>
+                        <div id="unity-fallback" class="unity-fallback" style="display: none;">
+                            <div class="fallback-content">
+                                <h3>Interactive 3D Portfolio</h3>
+                                <p>The interactive 3D version of this portfolio could not be loaded.</p>
+                                <p>You can still explore all projects and content using the navigation menu.</p>
+                                <button id="retry-unity-load" class="fallback-button">Retry Loading 3D View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer for landing section -->
+                <footer>
+                    <div class="footer-content">
+                        <p>&copy; <span class="current-year">2025</span> Echen Deligani. All rights reserved.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/EchenD" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://www.linkedin.com/in/echen-deligani/" target="_blank"
+                                rel="noopener">LinkedIn</a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+            <!-- Works Section -->
+            <section id="works" class="section">
+                <div class="section-content">
+                    <div class="works-container">
+                        <h2 class="works-title">My Portfolio</h2>
+                        <div class="art-works">
+                            <h3 class="works-category">Art & Design</h3>
+                            <div class="works-grid" id="art-works-grid"></div>
+                        </div>
+                        <div class="dev-works">
+                            <h3 class="works-category">Development</h3>
+                            <div class="works-grid" id="dev-works-grid"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer for works section -->
+                <footer>
+                    <div class="footer-content">
+                        <p>&copy; <span class="current-year">2025</span> Echen Deligani. All rights reserved.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/EchenD" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://www.linkedin.com/in/echen-deligani/" target="_blank"
+                                rel="noopener">LinkedIn</a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="section">
+                <div class="section-content">
+                    <div class="services-container">
+                        <h2 class="services-title">My Services</h2>
+                        <p class="services-intro">
+                            Delivering innovative and high-quality digital solutions that transform ideas into reality.
+                            Each service is crafted with precision, expertise, and a commitment to excellence.
+                        </p>
+
+                        <!-- Game Development Services -->
+                        <div class="service-category">
+                            <h3>Game Development</h3>
+                            <div class="services-grid">
+                                <div class="service-item">
+                                    <i class="fas fa-gamepad"></i>
+                                    <h4>Full Game Development & Prototyping</h4>
+                                    <p>
+                                        Transforming concepts into fully functional games—from initial prototypes to
+                                        polished final products—ensuring engaging gameplay experiences.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-users"></i>
+                                    <h4>Multiplayer Game Integration</h4>
+                                    <p>
+                                        Developing robust multiplayer systems that facilitate seamless online
+                                        interactions, enhancing player engagement.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <h4>Interactive Games & Applications</h4>
+                                    <p>
+                                        Creating immersive applications that blend entertainment with interactivity,
+                                        tailored to diverse platforms.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Digital Art & Design Services -->
+                        <div class="service-category">
+                            <h3>Digital Art & Design</h3>
+                            <div class="services-grid">
+                                <div class="service-item">
+                                    <i class="fas fa-user-astronaut"></i>
+                                    <h4>Character Design & Modeling</h4>
+                                    <p>
+                                        Crafting detailed characters through expert design, sculpting, modeling, and
+                                        texturing for games, films, and animations.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-clone"></i>
+                                    <h4>Digital Doubles Creation</h4>
+                                    <p>
+                                        Developing lifelike digital replicas for cinematic and virtual applications,
+                                        ensuring authenticity and precision.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-dragon"></i>
+                                    <h4>Creature Design & Sculpting</h4>
+                                    <p>
+                                        Bringing imaginative creatures to life with meticulous design and sculpting,
+                                        suitable for various media formats.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Web Development Services -->
+                        <div class="service-category">
+                            <h3>Web Development</h3>
+                            <div class="services-grid">
+                                <div class="service-item">
+                                    <i class="fas fa-cube"></i>
+                                    <h4>3D Web Experiences</h4>
+                                    <p>
+                                        Designing interactive 3D websites using Three.js to deliver engaging and
+                                        immersive user experiences directly within browsers.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Technical Services -->
+                        <div class="service-category">
+                            <h3>Technical Services</h3>
+                            <div class="services-grid">
+                                <div class="service-item">
+                                    <i class="fas fa-server"></i>
+                                    <h4>Backend Solutions</h4>
+                                    <p>
+                                        Implementing scalable and secure backend infrastructures using AWS Lambda, S3,
+                                        and DynamoDB, tailored to your project's needs.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fab fa-steam"></i>
+                                    <h4>Steam Integration</h4>
+                                    <p>
+                                        Incorporating Steam features like Inventory, leaderboards, and microtransactions
+                                        to boost user engagement.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-unity"></i>
+                                    <h4>Unity Services Integration</h4>
+                                    <p>
+                                        Integrating Unity's services—Authentication, Cloud Save, and Multiplay
+                                        Hosting—to optimize development and enhance user experience.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-network-wired"></i>
+                                    <h4>Photon Fusion & Tournament SDK</h4>
+                                    <p>
+                                        Utilizing Photon Fusion for real-time multiplayer functionalities and tournament
+                                        systems, ensuring competitive gameplay.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-cogs"></i>
+                                    <h4>Asset & Systems Integration</h4>
+                                    <p>
+                                        Leveraging diverse assets and custom pipelines to build innovative game
+                                        experiences—from third-person adventures to AR/VR applications.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-code-branch"></i>
+                                    <h4>Custom CI/CD & Optimization</h4>
+                                    <p>
+                                        Implementing tailored CI/CD pipelines and optimization strategies for efficient
+                                        development, mesh generation, and performance enhancement.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Consulting & Mentoring Services -->
+                        <div class="service-category">
+                            <h3>Consulting & Mentoring</h3>
+                            <div class="services-grid">
+                                <div class="service-item">
+                                    <i class="fas fa-project-diagram"></i>
+                                    <h4>Pipeline Design</h4>
+                                    <p>
+                                        Designing efficient production pipelines that streamline workflows for game
+                                        development and animation projects, enhancing productivity.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                                <div class="service-item">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <h4>Mentoring</h4>
+                                    <p>
+                                        Offering personalized guidance to aspiring developers and artists, sharing
+                                        industry insights and best practices to foster professional growth.
+                                    </p>
+                                    <a href="#contact" class="service-cta">Discuss Your Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer for services section -->
+                <footer>
+                    <div class="footer-content">
+                        <p>&copy; <span class="current-year">2025</span> Echen Deligani. All rights reserved.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/EchenD" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://www.linkedin.com/in/echen-deligani/" target="_blank"
+                                rel="noopener">LinkedIn</a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="section-content">
+                    <div class="about-container">
+                        <h2 class="about-title">About Me</h2>
+                        <div class="about-profile">
+                            <img src="assets/images/profile-photo.jpg" alt="Echen Deligani" class="profile-image">
+                            <div class="profile-info">
+                                <h3>Echen Deligani</h3>
+                                <p>Art meets technology. Every pixel tells a story.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-description">
+                            <p>Welcome to my world, where art meets technology, and every pixel is a part of a
+                                larger narrative.</p>
+
+                            <p>I'm a passionate digital creator with over a decade of experience transforming ideas into
+                                captivating, interactive experiences. With a foundation in character sculpting, 3D
+                                modeling, vfx, and programming from an early age, my career has evolved into a
+                                seamless blend of art and technology.</p>
+
+                            <p>Over the years, I have honed my skills in digital sculpture, game development, and
+                                visual effects—crafting everything from intricate characters for films to immersive
+                                multiplayer games.</p>
+                        </div>
+
+                        <div class="about-skills">
+                            <h3>Skills & Expertise</h3>
+                            <div class="skills-container">
+                                <div class="skill-item">3D Modeling</div>
+                                <div class="skill-item">Digital Sculpture & Painting</div>
+                                <div class="skill-item">Unity Game Development</div>
+                                <div class="skill-item">C# & JavaScript</div>
+                                <div class="skill-item">Networking & Multiplayer</div>
+                                <div class="skill-item">Maxscript</div>
+                                <div class="skill-item">Game Design & VFX</div>
+                                <div class="skill-item">WebGL</div>
+                                <div class="skill-item">ZBrush & Substance Painter</div>
+                                <div class="skill-item">VFX Graph & Shader Graph</div>
+                                <div class="skill-item">Addressable Assets</div>
+                                <div class="skill-item">Mentoring & Leadership</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer for about section -->
+                <footer>
+                    <div class="footer-content">
+                        <p>&copy; <span class="current-year">2025</span> Echen Deligani. All rights reserved.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/EchenD" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://www.linkedin.com/in/echen-deligani/" target="_blank"
+                                rel="noopener">LinkedIn</a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-content">
+                    <div class="contact-container">
+                        <h2 class="contact-title">Get In Touch</h2>
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>EchenDeligani@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Tehran, Iran</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-code-branch"></i>
+                                <a href="https://github.com/EchenD" target="_blank" rel="noopener">github.com/EchenD</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <form id="contact-form" autocomplete="off">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required placeholder="Your name"
+                                        autocomplete="name">
+                                    <span class="error-message"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required
+                                        placeholder="Your email address" autocomplete="email">
+                                    <span class="error-message"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" required placeholder="Your message here..."
+                                        autocomplete="off"></textarea>
+                                    <span class="error-message"></span>
+                                </div>
+                                <div class="success-message">Message sent successfully!</div>
+                                <button type="submit" class="submit-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer for contact section -->
+                <footer>
+                    <div class="footer-content">
+                        <p>&copy; <span class="current-year">2025</span> Echen Deligani. All rights reserved.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/EchenD" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://www.linkedin.com/in/echen-deligani/" target="_blank"
+                                rel="noopener">LinkedIn</a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </main>
+    </div>
+
+    <!-- Work Details Modal -->
+    <div id="workModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"></h3>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="work-gallery"></div>
+                <div class="work-details">
+                    <div class="work-description"></div>
+                    <div class="work-meta">
+                        <div class="meta-item">
+                            <strong>Date:</strong>
+                            <span class="work-date"></span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Tools:</strong>
+                            <span class="work-tools"></span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Role:</strong>
+                            <span class="work-role"></span>
+                        </div>
+                    </div>
+                    <div class="work-links">
+                        <button class="view-gallery-btn">View Gallery</button>
+                        <button class="view-progress-btn">View Progress</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fullscreen Image Viewer -->
+    <div id="fullscreenViewer" class="fullscreen-viewer"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Track script loading state
+        window.scriptLoadState = {
+            particleLoader: false,
+            unityLoader: false,
+            main: false
+        };
+
+        // Function to check if all critical scripts are loaded
+        function checkScriptLoadState() {
+            const allLoaded = Object.values(window.scriptLoadState).every(state => state === true);
+            if (allLoaded) {
+                const pageLoading = document.getElementById('page-loading');
+                if (pageLoading) {
+                    pageLoading.style.opacity = '0';
+                    setTimeout(() => {
+                        pageLoading.style.display = 'none';
+                    }, 300);
+                }
+            }
+        }
+
+        // Error handling for script loading
+        window.addEventListener('error', function (e) {
+            if (e.target.tagName === 'SCRIPT') {
+                const errorSrc = e.target.src || '';
+                console.error('Script loading error:', errorSrc);
+
+                // Update script load state
+                if (errorSrc.includes('particle-loader.js')) {
+                    window.scriptLoadState.particleLoader = true;
+                } else if (errorSrc.includes('unity-loader.js')) {
+                    window.scriptLoadState.unityLoader = true;
+                } else if (errorSrc.includes('main.js')) {
+                    window.scriptLoadState.main = true;
+                }
+
+                // Skip showing errors for Unity-related files
+                if (errorSrc.includes('/Build/') ||
+                    errorSrc.includes('webapp.loader.js') ||
+                    errorSrc.includes('Echen.loader.js')) {
+                    console.warn('Suppressing notification for Unity file loading error');
+                    return;
+                }
+
+                // Show notifications for core app scripts
+                if (errorSrc.includes('/js/main.js') ||
+                    errorSrc.includes('/js/particle-loader.js') ||
+                    errorSrc.includes('/js/unity-loader.js')) {
+                    const notification = document.createElement('div');
+                    notification.className = 'error-notification';
+                    notification.textContent = 'Failed to load critical application script.';
+                    notification.style.backgroundColor = 'rgba(200, 0, 0, 0.7)';
+                    notification.style.padding = '8px 12px';
+                    notification.style.fontSize = '12px';
+                    document.body.appendChild(notification);
+                    setTimeout(() => notification.remove(), 3000);
+                }
+
+                checkScriptLoadState();
+            }
+        }, true);
+
+        // Track successful script loads
+        window.addEventListener('load', function () {
+            if (document.querySelector('script[src*="particle-loader.js"]')) {
+                window.scriptLoadState.particleLoader = true;
+            }
+            if (document.querySelector('script[src*="unity-loader.js"]')) {
+                window.scriptLoadState.unityLoader = true;
+            }
+            if (document.querySelector('script[src*="main.js"]')) {
+                window.scriptLoadState.main = true;
+            }
+            checkScriptLoadState();
+        });
+    </script>
+    <script src="js/particle-loader.js" defer></script>
+    <script src="js/unity-loader.js" defer></script>
+    <script type="module" src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

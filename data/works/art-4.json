@@ -1,0 +1,83 @@
+{
+    "id": "art-4",
+    "title": "Digital Doubles",
+    "fullDescription": "A comprehensive showcase of over 20 digital doubles created for film productions. This work highlights the technical and artistic challenges of replicating realistic characters and creatures. Each digital double was meticulously crafted to blend seamlessly with live-action footage, enhancing cinematic realism.",
+    "date": "2015 - 2023",
+    "tools": [
+        "ZBrush",
+        "3ds Max",
+        "Substance Painter",
+        "Photoshop"
+    ],
+    "role": "Digital Sculptor & VFX Artist",
+    "images": [
+        {
+            "url": "assets/images/works/digital-doubles/double1.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double1_thumb.jpg",
+            "caption": "Realistic digital double of a main character"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/double2.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double2_thumb.jpg",
+            "caption": "Detailed digital creature model used in VFX sequences"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/double3.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double3_thumb.jpg",
+            "caption": "Side-by-side comparison of actor and digital double"
+        }
+    ],
+    "gallery": [
+        {
+            "url": "assets/images/works/digital-doubles/double1.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double1_thumb.jpg",
+            "caption": "Realistic digital double of a main character"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/double2.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double2_thumb.jpg",
+            "caption": "Detailed digital creature model used in VFX sequences"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/double3.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double3_thumb.jpg",
+            "caption": "Side-by-side comparison of actor and digital double"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/double4.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double4_thumb.jpg",
+            "caption": "Close-up detail of facial features and texturing"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/double5.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/double5_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        }
+    ],
+    "process": [
+        {
+            "title": "Data Acquisition",
+            "description": "Gathering reference data and high-resolution scans of actors for accurate digital reproduction.",
+            "date": "January 2015",
+            "image": "assets/images/works/digital-doubles/process1.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/process1_thumb.jpg"
+        },
+        {
+            "title": "Digital Sculpting",
+            "description": "Sculpting highly detailed models using ZBrush and refining textures and features.",
+            "date": "March 2015",
+            "image": "assets/images/works/digital-doubles/process2.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/process2_thumb.jpg"
+        },
+        {
+            "title": "Integration & Compositing",
+            "description": "Integrating digital doubles into live-action scenes using compositing techniques and VFX tools.",
+            "date": "June 2015",
+            "image": "assets/images/works/digital-doubles/process3.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/process3_thumb.jpg"
+        }
+    ],
+    "galleryUrl": "https://yourportfolio.com/gallery/digital-doubles",
+    "progressUrl": "https://yourportfolio.com/progress/digital-doubles",
+    "thumbnail": "assets/images/works/digital-doubles/double1_thumb.jpg"
+}

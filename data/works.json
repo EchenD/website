@@ -1,0 +1,90 @@
+{
+    "art": [
+        {
+            "id": "art-3",
+            "title": "Game Art Collaborations",
+            "description": "A curated collection of artworks produced during collaborations on various game projects, featuring concept art, in-game assets, and character designs.",
+            "thumbnail": "assets/videos/works/game-art/game1_thumb.mp4",
+            "type": "art"
+        },
+        {
+            "id": "art-1",
+            "title": "Movies & Animations",
+            "description": "An in-depth showcase of artworks from over 10 movies and animations. This collection features aliens, monsters, characters, and detailed VFX shots along with early concept art.",
+            "thumbnail": "assets/images/works/movies/mo-00_thumb.jpg",
+            "type": "art"
+        },
+        {
+            "id": "art-2",
+            "title": "Sculptures",
+            "description": "A personal collection of six intricate sculptures created using ZBrush, 3ds Max, and Photoshop. Each sculpture represents a fusion of traditional art techniques with modern digital sculpting.",
+            "thumbnail": "assets/videos/works/sculpture/sc_01_thumb.mp4",
+            "type": "art"
+        },
+        {
+            "id": "art-4",
+            "title": "Digital Doubles",
+            "description": "A comprehensive showcase of over 20 digital doubles created for film productions, highlighting technical and artistic challenges of replicating realistic characters.",
+            "thumbnail": "assets/images/works/digital-doubles/double1_thumb.jpg",
+            "type": "art"
+        },
+        {
+            "id": "art-6",
+            "title": "Miscellaneous Art Projects",
+            "description": "A diverse collection of experimental and one-off art projects, encompassing concept art explorations and creative exercises.",
+            "thumbnail": "assets/images/works/misc-art/misc-01_thumb.jpg",
+            "type": "art"
+        },
+        {
+            "id": "art-5",
+            "title": "Paintings & Personal Art",
+            "description": "A vibrant collection of personal paintings and mixed media artworks that explore abstract themes and narrative storytelling.",
+            "thumbnail": "assets/images/works/paintings/p-01_thumb.jpg",
+            "type": "art"
+        }
+    ],
+    "development": [
+        {
+            "id": "dev-1",
+            "title": "LandRocker Game",
+            "description": "A multiplayer space mining game that leverages unique seed-based planet generator and voxel technology.",
+            "thumbnail": "assets/videos/works/landrocker/landrocker1_thumb.mp4",
+            "type": "development"
+        },
+        {
+            "id": "dev-2",
+            "title": "Battle of Rovers",
+            "description": "A cutting-edge multiplayer AAA game designed to support up to 200 concurrent users with advanced gameplay systems.",
+            "thumbnail": "assets/videos/works/battle-of-rovers/bor-01_thumb.mp4",
+            "type": "development"
+        },
+        {
+            "id": "dev-3",
+            "title": "Avatar Maker",
+            "description": "An interactive WebGL avatar maker developed for a major football world championship event with customization features.",
+            "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
+            "type": "development"
+        },
+        {
+            "id": "dev-4",
+            "title": "Alef WebGL Game",
+            "description": "An educational quest game developed in WebGL for Alef University, focusing on climate change awareness.",
+            "thumbnail": "assets/videos/works/alef-webgl/alef-01_thumb.mp4",
+            "type": "development"
+        },
+        {
+            "id": "dev-5",
+            "title": "VR/AR & Interactive Projects",
+            "description": "A diverse collection of VR, AR, Kinect, and interactive installations developed for exhibitions and events.",
+            "thumbnail": "assets/videos/works/vr-ar/ar-01_thumb.mp4",
+            "type": "development"
+        },
+        {
+            "id": "dev-6",
+            "title": "Miscellaneous Development Projects",
+            "description": "A collection of various personal and experimental projects spanning web, mobile, and interactive applications.",
+            "thumbnail": "assets/videos/works/misc-dev/misc-01_thumb.mp4",
+            "type": "development"
+        }
+    ]
+}

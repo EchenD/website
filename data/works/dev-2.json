@@ -1,0 +1,83 @@
+{
+    "id": "dev-2",
+    "title": "Battle of Rovers",
+    "fullDescription": "A cutting-edge multiplayer AAA game designed to support up to 200 concurrent users. The project focused on advanced gameplay systems, network optimization, and seamless integration with Steam, delivering a scalable and engaging multiplayer experience.",
+    "date": "2020 - 2025",
+    "tools": [
+        "Unity3D",
+        "C#",
+        "Photon Fusion",
+        "Steamworks"
+    ],
+    "role": "Lead Technical Artist & Technical Director",
+    "images": [
+        {
+            "url": "assets/images/works/battle-of-rovers/rover1.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover1_thumb.jpg",
+            "caption": "Action-packed gameplay with high-fidelity graphics"
+        },
+        {
+            "url": "assets/images/works/battle-of-rovers/rover2.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover2_thumb.jpg",
+            "caption": "User interface designed for optimal player experience"
+        },
+        {
+            "url": "assets/images/works/battle-of-rovers/rover3.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover3_thumb.jpg",
+            "caption": "Showcasing multiplayer dynamics and intense combat scenarios"
+        }
+    ],
+    "gallery": [
+        {
+            "url": "assets/images/works/battle-of-rovers/rover1.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover1_thumb.jpg",
+            "caption": "Action-packed gameplay with high-fidelity graphics"
+        },
+        {
+            "url": "assets/images/works/battle-of-rovers/rover2.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover2_thumb.jpg",
+            "caption": "User interface designed for optimal player experience"
+        },
+        {
+            "url": "assets/images/works/battle-of-rovers/rover3.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover3_thumb.jpg",
+            "caption": "Showcasing multiplayer dynamics and intense combat scenarios"
+        },
+        {
+            "url": "assets/images/works/battle-of-rovers/rover4.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover4_thumb.jpg",
+            "caption": "Advanced vehicle customization system"
+        },
+        {
+            "url": "assets/images/works/battle-of-rovers/rover5.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/rover5_thumb.jpg",
+            "caption": "Dynamic weather and environmental effects"
+        }
+    ],
+    "process": [
+        {
+            "title": "Gameplay Engineering",
+            "description": "Designing advanced gameplay systems that support large-scale multiplayer interactions.",
+            "date": "January 2020",
+            "image": "assets/images/works/battle-of-rovers/process1.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/process1_thumb.jpg"
+        },
+        {
+            "title": "Network Optimization",
+            "description": "Ensuring smooth gameplay with robust network architecture and efficient data handling.",
+            "date": "March 2020",
+            "image": "assets/images/works/battle-of-rovers/process2.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/process2_thumb.jpg"
+        },
+        {
+            "title": "Platform Integration",
+            "description": "Seamlessly integrating game services with Steam for inventory and shop functionalities.",
+            "date": "June 2020",
+            "image": "assets/images/works/battle-of-rovers/process3.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/process3_thumb.jpg"
+        }
+    ],
+    "galleryUrl": "https://yourportfolio.com/gallery/battle-of-rovers",
+    "progressUrl": "https://yourportfolio.com/progress/battle-of-rovers",
+    "thumbnail": "assets/images/works/battle-of-rovers/rover1_thumb.jpg"
+}
