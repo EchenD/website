@@ -11,46 +11,26 @@
     "role": "Lead Technical Artist & Developer",
     "images": [
         {
-            "url": "assets/images/works/avatar-maker/avatar1.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar1_thumb.jpg",
+            "url": "assets/videos/works/avatar-maker/am-01.mp4",
+            "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
             "caption": "User interface with customizable options"
         },
         {
-            "url": "assets/images/works/avatar-maker/avatar2.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar2_thumb.jpg",
+            "url": "assets/videos/works/avatar-maker/am-02.mp4",
+            "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4",
             "caption": "Example of a completed avatar with team jersey customization"
-        },
-        {
-            "url": "assets/images/works/avatar-maker/avatar3.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar3_thumb.jpg",
-            "caption": "QR code integration for easy sharing and saving"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/avatar-maker/avatar1.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar1_thumb.jpg",
+            "url": "assets/videos/works/avatar-maker/am-01.mp4",
+            "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
             "caption": "User interface with customizable options"
         },
         {
-            "url": "assets/images/works/avatar-maker/avatar2.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar2_thumb.jpg",
+            "url": "assets/videos/works/avatar-maker/am-02.mp4",
+            "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4",
             "caption": "Example of a completed avatar with team jersey customization"
-        },
-        {
-            "url": "assets/images/works/avatar-maker/avatar3.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar3_thumb.jpg",
-            "caption": "QR code integration for easy sharing and saving"
-        },
-        {
-            "url": "assets/images/works/avatar-maker/avatar4.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar4_thumb.jpg",
-            "caption": "Advanced facial customization options"
-        },
-        {
-            "url": "assets/images/works/avatar-maker/avatar5.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/avatar5_thumb.jpg",
-            "caption": "Team jersey selection interface"
         }
     ],
     "process": [
@@ -58,25 +38,15 @@
             "title": "Interactive Design",
             "description": "Creating an engaging and user-friendly interface tailored for event-based interaction.",
             "date": "January 2021",
-            "image": "assets/images/works/avatar-maker/process1.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/process1_thumb.jpg"
+            "image": "assets/videos/works/avatar-maker/am-01.mp4",
+            "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4"
         },
         {
             "title": "Real-Time Customization",
             "description": "Developing a robust system to allow real-time avatar customization with smooth visual feedback.",
             "date": "March 2021",
-            "image": "assets/images/works/avatar-maker/process2.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/process2_thumb.jpg"
-        },
-        {
-            "title": "QR Code Integration",
-            "description": "Implementing QR-based features to facilitate easy sharing and saving of personalized avatars.",
-            "date": "June 2021",
-            "image": "assets/images/works/avatar-maker/process3.jpg",
-            "thumbnail": "assets/images/works/avatar-maker/process3_thumb.jpg"
+            "image": "assets/videos/works/avatar-maker/am-02.mp4",
+            "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/avatar-maker",
-    "progressUrl": "https://yourportfolio.com/process/avatar-maker",
-    "thumbnail": "assets/images/works/avatar-maker/avatar1_thumb.jpg"
+    ]
 }

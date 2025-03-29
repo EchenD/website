@@ -12,6 +12,11 @@
     "role": "Lead Technical Artist & Technical Director",
     "images": [
         {
+            "url": "assets/videos/works/battle-of-rovers/bor-01.mp4",
+            "thumbnail": "assets/videos/works/battle-of-rovers/bor-01_thumb.mp4",
+            "caption": "Action-packed gameplay with high-fidelity graphics"
+        },
+        {
             "url": "assets/images/works/battle-of-rovers/bor-01.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-01_thumb.jpg",
             "caption": "Action-packed gameplay with high-fidelity graphics"
@@ -20,11 +25,6 @@
             "url": "assets/images/works/battle-of-rovers/bor-02.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-02_thumb.jpg",
             "caption": "User interface designed for optimal player experience"
-        },
-        {
-            "url": "assets/images/works/battle-of-rovers/bor-03.jpg",
-            "thumbnail": "assets/images/works/battle-of-rovers/bor-03_thumb.jpg",
-            "caption": "Showcasing multiplayer dynamics and intense combat scenarios"
         }
     ],
     "gallery": [

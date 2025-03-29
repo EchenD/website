@@ -18,7 +18,7 @@
             "id": "art-2",
             "title": "Sculptures",
             "description": "A personal collection of six intricate sculptures created using ZBrush, 3ds Max, and Photoshop. Each sculpture represents a fusion of traditional art techniques with modern digital sculpting.",
-            "thumbnail": "assets/videos/works/sculpture/sc_01_thumb.mp4",
+            "thumbnail": "assets/videos/works/sculptures/sc_01_thumb.mp4",
             "type": "art"
         },
         {
@@ -69,7 +69,7 @@
             "id": "dev-4",
             "title": "Alef WebGL Game",
             "description": "An educational quest game developed in WebGL for Alef University, focusing on climate change awareness.",
-            "thumbnail": "assets/videos/works/alef-webgl/alef-01_thumb.mp4",
+            "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4",
             "type": "development"
         },
         {

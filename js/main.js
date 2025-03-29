@@ -373,6 +373,30 @@ function createWorkElement(work) {
 
 // First, let's add a helper function for consistent video creation
 function createVideoHtml(src, options = {}) {
+    const isModal = options.context === 'modal';
+    const isGallery = options.context === 'gallery';
+    const isFullscreen = options.context === 'fullscreen';
+
+    // For modal, gallery, and fullscreen contexts, use direct video source
+    if (isModal || isGallery || isFullscreen) {
+        return `
+            <video 
+                muted 
+                loop 
+                playsinline 
+                webkit-playsinline
+                preload="metadata"
+                poster="${options.poster || 'assets/images/placeholder.jpg'}"
+                class="${options.class || ''}"
+                ${options.controls ? 'controls' : ''}
+                onerror="window.handleMediaError(this);">
+                <source src="${src}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        `;
+    }
+
+    // For work items, use streaming approach
     return `
         <video 
             muted 
@@ -891,7 +915,7 @@ async function openWorkModal(workId) {
 
                     return `
                         <figure class="gallery-item" data-full-url="${fullUrl}" data-index="${index}">
-                            ${isVideo ? createVideoHtml(thumbnailUrl) : `
+                            ${isVideo ? createVideoHtml(thumbnailUrl, { context: 'modal' }) : `
                                 <img src="${thumbnailUrl}" 
                                     alt="${image.caption}" 
                                     loading="lazy" 
@@ -906,7 +930,7 @@ async function openWorkModal(workId) {
 
                 // Initialize videos after adding them to DOM
                 modalGallery.querySelectorAll('video').forEach(video => {
-                    initializeVideo(video);
+                    initializeVideo(video, 'modal');
                 });
 
                 // Add click event for fullscreen viewing with collection context
@@ -1026,7 +1050,7 @@ function openGalleryPage(workDetail) {
 
             galleryItem.innerHTML = `
                 <div class="media-container">
-                    ${isVideo ? createVideoHtml(thumbnailUrl) : `
+                    ${isVideo ? createVideoHtml(thumbnailUrl, { context: 'gallery' }) : `
                         <img src="${thumbnailUrl}" alt="${image.caption || ''}" loading="lazy" 
                             onerror="window.handleMediaError(this);">
                     `}
@@ -1042,7 +1066,7 @@ function openGalleryPage(workDetail) {
             // Initialize video if present
             const video = galleryItem.querySelector('video');
             if (video) {
-                initializeVideo(video);
+                initializeVideo(video, 'gallery');
             }
 
             // Add click event for fullscreen view
@@ -1219,7 +1243,7 @@ function openProgressPage(workDetail) {
             // Initialize video if present
             const video = progressItem.querySelector('video');
             if (video) {
-                initializeVideo(video);
+                initializeVideo(video, 'progress');
             }
 
             // Add click event for fullscreen view
@@ -1329,7 +1353,7 @@ function openFullscreenImage(src, caption, imageCollection = null, index = 0) {
     fullscreenViewer.innerHTML = `
         <div class="fullscreen-background"></div>
         <div class="fullscreen-content">
-            ${isVideo ? createVideoHtml(src, { controls: true }) : `
+            ${isVideo ? createVideoHtml(src, { controls: true, context: 'fullscreen' }) : `
                 <div class="image-zoom-container">
                     <img alt="${caption || 'Fullscreen image'}" loading="eager" 
                         aria-hidden="true">
@@ -1408,7 +1432,7 @@ function openFullscreenImage(src, caption, imageCollection = null, index = 0) {
     // Initialize video if present
     const video = fullscreenViewer.querySelector('video');
     if (video) {
-        initializeVideo(video);
+        initializeVideo(video, 'fullscreen');
         // Add a loading spinner for video content
         const loadingSpinner = document.createElement('div');
         loadingSpinner.className = 'loading-spinner';
@@ -2469,25 +2493,35 @@ class VideoStreamingManager {
 const videoStreamingManager = new VideoStreamingManager();
 
 // Update initializeVideo function to use streaming manager
-function initializeVideo(video) {
+function initializeVideo(video, context = 'work') {
     if (!video) return;
 
-    // Initialize streaming
-    videoStreamingManager.initializeVideo(video);
+    // For modal, gallery, and fullscreen contexts, use standard video loading
+    if (context === 'modal' || context === 'gallery' || context === 'fullscreen') {
+        video.addEventListener('loadedmetadata', () => {
+            video.classList.remove('loading');
+            if (isElementInViewport(video)) {
+                playVideo(video);
+            }
+        });
 
-    // Add intersection observer
-    if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    playVideo(video);
-                } else {
-                    video.pause();
-                }
-            });
-        }, { threshold: 0.1 });
+        // Add intersection observer
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        playVideo(video);
+                    } else {
+                        video.pause();
+                    }
+                });
+            }, { threshold: 0.1 });
 
-        observer.observe(video);
+            observer.observe(video);
+        }
+    } else {
+        // For work items, use streaming approach
+        videoStreamingManager.initializeVideo(video);
     }
 
     // Handle errors

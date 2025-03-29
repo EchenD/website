@@ -30,6 +30,16 @@
     ],
     "gallery": [
         {
+            "url": "assets/videos/works/movies/pf_01.mp4",
+            "thumbnail": "assets/videos/works/movies/pf_01_thumb.mp4",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
+            "url": "assets/videos/works/movies/pf_02.mp4",
+            "thumbnail": "assets/videos/works/movies/pf_02_thumb.mp4",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
             "url": "assets/images/works/movies/mo-04.jpg",
             "thumbnail": "assets/images/works/movies/mo-04_thumb.jpg",
             "caption": "Alien creature concept design for sci-fi film"

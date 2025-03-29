@@ -1,7 +1,7 @@
 {
     "id": "art-2",
     "title": "Sculptures",
-    "fullDescription": "A personal collection of six intricate sculptures created using ZBrush, 3ds Max, and Photoshop. Each sculpture represents a fusion of traditional art techniques with modern digital sculpting. Turntable videos on YouTube showcase the full 360° view of these pieces, emphasizing texture, detail, and form.",
+    "fullDescription": "A personal collection of six intricate sculptures created using ZBrush, 3ds Max, and Photoshop. Each sculpture represents a fusion of traditional art techniques with modern digital sculpting. Turntable videos on YouTube showcase the full 360° view of these pieces, emphasizing texture, detail, and form.  httpswww.youtube.com@echendeligani1799",
     "date": "2022 - 2024",
     "tools": [
         "ZBrush",
@@ -11,6 +11,11 @@
     "role": "Sculptor & Digital Artist",
     "images": [
         {
+            "url": "assets/videos/works/sculptures/sc_01.mp4",
+            "thumbnail": "assets/videos/works/sculptures/sc_01_thumb.mp4",
+            "caption": "Dynamic pose sculpture with intricate detailing"
+        },
+        {
             "url": "assets/images/works/sculptures/s-01.jpg",
             "thumbnail": "assets/images/works/sculptures/s-01_thumb.jpg",
             "caption": "Dynamic pose sculpture with intricate detailing"
@@ -19,14 +24,14 @@
             "url": "assets/images/works/sculptures/s-02.jpg",
             "thumbnail": "assets/images/works/sculptures/s-02_thumb.jpg",
             "caption": "Abstract form exploring organic curves and surfaces"
-        },
-        {
-            "url": "assets/images/works/sculptures/s-03.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-03_thumb.jpg",
-            "caption": "Turntable view showcasing sculpture depth and texture"
         }
     ],
     "gallery": [
+        {
+            "url": "assets/videos/works/sculptures/sc_01.mp4",
+            "thumbnail": "assets/videos/works/sculptures/sc_01_thumb.mp4",
+            "caption": "Dynamic pose sculpture with intricate detailing"
+        },
         {
             "url": "assets/images/works/sculptures/s-01.jpg",
             "thumbnail": "assets/images/works/sculptures/s-01_thumb.jpg",

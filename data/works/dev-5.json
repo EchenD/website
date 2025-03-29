@@ -13,45 +13,55 @@
     "role": "Senior Unity Developer & Technical Artist",
     "images": [
         {
-            "url": "assets/images/works/vr-ar/vrar1.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar1_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-01.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-01_thumb.mp4",
             "caption": "Immersive VR setup for interactive storytelling"
         },
         {
-            "url": "assets/images/works/vr-ar/vrar2.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar2_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-02.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-02_thumb.mp4",
             "caption": "Augmented reality installation engaging live audiences"
         },
         {
-            "url": "assets/images/works/vr-ar/vrar3.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar3_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-03.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-03_thumb.mp4",
             "caption": "Interactive project using Kinect for gesture-based control"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/vr-ar/vrar1.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar1_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-01.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-01_thumb.mp4",
             "caption": "Immersive VR setup for interactive storytelling"
         },
         {
-            "url": "assets/images/works/vr-ar/vrar2.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar2_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-02.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-02_thumb.mp4",
             "caption": "Augmented reality installation engaging live audiences"
         },
         {
-            "url": "assets/images/works/vr-ar/vrar3.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar3_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-03.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-03_thumb.mp4",
             "caption": "Interactive project using Kinect for gesture-based control"
         },
         {
-            "url": "assets/images/works/vr-ar/vrar4.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar4_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-04.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-04_thumb.mp4",
             "caption": "Mixed reality experience prototype"
         },
         {
-            "url": "assets/images/works/vr-ar/vrar5.jpg",
-            "thumbnail": "assets/images/works/vr-ar/vrar5_thumb.jpg",
+            "url": "assets/videos/works/vr-ar/ar-05.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-05_thumb.mp4",
+            "caption": "Motion tracking visualization system"
+        },
+        {
+            "url": "assets/videos/works/vr-ar/ar-06.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-06_thumb.mp4",
+            "caption": "Motion tracking visualization system"
+        },
+        {
+            "url": "assets/videos/works/vr-ar/ar-07.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-07_thumb.mp4",
             "caption": "Motion tracking visualization system"
         }
     ],
@@ -60,25 +70,22 @@
             "title": "Concept & Ideation",
             "description": "Designing interactive experiences that merge physical and digital realms.",
             "date": "January 2016",
-            "image": "assets/images/works/vr-ar/process1.jpg",
-            "thumbnail": "assets/images/works/vr-ar/process1_thumb.jpg"
+            "image": "assets/videos/works/vr-ar/ar-01.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-01_thumb.mp4"
         },
         {
             "title": "Prototype Development",
             "description": "Rapid prototyping to test immersive VR/AR concepts and interactive mechanisms.",
             "date": "March 2016",
-            "image": "assets/images/works/vr-ar/process2.jpg",
-            "thumbnail": "assets/images/works/vr-ar/process2_thumb.jpg"
+            "image": "assets/videos/works/vr-ar/ar-02.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-02_thumb.mp4"
         },
         {
             "title": "Implementation & Testing",
             "description": "Final integration with real-time sensors and iterative testing for flawless user interaction.",
             "date": "June 2016",
-            "image": "assets/images/works/vr-ar/process3.jpg",
-            "thumbnail": "assets/images/works/vr-ar/process3_thumb.jpg"
+            "image": "assets/videos/works/vr-ar/ar-03.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-03_thumb.mp4"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/vr-ar",
-    "progressUrl": "https://yourportfolio.com/progress/vr-ar",
-    "thumbnail": "assets/images/works/vr-ar/vrar1_thumb.jpg"
+    ]
 }
