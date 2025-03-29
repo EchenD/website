@@ -2386,6 +2386,11 @@ class VideoStreamingManager {
         this.loadingVideos = new Set();
         this.mediaSourceBuffers = new Map();
         this.initialChunkSize = 1024 * 1024; // 1MB initial chunk
+        this.chunkSize = 1024 * 1024; // 1MB chunks
+        this.maxRetries = 3;
+        this.retryDelay = 1000; // 1 second
+        this.supportedFormats = ['video/mp4', 'video/webm', 'video/ogg'];
+        this.cleanupQueue = new Set();
     }
 
     async initializeVideo(video) {
@@ -2395,21 +2400,60 @@ class VideoStreamingManager {
         video.classList.add('loading');
 
         try {
+            // Check video format support
+            const sourceElement = video.querySelector('source');
+            if (!sourceElement) {
+                throw new Error('No source element found');
+            }
+
+            const mimeType = sourceElement.type;
+            if (!this.supportedFormats.includes(mimeType)) {
+                throw new Error(`Unsupported video format: ${mimeType}`);
+            }
+
             // Create MediaSource
             const mediaSource = new MediaSource();
             video.src = URL.createObjectURL(mediaSource);
 
-            mediaSource.addEventListener('sourceopen', async () => {
-                const mimeType = 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"';
-                const sourceBuffer = mediaSource.addSourceBuffer(mimeType);
-                this.mediaSourceBuffers.set(video, sourceBuffer);
-
-                // Start loading initial chunks
-                await this.loadInitialChunks(video);
+            // Add cleanup to queue
+            this.cleanupQueue.add(() => {
+                URL.revokeObjectURL(video.src);
+                this.cleanupQueue.delete(video.src);
             });
+
+            mediaSource.addEventListener('sourceopen', async () => {
+                try {
+                    const sourceBuffer = mediaSource.addSourceBuffer(mimeType);
+                    this.mediaSourceBuffers.set(video, sourceBuffer);
+
+                    // Handle source buffer updates
+                    sourceBuffer.addEventListener('updateend', () => {
+                        if (!sourceBuffer.updating) {
+                            this.handleSourceBufferUpdate(video, sourceBuffer);
+                        }
+                    });
+
+                    // Start loading initial chunks
+                    await this.loadInitialChunks(video);
+                } catch (error) {
+                    console.error('Error setting up source buffer:', error);
+                    this.handleError(video, error);
+                }
+            });
+
+            // Handle video errors
+            video.addEventListener('error', (e) => {
+                this.handleError(video, e);
+            });
+
+            // Handle video cleanup
+            video.addEventListener('removed', () => {
+                this.cleanupVideo(video);
+            });
+
         } catch (error) {
             console.error('Error initializing video:', error);
-            window.handleMediaError(video);
+            this.handleError(video, error);
         }
     }
 
@@ -2418,39 +2462,45 @@ class VideoStreamingManager {
         if (!sourceBuffer) return;
 
         try {
-            // Get video URL from source element
             const sourceElement = video.querySelector('source');
             if (!sourceElement) return;
 
             const videoUrl = sourceElement.src;
+            let retryCount = 0;
 
-            // Fetch initial chunk
-            const response = await fetch(videoUrl, {
-                headers: {
-                    'Range': `bytes=0-${this.initialChunkSize}`
+            while (retryCount < this.maxRetries) {
+                try {
+                    const response = await fetch(videoUrl, {
+                        headers: {
+                            'Range': `bytes=0-${this.initialChunkSize}`
+                        }
+                    });
+
+                    if (!response.ok) throw new Error(`Failed to fetch initial chunk: ${response.status}`);
+
+                    const chunk = await response.arrayBuffer();
+
+                    // Wait for source buffer to be ready
+                    if (!sourceBuffer.updating) {
+                        sourceBuffer.appendBuffer(chunk);
+                        sourceBuffer.flush();
+                        break; // Success, exit retry loop
+                    }
+                } catch (error) {
+                    retryCount++;
+                    if (retryCount === this.maxRetries) {
+                        throw error;
+                    }
+                    await new Promise(resolve => setTimeout(resolve, this.retryDelay));
                 }
-            });
-
-            if (!response.ok) throw new Error('Failed to fetch video chunk');
-
-            const chunk = await response.arrayBuffer();
-
-            // Append chunk to source buffer
-            sourceBuffer.addEventListener('updateend', () => {
-                video.classList.remove('loading');
-                if (isElementInViewport(video)) {
-                    playVideo(video);
-                }
-            }, { once: true });
-
-            sourceBuffer.appendBuffer(chunk);
-            sourceBuffer.flush();
+            }
 
             // Start background loading of remaining chunks
             this.loadRemainingChunks(video, videoUrl);
+
         } catch (error) {
             console.error('Error loading initial chunks:', error);
-            window.handleMediaError(video);
+            this.handleError(video, error);
         }
     }
 
@@ -2459,33 +2509,84 @@ class VideoStreamingManager {
         if (!sourceBuffer) return;
 
         try {
-            // Get video duration and size
             const response = await fetch(videoUrl, { method: 'HEAD' });
             const contentLength = response.headers.get('content-length');
             if (!contentLength) return;
 
             let currentPosition = this.initialChunkSize;
-            const chunkSize = 1024 * 1024; // 1MB chunks
+            let retryCount = 0;
 
-            while (currentPosition < contentLength) {
-                const endPosition = Math.min(currentPosition + chunkSize, contentLength);
-                const response = await fetch(videoUrl, {
-                    headers: {
-                        'Range': `bytes=${currentPosition}-${endPosition}`
+            while (currentPosition < contentLength && retryCount < this.maxRetries) {
+                try {
+                    const endPosition = Math.min(currentPosition + this.chunkSize, contentLength);
+                    const response = await fetch(videoUrl, {
+                        headers: {
+                            'Range': `bytes=${currentPosition}-${endPosition}`
+                        }
+                    });
+
+                    if (!response.ok) throw new Error(`Failed to fetch chunk: ${response.status}`);
+
+                    const chunk = await response.arrayBuffer();
+
+                    // Wait for source buffer to be ready
+                    if (!sourceBuffer.updating) {
+                        sourceBuffer.appendBuffer(chunk);
+                        sourceBuffer.flush();
+                        currentPosition = endPosition + 1;
+                        retryCount = 0; // Reset retry count on success
                     }
-                });
-
-                if (!response.ok) break;
-
-                const chunk = await response.arrayBuffer();
-                sourceBuffer.appendBuffer(chunk);
-                sourceBuffer.flush();
-
-                currentPosition = endPosition + 1;
+                } catch (error) {
+                    retryCount++;
+                    if (retryCount === this.maxRetries) {
+                        throw error;
+                    }
+                    await new Promise(resolve => setTimeout(resolve, this.retryDelay));
+                }
             }
         } catch (error) {
             console.error('Error loading remaining chunks:', error);
+            this.handleError(video, error);
         }
+    }
+
+    handleSourceBufferUpdate(video, sourceBuffer) {
+        if (video.classList.contains('loading')) {
+            video.classList.remove('loading');
+            if (isElementInViewport(video)) {
+                playVideo(video);
+            }
+        }
+    }
+
+    handleError(video, error) {
+        console.error('Video error:', error);
+        video.classList.remove('loading');
+        window.handleMediaError(video);
+        this.cleanupVideo(video);
+    }
+
+    cleanupVideo(video) {
+        const sourceBuffer = this.mediaSourceBuffers.get(video);
+        if (sourceBuffer) {
+            try {
+                sourceBuffer.abort();
+                this.mediaSourceBuffers.delete(video);
+            } catch (error) {
+                console.error('Error cleaning up source buffer:', error);
+            }
+        }
+
+        this.loadingVideos.delete(video);
+        this.videoChunks.delete(video);
+
+        // Execute cleanup functions
+        this.cleanupQueue.forEach(cleanup => cleanup());
+    }
+
+    // Clean up all videos
+    cleanupAll() {
+        this.loadingVideos.forEach(video => this.cleanupVideo(video));
     }
 }
 
@@ -2498,6 +2599,17 @@ function initializeVideo(video, context = 'work') {
 
     // For modal, gallery, and fullscreen contexts, use standard video loading
     if (context === 'modal' || context === 'gallery' || context === 'fullscreen') {
+        // Add format support check
+        const sourceElement = video.querySelector('source');
+        if (sourceElement) {
+            const mimeType = sourceElement.type;
+            if (!video.canPlayType(mimeType)) {
+                console.warn(`Browser does not support video format: ${mimeType}`);
+                window.handleMediaError(video);
+                return;
+            }
+        }
+
         video.addEventListener('loadedmetadata', () => {
             video.classList.remove('loading');
             if (isElementInViewport(video)) {
@@ -2518,6 +2630,11 @@ function initializeVideo(video, context = 'work') {
             }, { threshold: 0.1 });
 
             observer.observe(video);
+
+            // Clean up observer when video is removed
+            video.addEventListener('removed', () => {
+                observer.disconnect();
+            });
         }
     } else {
         // For work items, use streaming approach
@@ -2528,4 +2645,11 @@ function initializeVideo(video, context = 'work') {
     video.addEventListener('error', () => {
         window.handleMediaError(video);
     });
-} 
+}
+
+// Add cleanup on page unload
+window.addEventListener('beforeunload', () => {
+    videoStreamingManager.cleanupAll();
+});
+
+// ... existing code ... 
