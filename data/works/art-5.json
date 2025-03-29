@@ -11,45 +11,105 @@
     "role": "Painter & Visual Storyteller",
     "images": [
         {
-            "url": "assets/images/works/paintings/painting1.jpg",
-            "thumbnail": "assets/images/works/paintings/painting1_thumb.jpg",
+            "url": "assets/images/works/paintings/p-01.jpg",
+            "thumbnail": "assets/images/works/paintings/p-01_thumb.jpg",
             "caption": "A colorful exploration of form and texture"
         },
         {
-            "url": "assets/images/works/paintings/painting2.jpg",
-            "thumbnail": "assets/images/works/paintings/painting2_thumb.jpg",
+            "url": "assets/images/works/paintings/p-02.jpg",
+            "thumbnail": "assets/images/works/paintings/p-02_thumb.jpg",
             "caption": "Layered composition combining acrylics and digital overlays"
         },
         {
-            "url": "assets/images/works/paintings/painting3.jpg",
-            "thumbnail": "assets/images/works/paintings/painting3_thumb.jpg",
+            "url": "assets/images/works/paintings/p-03.jpg",
+            "thumbnail": "assets/images/works/paintings/p-03_thumb.jpg",
             "caption": "Expressive portrait capturing raw emotion and depth"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/paintings/painting1.jpg",
-            "thumbnail": "assets/images/works/paintings/painting1_thumb.jpg",
+            "url": "assets/images/works/paintings/p-01.jpg",
+            "thumbnail": "assets/images/works/paintings/p-01_thumb.jpg",
             "caption": "A colorful exploration of form and texture"
         },
         {
-            "url": "assets/images/works/paintings/painting2.jpg",
-            "thumbnail": "assets/images/works/paintings/painting2_thumb.jpg",
+            "url": "assets/images/works/paintings/p-02.jpg",
+            "thumbnail": "assets/images/works/paintings/p-02_thumb.jpg",
             "caption": "Layered composition combining acrylics and digital overlays"
         },
         {
-            "url": "assets/images/works/paintings/painting3.jpg",
-            "thumbnail": "assets/images/works/paintings/painting3_thumb.jpg",
+            "url": "assets/images/works/paintings/p-03.jpg",
+            "thumbnail": "assets/images/works/paintings/p-03_thumb.jpg",
             "caption": "Expressive portrait capturing raw emotion and depth"
         },
         {
-            "url": "assets/images/works/paintings/painting4.jpg",
-            "thumbnail": "assets/images/works/paintings/painting4_thumb.jpg",
+            "url": "assets/images/works/paintings/p-04.jpg",
+            "thumbnail": "assets/images/works/paintings/p-04_thumb.jpg",
             "caption": "Abstract study in color relationships"
         },
         {
-            "url": "assets/images/works/paintings/painting5.jpg",
-            "thumbnail": "assets/images/works/paintings/painting5_thumb.jpg",
+            "url": "assets/images/works/paintings/p-05.jpg",
+            "thumbnail": "assets/images/works/paintings/p-05_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-06.jpg",
+            "thumbnail": "assets/images/works/paintings/p-06_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-07.jpg",
+            "thumbnail": "assets/images/works/paintings/p-07_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-08.jpg",
+            "thumbnail": "assets/images/works/paintings/p-08_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-09.jpg",
+            "thumbnail": "assets/images/works/paintings/p-09_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-10.jpg",
+            "thumbnail": "assets/images/works/paintings/p-10_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-11.jpg",
+            "thumbnail": "assets/images/works/paintings/p-11_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-12.jpg",
+            "thumbnail": "assets/images/works/paintings/p-12_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-13.jpg",
+            "thumbnail": "assets/images/works/paintings/p-13_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-14.jpg",
+            "thumbnail": "assets/images/works/paintings/p-14_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-15.jpg",
+            "thumbnail": "assets/images/works/paintings/p-15_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-16.jpg",
+            "thumbnail": "assets/images/works/paintings/p-16_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-17.jpg",
+            "thumbnail": "assets/images/works/paintings/p-17_thumb.jpg",
             "caption": "Mixed media exploration of texture and light"
         }
     ],
@@ -58,25 +118,22 @@
             "title": "Inspiration & Research",
             "description": "Exploring diverse themes and gathering references from art history and modern culture.",
             "date": "January 2012",
-            "image": "assets/images/works/paintings/process1.jpg",
-            "thumbnail": "assets/images/works/paintings/process1_thumb.jpg"
+            "image": "assets/images/works/paintings/p-01.jpg",
+            "thumbnail": "assets/images/works/paintings/p-01_thumb.jpg"
         },
         {
             "title": "Layered Creation",
             "description": "Applying traditional painting techniques with digital enhancements for depth and vibrancy.",
             "date": "March 2012",
-            "image": "assets/images/works/paintings/process2.jpg",
-            "thumbnail": "assets/images/works/paintings/process2_thumb.jpg"
+            "image": "assets/images/works/paintings/p-02.jpg",
+            "thumbnail": "assets/images/works/paintings/p-02_thumb.jpg"
         },
         {
             "title": "Final Touches",
             "description": "Meticulous detailing and color correction to produce a cohesive final piece.",
             "date": "June 2012",
-            "image": "assets/images/works/paintings/process3.jpg",
-            "thumbnail": "assets/images/works/paintings/process3_thumb.jpg"
+            "image": "assets/images/works/paintings/p-03.jpg",
+            "thumbnail": "assets/images/works/paintings/p-03_thumb.jpg"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/paintings",
-    "progressUrl": "https://yourportfolio.com/progress/paintings",
-    "thumbnail": "assets/images/works/paintings/painting1_thumb.jpg"
+    ]
 }

@@ -11,46 +11,16 @@
     "role": "Technical Artist & Developer",
     "images": [
         {
-            "url": "assets/images/works/misc-dev/misc1.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc1_thumb.jpg",
+            "url": "assets/images/works/misc-dev/misc-01.jpg",
+            "thumbnail": "assets/images/works/misc-dev/misc-01_thumb.jpg",
             "caption": "An innovative prototype showcasing creative coding solutions"
-        },
-        {
-            "url": "assets/images/works/misc-dev/misc2.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc2_thumb.jpg",
-            "caption": "Experimenting with novel interaction designs and user interfaces"
-        },
-        {
-            "url": "assets/images/works/misc-dev/misc3.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc3_thumb.jpg",
-            "caption": "Behind-the-scenes look at the creative development process"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/misc-dev/misc1.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc1_thumb.jpg",
+            "url": "assets/images/works/misc-dev/misc-01.jpg",
+            "thumbnail": "assets/images/works/misc-dev/misc-01_thumb.jpg",
             "caption": "An innovative prototype showcasing creative coding solutions"
-        },
-        {
-            "url": "assets/images/works/misc-dev/misc2.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc2_thumb.jpg",
-            "caption": "Experimenting with novel interaction designs and user interfaces"
-        },
-        {
-            "url": "assets/images/works/misc-dev/misc3.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc3_thumb.jpg",
-            "caption": "Behind-the-scenes look at the creative development process"
-        },
-        {
-            "url": "assets/images/works/misc-dev/misc4.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc4_thumb.jpg",
-            "caption": "Interactive data visualization experiment"
-        },
-        {
-            "url": "assets/images/works/misc-dev/misc5.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc5_thumb.jpg",
-            "caption": "Mobile app prototype interface"
         }
     ],
     "process": [
@@ -58,25 +28,8 @@
             "title": "Ideation",
             "description": "Exploring unique concepts and identifying opportunities for innovative solutions.",
             "date": "January 2012",
-            "image": "assets/images/works/misc-dev/process1.jpg",
-            "thumbnail": "assets/images/works/misc-dev/process1_thumb.jpg"
-        },
-        {
-            "title": "Rapid Prototyping",
-            "description": "Building quick prototypes to validate ideas and experiment with new technologies.",
-            "date": "March 2012",
-            "image": "assets/images/works/misc-dev/process2.jpg",
-            "thumbnail": "assets/images/works/misc-dev/process2_thumb.jpg"
-        },
-        {
-            "title": "Final Integration",
-            "description": "Refining and integrating the most promising experiments into a cohesive product.",
-            "date": "June 2012",
-            "image": "assets/images/works/misc-dev/process3.jpg",
-            "thumbnail": "assets/images/works/misc-dev/process3_thumb.jpg"
+            "image": "assets/images/works/misc-dev/misc-01.jpg",
+            "thumbnail": "assets/images/works/misc-dev/misc-01_thumb.jpg"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/misc-dev",
-    "progressUrl": "https://yourportfolio.com/progress/misc-dev",
-    "thumbnail": "assets/images/works/misc-dev/misc1_thumb.jpg"
+    ]
 }

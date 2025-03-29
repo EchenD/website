@@ -13,60 +13,100 @@
     "role": "Lead Technical Artist & Project Manager",
     "images": [
         {
-            "url": "assets/images/works/landrocker/landrocker1.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker1_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-00.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-00_thumb.jpg",
             "caption": "Rover exploring the procedurally generated terrain"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker2.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker2_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-01.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg",
             "caption": "Mining operation on an asteroid surface"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker3.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker3_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-02.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg",
             "caption": "Custom rover designs with physics-based controls"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/landrocker/landrocker1.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker1_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-00.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-00_thumb.jpg",
             "caption": "Rover exploring the procedurally generated terrain"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker2.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker2_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-01.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg",
             "caption": "Mining operation on an asteroid surface"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker3.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker3_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-02.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg",
             "caption": "Custom rover designs with physics-based controls"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker4.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker4_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-03.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-03_thumb.jpg",
             "caption": "Space station hub for multiplayer interactions"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker5.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker5_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-04.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-04_thumb.jpg",
             "caption": "Resource processing facility built by players"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker6.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker6_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-05.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-05_thumb.jpg",
             "caption": "Night exploration with dynamic lighting system"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker7.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker7_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-06.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-06_thumb.jpg",
             "caption": "Multiplayer mining operation with rover fleet"
         },
         {
-            "url": "assets/images/works/landrocker/landrocker8.jpg",
-            "thumbnail": "assets/images/works/landrocker/landrocker8_thumb.jpg",
+            "url": "assets/images/works/landrocker/lr-07.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-07_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-08.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-08_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-09.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-09_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-10.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-10_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-11.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-11_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-12.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-12_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-13.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-13_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-14.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-14_thumb.jpg",
+            "caption": "Custom vehicle workshop interface"
+        },
+        {
+            "url": "assets/images/works/landrocker/lr-15.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-15_thumb.jpg",
             "caption": "Custom vehicle workshop interface"
         }
     ],
@@ -75,46 +115,43 @@
             "title": "Concept & Design Phase",
             "description": "Initial game design document creation, concept art development, and core gameplay mechanics definition. The team worked on creating the central vision for a multiplayer space mining experience with unlimited exploration possibilities.",
             "date": "January 2019",
-            "image": "assets/images/works/landrocker/process1.jpg",
-            "thumbnail": "assets/images/works/landrocker/process1_thumb.jpg"
+            "image": "assets/images/works/landrocker/lr-00.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-00_thumb.jpg"
         },
         {
             "title": "Procedural Generation System",
             "description": "Development of the seed-based planet generation system that creates limitless unique worlds with varying terrain, resources, and environments based on mathematical algorithms and noise functions.",
             "date": "May 2019",
-            "image": "assets/images/works/landrocker/process2.jpg",
-            "thumbnail": "assets/images/works/landrocker/process2_thumb.jpg"
+            "image": "assets/images/works/landrocker/lr-01.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg"
         },
         {
             "title": "Rover Physics Engine",
             "description": "Implementation of a custom physics-based rover controller that realistically interacts with the procedurally generated terrain, allowing for an immersive driving experience on different planetary surfaces.",
             "date": "September 2019",
-            "image": "assets/images/works/landrocker/process3.jpg",
-            "thumbnail": "assets/images/works/landrocker/process3_thumb.jpg"
+            "image": "assets/images/works/landrocker/lr-02.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg"
         },
         {
             "title": "Multiplayer Integration",
             "description": "Integration of Photon Fusion networking to enable seamless multiplayer experiences with up to 32 simultaneous players per server, including lag compensation and state synchronization systems.",
             "date": "February 2020",
-            "image": "assets/images/works/landrocker/process4.jpg",
-            "thumbnail": "assets/images/works/landrocker/process4_thumb.jpg"
+            "image": "assets/images/works/landrocker/lr-03.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-03_thumb.jpg"
         },
         {
             "title": "Resource System & Economy",
             "description": "Development of the resource gathering, processing, and economy systems that form the core gameplay loop, allowing players to mine, refine, and trade various materials across the game universe.",
             "date": "July 2020",
-            "image": "assets/images/works/landrocker/process5.jpg",
-            "thumbnail": "assets/images/works/landrocker/process5_thumb.jpg"
+            "image": "assets/images/works/landrocker/lr-04.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-04_thumb.jpg"
         },
         {
             "title": "Beta Testing & Optimization",
             "description": "Extensive beta testing phase with community feedback integration, performance optimization across various hardware configurations, and final balancing of game systems before launch.",
             "date": "January 2021",
-            "image": "assets/images/works/landrocker/process6.jpg",
-            "thumbnail": "assets/images/works/landrocker/process6_thumb.jpg"
+            "image": "assets/images/works/landrocker/lr-05.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-05_thumb.jpg"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/landrocker",
-    "progressUrl": "https://yourportfolio.com/progress/landrocker",
-    "thumbnail": "assets/images/works/landrocker/landrocker1_thumb.jpg"
+    ]
 }

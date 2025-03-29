@@ -12,45 +12,140 @@
     "role": "Digital Sculptor & VFX Artist",
     "images": [
         {
-            "url": "assets/images/works/digital-doubles/double1.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double1_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-01.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-01_thumb.jpg",
             "caption": "Realistic digital double of a main character"
         },
         {
-            "url": "assets/images/works/digital-doubles/double2.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double2_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-09.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-09_thumb.jpg",
             "caption": "Detailed digital creature model used in VFX sequences"
         },
         {
-            "url": "assets/images/works/digital-doubles/double3.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double3_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-08.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-08_thumb.jpg",
             "caption": "Side-by-side comparison of actor and digital double"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/digital-doubles/double1.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double1_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-00.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-00_thumb.jpg",
             "caption": "Realistic digital double of a main character"
         },
         {
-            "url": "assets/images/works/digital-doubles/double2.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double2_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-01.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-01_thumb.jpg",
             "caption": "Detailed digital creature model used in VFX sequences"
         },
         {
-            "url": "assets/images/works/digital-doubles/double3.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double3_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-02.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-02_thumb.jpg",
             "caption": "Side-by-side comparison of actor and digital double"
         },
         {
-            "url": "assets/images/works/digital-doubles/double4.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double4_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-03.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-03_thumb.jpg",
             "caption": "Close-up detail of facial features and texturing"
         },
         {
-            "url": "assets/images/works/digital-doubles/double5.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/double5_thumb.jpg",
+            "url": "assets/images/works/digital-doubles/dd-04.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-04_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-05.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-05_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-06.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-06_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-08.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-08_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-09.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-09_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-10.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-10_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-11.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-11_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-12.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-12_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-13.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-13_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-14.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-14_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-15.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-15_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-16.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-16_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-17.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-17_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-18.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-18_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-19.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-19_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-20.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-20_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-21.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-21_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-22.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-22_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-23.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-23_thumb.jpg",
+            "caption": "Full body digital double in action pose"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-24.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-24_thumb.jpg",
             "caption": "Full body digital double in action pose"
         }
     ],
@@ -59,25 +154,22 @@
             "title": "Data Acquisition",
             "description": "Gathering reference data and high-resolution scans of actors for accurate digital reproduction.",
             "date": "January 2015",
-            "image": "assets/images/works/digital-doubles/process1.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/process1_thumb.jpg"
+            "image": "assets/images/works/digital-doubles/dd-00.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-00_thumb.jpg"
         },
         {
             "title": "Digital Sculpting",
             "description": "Sculpting highly detailed models using ZBrush and refining textures and features.",
             "date": "March 2015",
-            "image": "assets/images/works/digital-doubles/process2.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/process2_thumb.jpg"
+            "image": "assets/images/works/digital-doubles/dd-01.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-01_thumb.jpg"
         },
         {
             "title": "Integration & Compositing",
             "description": "Integrating digital doubles into live-action scenes using compositing techniques and VFX tools.",
             "date": "June 2015",
-            "image": "assets/images/works/digital-doubles/process3.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/process3_thumb.jpg"
+            "image": "assets/images/works/digital-doubles/dd-02.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-02_thumb.jpg"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/digital-doubles",
-    "progressUrl": "https://yourportfolio.com/progress/digital-doubles",
-    "thumbnail": "assets/images/works/digital-doubles/double1_thumb.jpg"
+    ]
 }

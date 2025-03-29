@@ -11,45 +11,60 @@
     "role": "Art Director",
     "images": [
         {
-            "url": "assets/images/works/game-art/bor_01.jpg",
-            "thumbnail": "assets/images/works/game-art/bor_01.jpg",
+            "url": "assets/images/works/game-art/ga-01.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-01_thumb.jpg",
             "caption": "Initial character concept for a fantasy game"
         },
         {
-            "url": "assets/images/works/game-art/lr_00.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_00.jpg",
+            "url": "assets/images/works/game-art/lr_01.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_01_thumb.jpg",
             "caption": "Detailed environment design from an interactive game level"
         },
         {
-            "url": "assets/images/works/game-art/game3.jpg",
-            "thumbnail": "assets/images/works/game-art/game3_thumb.jpg",
+            "url": "assets/images/works/game-art/ga-03.webp",
+            "thumbnail": "assets/images/works/game-art/ga-03.webp",
             "caption": "High-resolution asset illustration for in-game use"
         }
     ],
     "gallery": [
         {
-            "url": "assets/images/works/game-art/game1.jpg",
-            "thumbnail": "assets/images/works/game-art/game1_thumb.jpg",
+            "url": "assets/images/works/game-art/ga-01.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-01_thumb.jpg",
             "caption": "Initial character concept for a fantasy game"
         },
         {
-            "url": "assets/images/works/game-art/game2.jpg",
-            "thumbnail": "assets/images/works/game-art/game2_thumb.jpg",
+            "url": "assets/images/works/game-art/ga-02.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-02_thumb.jpg",
             "caption": "Detailed environment design from an interactive game level"
         },
         {
-            "url": "assets/images/works/game-art/game3.jpg",
-            "thumbnail": "assets/images/works/game-art/game3_thumb.jpg",
+            "url": "assets/images/works/game-art/ga-03.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-03_thumb.jpg",
             "caption": "High-resolution asset illustration for in-game use"
         },
         {
-            "url": "assets/images/works/game-art/game4.jpg",
-            "thumbnail": "assets/images/works/game-art/game4_thumb.jpg",
+            "url": "assets/images/works/game-art/ga-04.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-04_thumb.jpg",
             "caption": "Character animation sequence breakdown"
         },
         {
-            "url": "assets/images/works/game-art/game5.jpg",
-            "thumbnail": "assets/images/works/game-art/game5_thumb.jpg",
+            "url": "assets/images/works/game-art/ga-05.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-05_thumb.jpg",
+            "caption": "Environment concept art for fantasy game"
+        },
+        {
+            "url": "assets/images/works/game-art/ga-06.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-06_thumb.jpg",
+            "caption": "Environment concept art for fantasy game"
+        },
+        {
+            "url": "assets/images/works/game-art/ga-07.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-07_thumb.jpg",
+            "caption": "Environment concept art for fantasy game"
+        },
+        {
+            "url": "assets/images/works/game-art/ga-08.jpg",
+            "thumbnail": "assets/images/works/game-art/ga-08_thumb.jpg",
             "caption": "Environment concept art for fantasy game"
         }
     ],
@@ -58,25 +73,36 @@
             "title": "Concept Development",
             "description": "Ideation sessions to establish visual style and game aesthetics.",
             "date": "January 2019",
-            "image": "assets/images/works/game-art/lr_010.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_010.jpg"
+            "image": "assets/images/works/game-art/lr_030.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_030_thumb.jpg"
         },
         {
             "title": "Asset Production",
             "description": "Creation of high-fidelity assets and characters, optimized for real-time rendering.",
             "date": "March 2019",
-            "image": "assets/images/works/game-art/lr_012.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_012.jpg"
+            "image": "assets/images/works/game-art/lr_032.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_032_thumb.jpg"
         },
         {
             "title": "Iterative Refinement",
             "description": "Collaborative feedback and iterative revisions to ensure the art aligns with game design.",
             "date": "June 2019",
-            "image": "assets/images/works/game-art/lr_013.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_013.jpg"
+            "image": "assets/images/works/game-art/lr_034.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_034_thumb.jpg"
+        },
+        {
+            "title": "Iterative Refinement",
+            "description": "Collaborative feedback and iterative revisions to ensure the art aligns with game design.",
+            "date": "June 2019",
+            "image": "assets/images/works/game-art/lr_035.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_035_thumb.jpg"
+        },
+        {
+            "title": "Iterative Refinement",
+            "description": "Collaborative feedback and iterative revisions to ensure the art aligns with game design.",
+            "date": "June 2019",
+            "image": "assets/images/works/game-art/lr_036.jpg",
+            "thumbnail": "assets/images/works/game-art/lr_036_thumb.jpg"
         }
-    ],
-    "galleryUrl": "https://yourportfolio.com/gallery/game-art",
-    "progressUrl": "https://yourportfolio.com/progress/game-art",
-    "thumbnail": "assets/images/works/game-art/game1_thumb.jpg"
+    ]
 }
