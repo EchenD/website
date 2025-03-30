@@ -2244,6 +2244,8 @@ nav a.active::after {
     justify-content: center;
     transition: background-color 0.3s ease;
     z-index: calc(var(--z-index-modal) + 130);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .fullscreen-close:hover {
@@ -3302,6 +3304,8 @@ video.media-error {
     transition: background-color 0.3s ease;
     opacity: 0;
     visibility: hidden;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .zoom-reset-btn:hover {
@@ -3337,7 +3341,7 @@ video.media-error {
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 50%;
     color: white;
@@ -3348,7 +3352,9 @@ video.media-error {
     justify-content: center;
     transition: background-color 0.3s ease, opacity 0.3s ease;
     z-index: calc(var(--z-index-modal) + 130);
-    opacity: 0.3;
+    opacity: 0.7;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .fullscreen-nav-btn:hover {
@@ -3358,12 +3364,7 @@ video.media-error {
 
 /* Show navigation buttons on hover */
 .fullscreen-content:hover .fullscreen-nav-btn {
-    opacity: 0.7;
-}
-
-.fullscreen-content:hover .zoom-reset-btn {
-    opacity: 1;
-    visibility: visible;
+    opacity: 0.9;
 }
 
 .fullscreen-nav-btn:focus,
@@ -3392,6 +3393,8 @@ video.media-error {
     border-radius: 15px;
     font-size: 14px;
     z-index: calc(var(--z-index-modal) + 130);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .zoom-reset-btn {
@@ -3409,6 +3412,8 @@ video.media-error {
     transition: background-color 0.3s ease;
     opacity: 0;
     visibility: hidden;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 /* ... existing code ... */
