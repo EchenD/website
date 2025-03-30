@@ -2604,48 +2604,42 @@ const videoStreamingManager = new VideoStreamingManager();
 function initializeVideo(video, context = 'work') {
     if (!video) return;
 
-    // For modal, gallery, and fullscreen contexts, use standard video loading
-    if (context === 'modal' || context === 'gallery' || context === 'fullscreen') {
-        // Add format support check
-        const sourceElement = video.querySelector('source');
-        if (sourceElement) {
-            const mimeType = sourceElement.type;
-            if (!video.canPlayType(mimeType)) {
-                console.warn(`Browser does not support video format: ${mimeType}`);
-                window.handleMediaError(video);
-                return;
-            }
+    // Use standard video loading for all contexts
+    const sourceElement = video.querySelector('source');
+    if (sourceElement) {
+        const mimeType = sourceElement.type;
+        if (!video.canPlayType(mimeType)) {
+            console.warn(`Browser does not support video format: ${mimeType}`);
+            window.handleMediaError(video);
+            return;
         }
+    }
 
-        video.addEventListener('loadedmetadata', () => {
-            video.classList.remove('loading');
-            if (isElementInViewport(video)) {
-                playVideo(video);
-            }
-        });
+    video.addEventListener('loadedmetadata', () => {
+        video.classList.remove('loading');
+        if (isElementInViewport(video)) {
+            playVideo(video);
+        }
+    });
 
-        // Add intersection observer
-        if ('IntersectionObserver' in window) {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        playVideo(video);
-                    } else {
-                        video.pause();
-                    }
-                });
-            }, { threshold: 0.1 });
-
-            observer.observe(video);
-
-            // Clean up observer when video is removed
-            video.addEventListener('removed', () => {
-                observer.disconnect();
+    // Add intersection observer
+    if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    playVideo(video);
+                } else {
+                    video.pause();
+                }
             });
-        }
-    } else {
-        // For work items, use streaming approach
-        videoStreamingManager.initializeVideo(video);
+        }, { threshold: 0.1 });
+
+        observer.observe(video);
+
+        // Clean up observer when video is removed
+        video.addEventListener('removed', () => {
+            observer.disconnect();
+        });
     }
 
     // Handle errors
