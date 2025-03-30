@@ -267,7 +267,7 @@ class ParticleLoader {
         this.drawGlow(
             this.particle.x,
             this.particle.y,
-            this.options.particleSize * 3 * sizeMult,  // Larger glow
+            this.options.particleSize * 9 * sizeMult,  // Increased from 3 to 9 for 3x bigger glow
             isMobile ? 'rgba(255, 36, 0, 0.7)' : this.options.glowColor  // Brighter glow for mobile
         );
 
