@@ -387,9 +387,10 @@ function createVideoHtml(src, options = {}) {
                 webkit-playsinline
                 preload="metadata"
                 poster="${options.poster || 'assets/images/placeholder.jpg'}"
-                class="${options.class || ''}"
+                class="loading ${options.class || ''}"
                 ${options.controls ? 'controls' : ''}
-                onerror="window.handleMediaError(this);">
+                onerror="window.handleMediaError(this);"
+                onloadeddata="this.classList.remove('loading');">
                 <source src="${src}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -1017,6 +1018,9 @@ function openGalleryPage(workDetail) {
         return;
     }
 
+    // Reset scroll position immediately
+    galleryPage.scrollTop = 0;
+
     // Adjust page header position
     const pageHeader = galleryPage.querySelector('.page-header');
     if (pageHeader) {
@@ -1028,6 +1032,8 @@ function openGalleryPage(workDetail) {
     const pageContent = galleryPage.querySelector('.page-content');
     if (pageContent) {
         pageContent.style.paddingTop = `${headerHeight + 50}px`;
+        // Reset scroll position of the content container
+        pageContent.scrollTop = 0;
     }
 
     // Update title
@@ -1133,19 +1139,28 @@ function openGalleryPage(workDetail) {
         }
     }
 
-    // Show gallery page
+    // Show gallery page with scroll reset
     galleryPage.classList.add('active');
     galleryPage.style.visibility = 'visible';
     galleryPage.style.opacity = '1';
     galleryPage.style.transform = 'translateY(0)';
     document.body.style.overflow = 'hidden';
 
-    // Ensure page content starts at the top
-    if (pageContent) {
-        setTimeout(() => {
+    // Ensure scroll position is reset after the page becomes visible
+    requestAnimationFrame(() => {
+        if (pageContent) {
             pageContent.scrollTop = 0;
-        }, 50);
-    }
+        }
+        galleryPage.scrollTop = 0;
+    });
+
+    // Double-check scroll position after animation
+    setTimeout(() => {
+        if (pageContent) {
+            pageContent.scrollTop = 0;
+        }
+        galleryPage.scrollTop = 0;
+    }, 100);
 }
 
 /**

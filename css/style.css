@@ -621,6 +621,7 @@ img.image-error {
     padding: 30px 30px 60px;
     /* Increased bottom padding */
     overflow-y: auto;
+    min-height: 30vh;
 }
 
 .work-links {
@@ -3034,8 +3035,8 @@ video.media-error {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-top-color: var(--primary-color);
     border-radius: 50%;
