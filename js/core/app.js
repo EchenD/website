@@ -82,7 +82,7 @@ export class App {
     async loadInitialContent() {
         try {
             // Load works data
-            const response = await fetch('/data/works.json');
+            const response = await fetch('./data/works.json');
             if (!response.ok) throw new Error('Failed to load works data');
             const data = await response.json();
 
