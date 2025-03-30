@@ -12,11 +12,6 @@
     "role": "Digital Sculptor & VFX Artist",
     "images": [
         {
-            "url": "assets/images/works/digital-doubles/dd-08.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-08_thumb.jpg",
-            "caption": "Side-by-side comparison of actor and digital double"
-        },
-        {
             "url": "assets/images/works/digital-doubles/dd-01.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-01_thumb.jpg",
             "caption": "Realistic digital double of a main character"
@@ -25,6 +20,11 @@
             "url": "assets/images/works/digital-doubles/dd-09.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-09_thumb.jpg",
             "caption": "Detailed digital creature model used in VFX sequences"
+        },
+        {
+            "url": "assets/images/works/digital-doubles/dd-02.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-02_thumb.jpg",
+            "caption": "Side-by-side comparison of actor and digital double"
         }
     ],
     "gallery": [

@@ -68,16 +68,6 @@
             "caption": "Mixed media exploration of texture and light"
         },
         {
-            "url": "assets/images/works/paintings/p-09.jpg",
-            "thumbnail": "assets/images/works/paintings/p-09_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
-        },
-        {
-            "url": "assets/images/works/paintings/p-10.jpg",
-            "thumbnail": "assets/images/works/paintings/p-10_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
-        },
-        {
             "url": "assets/images/works/paintings/p-11.jpg",
             "thumbnail": "assets/images/works/paintings/p-11_thumb.jpg",
             "caption": "Mixed media exploration of texture and light"
@@ -108,8 +98,13 @@
             "caption": "Mixed media exploration of texture and light"
         },
         {
-            "url": "assets/images/works/paintings/p-17.jpg",
-            "thumbnail": "assets/images/works/paintings/p-17_thumb.jpg",
+            "url": "assets/images/works/paintings/p-09.jpg",
+            "thumbnail": "assets/images/works/paintings/p-09_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-10.jpg",
+            "thumbnail": "assets/images/works/paintings/p-10_thumb.jpg",
             "caption": "Mixed media exploration of texture and light"
         }
     ],
