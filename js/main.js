@@ -387,10 +387,9 @@ function createVideoHtml(src, options = {}) {
                 webkit-playsinline
                 preload="metadata"
                 poster="${options.poster || 'assets/images/placeholder.jpg'}"
-                class="loading ${options.class || ''}"
+                class="${options.class || ''}"
                 ${options.controls ? 'controls' : ''}
-                onerror="window.handleMediaError(this);"
-                onloadeddata="this.classList.remove('loading');">
+                onerror="window.handleMediaError(this);">
                 <source src="${src}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
