@@ -1,9 +1,9 @@
 {
     "id": "art-2",
     "title": "Sculptures",
-    "fullDescription": "A personal collection of six intricate sculptures created using ZBrush, 3ds Max, and Photoshop. Each sculpture represents a fusion of traditional art techniques with modern digital sculpting. Turntable videos on YouTube showcase the full 360° view of these pieces, emphasizing texture, detail, and form.  httpswww.youtube.com@echendeligani1799",
+    "fullDescription": "A curated collection of six intricate sculptures, realized through a blend of traditional artistic principles and contemporary digital sculpting techniques using ZBrush, 3ds Max, and Photoshop. These personal works explore philosophical themes and narratives drawn from fiction and observations of the world. Turntable videos provide a comprehensive 360° view, highlighting the texture, intricate details, and overall form of each piece.",
     "client": "Personal Art",
-    "date": "2022 - 2024",
+    "date": "2014 - 2018",
     "tools": [
         "ZBrush",
         "3ds Max",
@@ -16,70 +16,70 @@
         {
             "url": "assets/videos/works/sculptures/s-02.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-02_thumb.mp4",
-            "caption": "Dynamic pose sculpture with intricate detailing"
+            "caption": "Egg Painter (2014-2018)"
         },
         {
             "url": "assets/videos/works/sculptures/s-03.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-03_thumb.mp4",
-            "caption": "Abstract form exploring organic curves and surfaces"
+            "caption": "Water's Lover (2014-2018)"
         },
         {
             "url": "assets/videos/works/sculptures/s-01.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-01_thumb.mp4",
-            "caption": "Dynamic pose sculpture with intricate detailing"
+            "caption": "Runners (2018)"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/sculptures/s-01.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-01_thumb.mp4",
-            "caption": "Dynamic pose sculpture with intricate detailing"
+            "caption": "Runners (2018)"
         },
         {
             "url": "assets/videos/works/sculptures/s-02.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-02_thumb.mp4",
-            "caption": "Abstract form exploring organic curves and surfaces"
+            "caption": "Egg Painter (2014-2018)"
         },
         {
             "url": "assets/videos/works/sculptures/s-03.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-03_thumb.mp4",
-            "caption": "Turntable view showcasing sculpture depth and texture"
+            "caption": "Water's Lover (2014-2018)"
         },
         {
             "url": "assets/videos/works/sculptures/s-04.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-04_thumb.mp4",
-            "caption": "Dynamic pose sculpture with intricate detailing"
+            "caption": "Mark (2018)"
         },
         {
             "url": "assets/videos/works/sculptures/s-05.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-05_thumb.mp4",
-            "caption": "Abstract form exploring organic curves and surfaces"
+            "caption": "Queen of Mage (2014-2018)"
         },
         {
             "url": "assets/videos/works/sculptures/s-06.mp4",
             "thumbnail": "assets/videos/works/sculptures/s-06_thumb.mp4",
-            "caption": "Turntable view showcasing sculpture depth and texture"
+            "caption": "Magician (2014-2018)"
         }
     ],
     "process": [
         {
-            "title": "Inspiration & Sketching",
-            "description": "Gathering inspiration from classical sculptures and modern art, followed by initial sketches.",
-            "date": "January 2022",
+            "title": "Inspiration & Conceptualization",
+            "description": "Drawing inspiration from fiction, philosophical concepts, and observations of the world, I translated these ideas into initial sketches and conceptual explorations to envision each sculpture's narrative.",
+            "date": "First Step",
             "image": "assets/images/works/sculptures/s-06.jpg",
             "thumbnail": "assets/images/works/sculptures/s-06_thumb.jpg"
         },
         {
-            "title": "Digital Sculpting",
-            "description": "Using ZBrush and 3ds Max to build detailed 3D models, experimenting with forms and textures.",
-            "date": "March 2022",
+            "title": "Digital Sculpting & Refinement",
+            "description": "Utilizing ZBrush and 3ds Max, I meticulously sculpted detailed 3D models, focusing on the interplay of forms, textures, and overall composition to bring the initial concepts to life.",
+            "date": "Second Step",
             "image": "assets/images/works/sculptures/s-05.jpg",
             "thumbnail": "assets/images/works/sculptures/s-05.jpg"
         },
         {
-            "title": "Rendering & Post-Processing",
-            "description": "Final rendering using advanced lighting and shading techniques, then refining details in Photoshop.",
-            "date": "June 2022",
+            "title": "Rendering & Visual Presentation",
+            "description": "Final rendering was achieved using V-Ray with simple lighting and shading techniques to highlight the sculptural qualities. Fume FX was employed to create atmospheric effects such as smoke and water, enhancing the visual narrative.",
+            "date": "Third Step",
             "image": "assets/images/works/sculptures/s-04.jpg",
             "thumbnail": "assets/images/works/sculptures/s-04.jpg"
         }

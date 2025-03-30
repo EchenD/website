@@ -87,8 +87,8 @@ export class App {
             const data = await response.json();
 
             // Populate works sections
-            this.populateWorks('art-works', data.art);
             this.populateWorks('dev-works', data.development);
+            this.populateWorks('art-works', data.art);
         } catch (error) {
             console.error('Content loading failed:', error);
             throw error;

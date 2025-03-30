@@ -251,16 +251,16 @@ async function loadWorks() {
         artWorksGrid.innerHTML = '';
         devWorksGrid.innerHTML = '';
 
-        // Load art works
-        data.art.forEach(work => {
-            const workElement = createWorkElement(work);
-            artWorksGrid.appendChild(workElement);
-        });
-
-        // Load development works
+        // Load development works first
         data.development.forEach(work => {
             const workElement = createWorkElement(work);
             devWorksGrid.appendChild(workElement);
+        });
+
+        // Load art works second
+        data.art.forEach(work => {
+            const workElement = createWorkElement(work);
+            artWorksGrid.appendChild(workElement);
         });
 
         // Initialize lazy loading for images

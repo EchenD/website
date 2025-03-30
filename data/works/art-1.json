@@ -1,271 +1,272 @@
 {
     "id": "art-1",
     "title": "Movies & Animations",
-    "fullDescription": "An extensive portfolio of artworks created for various movies and animations, showcasing a diverse range of styles and techniques. This collection includes character designs, environment concepts, and visual effects work that has contributed to multiple productions.",
-    "client": "<a href='https://mainroadpost.com' target='_blank' class='client-link'>Main Road Post</a>, Online VFX and CubinCup Animation",
-    "date": "2020-2025",
+    "fullDescription": "A comprehensive portfolio showcasing artistic contributions to over 10 film and animation productions. This collection highlights a diverse skill set encompassing character and creature design, visual effects development, and early concept art.",
+    "client": "<a href='https://mainroadpost.com' target='_blank' class='client-link'>Main Road Post</a>, CubinCup Animation",
+    "date": "2012-2023",
     "tools": [
         "ZBrush",
         "3ds Max",
         "Mari",
         "Photoshop",
-        "Substance Painter"
+        "Substance Painter",
+        "Marmoset Designer"
     ],
     "role": "Character Artist & VFX Designer",
     "images": [
         {
             "url": "assets/images/works/movies/mo-01.jpg",
             "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Alien Exoskeleton Suit for the Movie 'Attraction' (2017)"
         },
         {
             "url": "assets/images/works/movies/mo-11.jpg",
             "thumbnail": "assets/images/works/movies/mo-11_thumb.jpg",
-            "caption": "Hero character close-up with detailed texture work"
+            "caption": "Simulated Cloth Created with Marmoset Designer"
         },
         {
             "url": "assets/images/works/movies/mo-03.jpg",
             "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg",
-            "caption": "Final rendered key frame from feature animation"
+            "caption": "Flora-Inspired Creature for the Movie 'Warriors of the Future' (2019)"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/movies/ex-01.mp4",
             "thumbnail": "assets/videos/works/movies/ex-01_thumb.mp4",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Turntable View"
         },
         {
             "url": "assets/images/works/movies/mo-01.jpg",
             "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Final Sculpt"
         },
         {
             "url": "assets/images/works/movies/mo-21.jpg",
             "thumbnail": "assets/images/works/movies/mo-21_thumb.jpg",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Crushed Mechanical Arms Detail"
         },
         {
             "url": "assets/images/works/movies/mo-22.jpg",
             "thumbnail": "assets/images/works/movies/mo-22_thumb.jpg",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Alternate View of Crushed Arms"
         },
         {
             "url": "assets/images/works/movies/mo-23.jpg",
             "thumbnail": "assets/images/works/movies/mo-23_thumb.jpg",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Interior Components"
         },
         {
             "url": "assets/images/works/movies/mo-24.jpg",
             "thumbnail": "assets/images/works/movies/mo-24_thumb.jpg",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Arm Mechanism Detail"
         },
         {
             "url": "assets/images/works/movies/mo-02.jpg",
             "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg",
-            "caption": "Hero character close-up with detailed texture work"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Detail Sculpt"
         },
         {
             "url": "assets/images/works/movies/mo-03.jpg",
             "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg",
-            "caption": "Final rendered key frame from feature animation"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Full View"
         },
         {
             "url": "assets/videos/works/movies/pf_01.mp4",
             "thumbnail": "assets/videos/works/movies/pf_01_thumb.mp4",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Turntable Video"
         },
         {
             "url": "assets/videos/works/movies/pf_02.mp4",
             "thumbnail": "assets/videos/works/movies/pf_02_thumb.mp4",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Connecting Flower Detail"
         },
         {
             "url": "assets/images/works/movies/mo-04.jpg",
             "thumbnail": "assets/images/works/movies/mo-04_thumb.jpg",
-            "caption": "Alien creature concept design for sci-fi film"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Final Sculpt"
         },
         {
             "url": "assets/images/works/movies/mo-05.jpg",
             "thumbnail": "assets/images/works/movies/mo-05_thumb.jpg",
-            "caption": "Hero character close-up with detailed texture work"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Closed State"
         },
         {
             "url": "assets/images/works/movies/mo-06.jpg",
             "thumbnail": "assets/images/works/movies/mo-06_thumb.jpg",
-            "caption": "Final rendered key frame from feature animation"
+            "caption": "Statue Design for the Movie 'Attraction 2' (2019)"
         },
         {
             "url": "assets/images/works/movies/mo-07.jpg",
             "thumbnail": "assets/images/works/movies/mo-07_thumb.jpg",
-            "caption": "Hero character close-up with detailed texture work"
+            "caption": "Character Design for the Movie 'Cosmoball' (2019) - Head Concept"
         },
         {
             "url": "assets/images/works/movies/mo-08.jpg",
             "thumbnail": "assets/images/works/movies/mo-08_thumb.jpg",
-            "caption": "Creature animation rig and technical breakdown"
+            "caption": "Character Design for the Movie 'Cosmoball' (2019) - Body Concept"
         },
         {
             "url": "assets/images/works/movies/mo-09.jpg",
             "thumbnail": "assets/images/works/movies/mo-09_thumb.jpg",
-            "caption": "Final rendered key frame from feature animation"
+            "caption": "Creature Design Exploration"
         },
         {
             "url": "assets/images/works/movies/mo-10.jpg",
             "thumbnail": "assets/images/works/movies/mo-10_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence"
+            "caption": "Creature Design - Texture Study"
         },
         {
             "url": "assets/images/works/movies/mo-11.jpg",
             "thumbnail": "assets/images/works/movies/mo-11_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence1"
+            "caption": "Simulated Cloth Created with Marmoset Designer"
         },
         {
             "url": "assets/images/works/movies/mo-12.jpg",
             "thumbnail": "assets/images/works/movies/mo-12_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "Simulated Cloth - Texture Detail"
         },
         {
             "url": "assets/images/works/movies/mo-13.jpg",
             "thumbnail": "assets/images/works/movies/mo-13_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "Texturing Workflow with Substance Painter"
         },
         {
             "url": "assets/images/works/movies/mo-14.jpg",
             "thumbnail": "assets/images/works/movies/mo-14_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "Modeling and Texturing Showcase"
         },
         {
             "url": "assets/images/works/movies/mo-15.jpg",
             "thumbnail": "assets/images/works/movies/mo-15_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "Visual Effects Design for the Movie 'Ninth'"
         },
         {
             "url": "assets/images/works/movies/mo-16.jpg",
             "thumbnail": "assets/images/works/movies/mo-16_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "Village Design Concept for the Movie 'Ninth'"
         },
         {
             "url": "assets/images/works/movies/mo-17.jpg",
             "thumbnail": "assets/images/works/movies/mo-17_thumb.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "Alien Tree Sculpt for the Movie 'Cosmoball' (2019)"
         },
         {
             "url": "assets/images/works/misc-art/misc-14.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-14_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Main Characters for 'Robiki' Animation (2011-2012)"
         },
         {
             "url": "assets/videos/works/movies/r-01.mp4",
             "thumbnail": "assets/videos/works/movies/r-01_thumb.mp4",
-            "caption": "robiki animation 2011-2012 responsible for modeling of all the characters "
+            "caption": "'Robiki' Animation (2011-2012) - Character Modeling and Texturing Reel"
         },
         {
             "url": "assets/images/works/movies/mo-25.jpg",
             "thumbnail": "assets/images/works/movies/mo-25.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "'Robiki' Animation (2011-2012) - Poster Design"
         },
         {
             "url": "assets/images/works/movies/mo-18.jpg",
             "thumbnail": "assets/images/works/movies/mo-18.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "'Robiki' Animation - Main Character Model"
         },
         {
             "url": "assets/images/works/movies/mo-19.jpg",
             "thumbnail": "assets/images/works/movies/mo-19.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "'Robiki' Animation - Grandmother Character Model"
         },
         {
             "url": "assets/images/works/movies/mo-20.jpg",
             "thumbnail": "assets/images/works/movies/mo-20.jpg",
-            "caption": "Storyboard to 3D comparison for narrative sequence2"
+            "caption": "'Robiki' Animation - Character Lineup"
         },
         {
             "url": "assets/images/works/movies/misc-17.jpg",
             "thumbnail": "assets/images/works/movies/misc-17_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "'Modok' 3D Animation for 5D Cinema (2012) - Main Character"
         },
         {
             "url": "assets/images/works/movies/misc-18.jpg",
             "thumbnail": "assets/images/works/movies/misc-18_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "'Modok' 3D Animation for 5D Cinema (2012) - Main Character Detail"
         },
         {
             "url": "assets/images/works/movies/misc-20.jpg",
             "thumbnail": "assets/images/works/movies/misc-20_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "'Modok' 3D Animation for 5D Cinema (2012) - Creature Design"
         },
         {
             "url": "assets/images/works/movies/misc-22.jpg",
             "thumbnail": "assets/images/works/movies/misc-22_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "'Alice in Wonderland' Animation for 5D Cinema (2012)"
         },
         {
             "url": "assets/images/works/movies/misc-23.jpg",
             "thumbnail": "assets/images/works/movies/misc-23_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "'Alice in Wonderland' Animation for 5D Cinema (2012) - Scene Detail"
         },
         {
             "url": "assets/images/works/movies/misc-24.jpg",
             "thumbnail": "assets/images/works/movies/misc-24_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "'Alice in Wonderland' Animation for 5D Cinema (2012) - Character Focus"
         },
         {
             "url": "assets/images/works/movies/misc-25.jpg",
             "thumbnail": "assets/images/works/movies/misc-25_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "'Alice in Wonderland' Animation for 5D Cinema (2012) - Environment"
         },
         {
             "url": "assets/videos/works/misc-art/misc-01.mp4",
             "thumbnail": "assets/videos/works/misc-art/misc-01_thumb.mp4",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Demo Reel of 5D Animations (2012)"
         },
         {
             "url": "assets/videos/works/movies/ca-01.mp4",
             "thumbnail": "assets/videos/works/movies/ca-01_thumb.mp4",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Virtual Vehicle Tour (2014)"
         }
     ],
     "process": [
         {
             "title": "Concept Development",
-            "description": "Initial sketches and concept exploration, working closely with directors to establish the visual direction for the characters and environments.",
-            "date": "January 2020",
+            "description": "Collaborating with directors to establish the visual language through initial sketches and concept explorations for characters and environments.",
+            "date": "2015-2023",
             "image": "assets/images/works/movies/mo-01.jpg",
             "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg"
         },
         {
             "title": "3D Modeling & Sculpting",
-            "description": "Creating detailed 3D models and sculptures using ZBrush and Maya, focusing on anatomical accuracy and creative design elements to bring characters to life.",
-            "date": "March 2020",
+            "description": "Creating detailed 3D models and sculptures in ZBrush and Maya, focusing on anatomical accuracy and artistic design to realize character concepts.",
+            "date": "2015-2023",
             "image": "assets/images/works/movies/mo-02.jpg",
             "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg"
         },
         {
             "title": "Texturing & Shading",
-            "description": "Developing realistic materials and textures using Substance Painter and custom shader networks to achieve the desired visual style for the production.",
-            "date": "June 2020",
+            "description": "Developing realistic and stylized materials and textures using Substance Painter and custom shader networks to achieve the desired aesthetic.",
+            "date": "2015-2023",
             "image": "assets/images/works/movies/mo-03.jpg",
             "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg"
         },
         {
             "title": "Animation & Rigging",
-            "description": "Building skeletal structures and control systems for the characters, enabling smooth and expressive animations that convey personality and emotion.",
-            "date": "September 2020",
+            "description": "Building character rigs and animation sequences to convey personality and emotion through fluid and expressive movements.",
+            "date": "2015-2023",
             "image": "assets/images/works/movies/mo-04.jpg",
             "thumbnail": "assets/images/works/movies/mo-04_thumb.jpg"
         },
         {
             "title": "Visual Effects Integration",
-            "description": "Creating and integrating particle-based effects, dynamic simulations, and procedural animations to enhance the visual storytelling of key sequences.",
-            "date": "January 2021",
+            "description": "Designing and implementing particle effects, dynamic simulations, and procedural animations to enhance key narrative moments.",
+            "date": "2015-2023",
             "image": "assets/images/works/movies/mo-05.jpg",
             "thumbnail": "assets/images/works/movies/mo-05_thumb.jpg"
         },
         {
             "title": "Final Rendering & Compositing",
-            "description": "Optimizing lighting setups and render passes to achieve the highest quality visual output, then combining all elements in the compositing stage for the finished look.",
-            "date": "March 2021",
+            "description": "Optimizing lighting and rendering pipelines to achieve high-quality visuals, followed by compositing elements for the final presentation.",
+            "date": "2015-2023",
             "image": "assets/images/works/movies/mo-06.jpg",
             "thumbnail": "assets/images/works/movies/mo-07_thumb.jpg"
         }
