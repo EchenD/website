@@ -1447,14 +1447,7 @@ function openFullscreenImage(src, caption, imageCollection = null, index = 0) {
     const video = fullscreenViewer.querySelector('video');
     if (video) {
         initializeVideo(video, 'fullscreen');
-        // Add a loading spinner for video content
-        const loadingSpinner = document.createElement('div');
-        loadingSpinner.className = 'loading-spinner';
-        content.appendChild(loadingSpinner);
-
-        video.addEventListener('loadeddata', function () {
-            loadingSpinner.remove();
-        });
+        // Remove loading spinner for videos since they have their own loading state
     }
 
     // Add close button event
