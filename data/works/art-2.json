@@ -11,55 +11,50 @@
     "role": "Sculptor & Digital Artist",
     "images": [
         {
-            "url": "assets/videos/works/sculptures/sc_01.mp4",
-            "thumbnail": "assets/videos/works/sculptures/sc_01_thumb.mp4",
+            "url": "assets/videos/works/sculptures/s-01.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-01_thumb.mp4",
             "caption": "Dynamic pose sculpture with intricate detailing"
         },
         {
-            "url": "assets/images/works/sculptures/s-01.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-01_thumb.jpg",
+            "url": "assets/videos/works/sculptures/s-02.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-02_thumb.mp4",
             "caption": "Dynamic pose sculpture with intricate detailing"
         },
         {
-            "url": "assets/images/works/sculptures/s-02.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-02_thumb.jpg",
+            "url": "assets/videos/works/sculptures/s-03.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-03_thumb.mp4",
             "caption": "Abstract form exploring organic curves and surfaces"
         }
     ],
     "gallery": [
         {
-            "url": "assets/videos/works/sculptures/sc_01.mp4",
-            "thumbnail": "assets/videos/works/sculptures/sc_01_thumb.mp4",
+            "url": "assets/videos/works/sculptures/s-01.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-01_thumb.mp4",
             "caption": "Dynamic pose sculpture with intricate detailing"
         },
         {
-            "url": "assets/images/works/sculptures/s-01.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-01_thumb.jpg",
-            "caption": "Dynamic pose sculpture with intricate detailing"
-        },
-        {
-            "url": "assets/images/works/sculptures/s-02.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-02_thumb.jpg",
+            "url": "assets/videos/works/sculptures/s-02.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-02_thumb.mp4",
             "caption": "Abstract form exploring organic curves and surfaces"
         },
         {
-            "url": "assets/images/works/sculptures/s-03.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-03_thumb.jpg",
+            "url": "assets/videos/works/sculptures/s-03.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-03_thumb.mp4",
             "caption": "Turntable view showcasing sculpture depth and texture"
         },
         {
-            "url": "assets/images/works/sculptures/s-04.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-04_thumb.jpg",
+            "url": "assets/videos/works/sculptures/s-04.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-04_thumb.mp4",
             "caption": "Dynamic pose sculpture with intricate detailing"
         },
         {
-            "url": "assets/images/works/sculptures/s-05.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-05_thumb.jpg",
+            "url": "assets/videos/works/sculptures/s-05.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-05_thumb.mp4",
             "caption": "Abstract form exploring organic curves and surfaces"
         },
         {
-            "url": "assets/images/works/sculptures/s-06.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-06_thumb.jpg",
+            "url": "assets/videos/works/sculptures/s-06.mp4",
+            "thumbnail": "assets/videos/works/sculptures/s-06_thumb.mp4",
             "caption": "Turntable view showcasing sculpture depth and texture"
         }
     ],

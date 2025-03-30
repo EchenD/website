@@ -30,6 +30,26 @@
     ],
     "gallery": [
         {
+            "url": "assets/images/works/movies/mo-01.jpg",
+            "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
+            "url": "assets/images/works/movies/mo-02.jpg",
+            "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg",
+            "caption": "Hero character close-up with detailed texture work"
+        },
+        {
+            "url": "assets/images/works/movies/mo-03.jpg",
+            "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg",
+            "caption": "Final rendered key frame from feature animation"
+        },
+        {
+            "url": "assets/videos/works/movies/r-01.mp4",
+            "thumbnail": "assets/videos/works/movies/r-01_thumb.mp4",
+            "caption": "robiki animation 2011-2012 responsible for modeling of all the characters "
+        },
+        {
             "url": "assets/videos/works/movies/pf_01.mp4",
             "thumbnail": "assets/videos/works/movies/pf_01_thumb.mp4",
             "caption": "Alien creature concept design for sci-fi film"
@@ -108,6 +128,51 @@
             "url": "assets/images/works/movies/mo-17.jpg",
             "thumbnail": "assets/images/works/movies/mo-17_thumb.jpg",
             "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/mo-18.jpg",
+            "thumbnail": "assets/images/works/movies/mo-18.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/mo-19.jpg",
+            "thumbnail": "assets/images/works/movies/mo-19.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
+        },
+        {
+            "url": "assets/images/works/movies/misc-17.jpg",
+            "thumbnail": "assets/images/works/movies/misc-17_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/movies/misc-18.jpg",
+            "thumbnail": "assets/images/works/movies/misc-18_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/movies/misc-20.jpg",
+            "thumbnail": "assets/images/works/movies/misc-20_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/movies/misc-22.jpg",
+            "thumbnail": "assets/images/works/movies/misc-22_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/movies/misc-23.jpg",
+            "thumbnail": "assets/images/works/movies/misc-23_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/movies/misc-24.jpg",
+            "thumbnail": "assets/images/works/movies/misc-24_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/movies/misc-25.jpg",
+            "thumbnail": "assets/images/works/movies/misc-25_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
         }
     ],
     "process": [
