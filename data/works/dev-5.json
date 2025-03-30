@@ -1,7 +1,7 @@
 {
     "id": "dev-5",
     "title": "VR/AR & Interactive Projects",
-    "fullDescription": "A diverse collection of VR, AR, Kinect, and interactive installations developed for exhibitions and events. These projects explore the intersection of technology and art, delivering immersive experiences that enhance audience engagement through innovative simulation and interactive design.",
+    "fullDescription": "A diverse collection of VR, AR, Kinect, and interactive installations developed rapidly (most within a week) for exhibitions and events. These projects for clients like Irancell, Abedini, and Novo Nordisk explore immersive experiences through innovative simulation and interactive design.",
     "client": "Irancell, Abedini, Novo Nordisk",
     "date": "2016 - 2023",
     "tools": [
@@ -16,92 +16,127 @@
         {
             "url": "assets/videos/works/vr-ar/ar-01.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-01_thumb.mp4",
-            "caption": "Immersive VR setup for interactive storytelling"
+            "caption": "AR interactive to explain a drug to doctors"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-02.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-02_thumb.mp4",
-            "caption": "Augmented reality installation engaging live audiences"
+            "caption": "My AR sculptures"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-08.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-08_thumb.mp4",
-            "caption": "Interactive project using Kinect for gesture-based control"
+            "caption": "Interactive host for Irancell event"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/vr-ar/ar-01.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-01_thumb.mp4",
-            "caption": "Immersive VR setup for interactive storytelling"
+            "caption": "AR interactive to explain a drug to doctors"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-02.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-02_thumb.mp4",
-            "caption": "Augmented reality installation engaging live audiences"
+            "caption": "My AR sculptures"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-03.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-03_thumb.mp4",
-            "caption": "Interactive project using Kinect for gesture-based control"
+            "caption": "Interactive Kinect game"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-04.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-04_thumb.mp4",
-            "caption": "Mixed reality experience prototype"
+            "caption": "Kinect basketball game"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-05.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-05_thumb.mp4",
-            "caption": "Motion tracking visualization system"
+            "caption": "Kinect VFX tracking"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-06.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-06_thumb.mp4",
-            "caption": "Motion tracking visualization system"
+            "caption": "3D animation"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-07.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-07_thumb.mp4",
-            "caption": "Motion tracking visualization system"
+            "caption": "3D animation"
         },
         {
             "url": "assets/images/works/misc-dev/misc-01.jpg",
             "thumbnail": "assets/images/works/misc-dev/misc-01_thumb.jpg",
-            "caption": "An innovative prototype showcasing creative coding solutions"
+            "caption": "Interactive host for Irancell event"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-08.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-08_thumb.mp4",
-            "caption": "Motion tracking visualization system"
+            "caption": "Interactive host for Irancell event"
         },
         {
             "url": "assets/videos/works/vr-ar/ar-09.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-09_thumb.mp4",
-            "caption": "Motion tracking visualization system"
+            "caption": "Interactive host for Irancell event"
         }
     ],
     "process": [
         {
-            "title": "Concept & Ideation",
-            "description": "Designing interactive experiences that merge physical and digital realms.",
-            "date": "January 2016",
+            "title": "AR Interactive for Drug Explanation",
+            "description": "AR app to explain drug functionality to doctors.",
+            "date": "2022",
             "image": "assets/videos/works/vr-ar/ar-01.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-01_thumb.mp4"
         },
         {
-            "title": "Prototype Development",
-            "description": "Rapid prototyping to test immersive VR/AR concepts and interactive mechanisms.",
-            "date": "March 2016",
+            "title": "AR Sculptures",
+            "description": "Personal AR art creations.",
+            "date": "2021",
             "image": "assets/videos/works/vr-ar/ar-02.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-02_thumb.mp4"
         },
         {
-            "title": "Implementation & Testing",
-            "description": "Final integration with real-time sensors and iterative testing for flawless user interaction.",
-            "date": "June 2016",
+            "title": "Interactive Host for Irancell Event",
+            "description": "Interactive host experience for an Irancell event.",
+            "date": "2023",
+            "image": "assets/videos/works/vr-ar/ar-08.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-08_thumb.mp4"
+        },
+        {
+            "title": "Interactive Kinect Game",
+            "description": "Engaging game using Kinect motion tracking.",
+            "date": "2019",
             "image": "assets/videos/works/vr-ar/ar-03.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-03_thumb.mp4"
+        },
+        {
+            "title": "Kinect Basketball Game",
+            "description": "Basketball game using Kinect for player interaction.",
+            "date": "2020",
+            "image": "assets/videos/works/vr-ar/ar-04.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-04_thumb.mp4"
+        },
+        {
+            "title": "Kinect VFX Tracking",
+            "description": "Real-time visual effects tracking with Kinect.",
+            "date": "2018",
+            "image": "assets/videos/works/vr-ar/ar-05.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-05_thumb.mp4"
+        },
+        {
+            "title": "3D Animation (Pseudo-AR)",
+            "description": "3D animation for large screens creating a pseudo-AR effect from a specific angle.",
+            "date": "2017",
+            "image": "assets/videos/works/vr-ar/ar-06.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-06_thumb.mp4"
+        },
+        {
+            "title": "3D Animation (Pseudo-AR)",
+            "description": "Another 3D animation for large screens creating a pseudo-AR effect from a specific angle.",
+            "date": "2017",
+            "image": "assets/videos/works/vr-ar/ar-07.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-07_thumb.mp4"
         }
     ]
 }

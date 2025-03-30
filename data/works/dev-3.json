@@ -1,53 +1,108 @@
 {
     "id": "dev-3",
     "title": "Avatar Maker",
-    "fullDescription": "An interactive WebGL avatar maker developed for a major football world championship event. The application allows users to customize avatars with team jerseys and facial features, with an integrated QR code feature for saving and sharing creations, thereby boosting user engagement.",
+    "fullDescription": "As the sole developer for this project, my goal was to create a lightweight and highly reusable WebGL avatar maker. The core functionality involved allowing users to create custom avatars that could then be baked into an optimized format and exported as GLB files, making them easily loadable across various platforms and projects. This avatar maker was successfully integrated into three distinct projects: the LandRocker universe, the Alef game, and the Du Fan Zone for FIFA 2022, showcasing its adaptability and ease of integration. It features both male and female base models and is designed to run smoothly even on mobile devices. Leveraging Unity's Addressable Assets system, the avatar maker efficiently loads and unloads a wide range of customization options, from character features and clothing to specific attributes and UI icons, ensuring optimal performance. For the Alef game integration, the avatar maker would bake the final avatar, create an optimized GLB version, export and upload it, then redirect the user to the game where a custom loader would handle the GLB file. I also managed a team of 10 artists to create over 100 diverse assets, ensuring they were all compatible and contributed to a comprehensive and engaging avatar creation experience.",
     "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2021 - 2022",
     "tools": [
-        "WebGL",
+        "Unity",
+        "C#",
         "JavaScript",
-        "Three.js"
+        "GLB Export",
+        "Addressable Assets"
     ],
-    "role": "Lead Technical Artist & Developer",
+    "role": "Sole Developer & Art Team Manager",
     "images": [
         {
             "url": "assets/videos/works/avatar-maker/am-01.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
-            "caption": "User interface with customizable options"
+            "caption": "Live action demo of the male avatar maker in WebGL"
         },
         {
             "url": "assets/videos/works/avatar-maker/am-02.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4",
-            "caption": "Example of a completed avatar with team jersey customization"
+            "caption": "Live action demo of the female avatar maker in WebGL"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/avatar-maker/am-01.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
-            "caption": "User interface with customizable options"
+            "caption": "Live action demo of the male avatar maker in WebGL"
         },
         {
             "url": "assets/videos/works/avatar-maker/am-02.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4",
-            "caption": "Example of a completed avatar with team jersey customization"
+            "caption": "Live action demo of the female avatar maker in WebGL"
+        },
+        {
+            "url": "assets/images/works/avatar-maker/am-03.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-03_thumb.jpg",
+            "caption": "Avatar creation process for the Alef game: Baking and GLB export"
+        },
+        {
+            "url": "assets/images/works/avatar-maker/am-04.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-04_thumb.jpg",
+            "caption": "Avatar customization options in the WebGL interface"
+        },
+        {
+            "url": "assets/images/works/avatar-maker/am-05.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-05_thumb.jpg",
+            "caption": "Example of a baked and optimized avatar ready for GLB export"
+        },
+        {
+            "url": "assets/images/works/avatar-maker/am-06.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-06_thumb.jpg",
+            "caption": "Integration of the avatar maker within the LandRocker universe"
+        },
+        {
+            "url": "assets/images/works/avatar-maker/am-07.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-07_thumb.jpg",
+            "caption": "Usage of the avatar maker in the Du Fan Zone for FIFA 2022"
         }
     ],
     "process": [
         {
-            "title": "Interactive Design",
-            "description": "Creating an engaging and user-friendly interface tailored for event-based interaction.",
-            "date": "January 2021",
+            "title": "Sole Development in WebGL",
+            "description": "Developed the entire avatar maker as the sole developer, focusing on creating a lightweight and efficient application using WebGL.",
+            "date": "2021",
             "image": "assets/videos/works/avatar-maker/am-01.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4"
         },
         {
-            "title": "Real-Time Customization",
-            "description": "Developing a robust system to allow real-time avatar customization with smooth visual feedback.",
-            "date": "March 2021",
-            "image": "assets/videos/works/avatar-maker/am-02.mp4",
-            "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4"
+            "title": "Avatar Baking and GLB Export Implementation",
+            "description": "Engineered the system for baking the customized avatar into an optimized format and implementing GLB export functionality for universal compatibility.",
+            "date": "2021",
+            "image": "assets/images/works/avatar-maker/am-05.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-05_thumb.jpg"
+        },
+        {
+            "title": "Ensuring Reusability and Mobile Compatibility",
+            "description": "Designed the avatar maker with reusability in mind, ensuring it could be easily integrated into multiple projects, and optimized its performance for mobile devices.",
+            "date": "2021",
+            "image": "assets/images/works/avatar-maker/am-04.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-04_thumb.jpg"
+        },
+        {
+            "title": "Addressable Assets System Integration",
+            "description": "Implemented Unity's Addressable Assets system to efficiently manage and load/unload a vast array of customization options, optimizing memory usage and performance.",
+            "date": "2021",
+            "image": "assets/images/works/avatar-maker/am-06.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-06_thumb.jpg"
+        },
+        {
+            "title": "Art Asset Management and Team Leadership",
+            "description": "Managed a team of 10 artists in the creation of over 100 diverse avatar assets, ensuring consistency and compatibility across all items.",
+            "date": "2021",
+            "image": "assets/images/works/avatar-maker/am-07.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-07_thumb.jpg"
+        },
+        {
+            "title": "Integration with the Alef Game",
+            "description": "Specifically integrated the avatar maker with the Alef game, implementing the avatar baking, GLB export, upload, and in-game loading process.",
+            "date": "2022",
+            "image": "assets/images/works/avatar-maker/am-03.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-03_thumb.jpg"
         }
     ]
 }

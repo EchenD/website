@@ -1,7 +1,7 @@
 {
     "id": "art-4",
     "title": "Digital Doubles",
-    "fullDescription": "A comprehensive showcase of over 20 digital doubles created for film productions. This work highlights the technical and artistic challenges of replicating realistic characters and creatures. Each digital double was meticulously crafted to blend seamlessly with live-action footage, enhancing cinematic realism.",
+    "fullDescription": "This portfolio showcases the creation of over 20 digital doubles for various film productions, highlighting the intricate process of replicating actors and creatures with photorealistic accuracy. Starting with high-quality image sets from multiple angles, I employ photogeometry techniques to establish the foundational geometry. While photogeometry provides a strong base for measurements, capturing fine micro and even some medium-level details can be challenging. Therefore, the photogeometry serves as a precise guide for meticulous manual sculpting in ZBrush, where I refine the form and add lifelike details. The final stage involves detailed texturing to achieve a truly realistic digital representation that seamlessly integrates with live-action footage.",
     "client": "<a href='https://mainroadpost.com' target='_blank' class='client-link'>Main Road Post</a>",
     "date": "2015 - 2023",
     "tools": [
@@ -15,169 +15,169 @@
         {
             "url": "assets/images/works/digital-doubles/dd-01.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-01_thumb.jpg",
-            "caption": "Realistic digital double of a main character"
+            "caption": "Digital Double for the Movie 'Gust from the Future' (2023)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-09.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-09_thumb.jpg",
-            "caption": "Detailed digital creature model used in VFX sequences"
+            "caption": "Digital Double for the Movie 'Gate Keepers of Galaxy' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-02.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-02_thumb.jpg",
-            "caption": "Side-by-side comparison of actor and digital double"
+            "caption": "Digital Double for the Movie 'Gust from the Future' (2023) - Arm Detail"
         }
     ],
     "gallery": [
         {
             "url": "assets/images/works/digital-doubles/dd-00.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-00_thumb.jpg",
-            "caption": "Realistic digital double of a main character"
+            "caption": "Digital Double for the Movie 'Gust from the Future' (2023)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-01.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-01_thumb.jpg",
-            "caption": "Detailed digital creature model used in VFX sequences"
+            "caption": "Digital Double for the Movie 'Gust from the Future' (2023)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-02.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-02_thumb.jpg",
-            "caption": "Side-by-side comparison of actor and digital double"
+            "caption": "Digital Double for the Movie 'Gust from the Future' (2023) - Arm Detail"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-04.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-04_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Grome' (2022)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-05.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-05_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-06.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-06_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Attraction' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-08.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-08_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-09.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-09_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Gate Keepers of Galaxy' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-10.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-10_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Gate Keepers of Galaxy' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-11.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-11_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Gate Keepers of Galaxy' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-12.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-12_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Gate Keepers of Galaxy' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-13.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-13_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Gate Keepers of Galaxy' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-14.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-14_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Warriors of the Future' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-15.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-15_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Warriors of the Future' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-16.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-16_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Warriors of the Future' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-17.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-17_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Warriors of the Future' (2019)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-18.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-18_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Night Guard' (2016)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-19.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-19_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Attraction' (2017)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-20.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-20_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Night Guard' (2016)"
         },
         {
             "url": "assets/videos/works/digital-doubles/dd-00.mp4",
             "thumbnail": "assets/videos/works/digital-doubles/dd-00_thumb.mp4",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Ratmir' (2016)"
         },
         {
             "url": "assets/videos/works/digital-doubles/dd-01.mp4",
             "thumbnail": "assets/videos/works/digital-doubles/dd-01_thumb.mp4",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Ratmir' (2016)"
         },
         {
             "url": "assets/videos/works/digital-doubles/dd-02.mp4",
             "thumbnail": "assets/videos/works/digital-doubles/dd-02_thumb.mp4",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Night Guard' (2016)"
         },
         {
             "url": "assets/videos/works/digital-doubles/dd-03.mp4",
             "thumbnail": "assets/videos/works/digital-doubles/dd-03_thumb.mp4",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Cosmoball' (2016)"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-21.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-21_thumb.jpg",
-            "caption": "Full body digital double in action pose"
+            "caption": "Digital Double for the Movie 'Night Guard' (2016)"
         }
     ],
     "process": [
         {
-            "title": "Data Acquisition",
-            "description": "Gathering reference data and high-resolution scans of actors for accurate digital reproduction.",
-            "date": "January 2015",
+            "title": "Photogrammetry & Initial Geometry",
+            "description": "Utilizing high-quality image sets from various angles to generate base geometry through photogrammetry techniques, providing accurate initial measurements.",
+            "date": "2015-2023",
             "image": "assets/images/works/digital-doubles/dd-03.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-03_thumb.jpg"
         },
         {
-            "title": "Digital Sculpting",
-            "description": "Sculpting highly detailed models using ZBrush and refining textures and features.",
-            "date": "March 2015",
+            "title": "Detailed Digital Sculpting",
+            "description": "Employing ZBrush for meticulous manual sculpting, refining the photogrammetry base to capture micro and medium-level details essential for lifelike realism.",
+            "date": "2015-2023",
             "image": "assets/images/works/digital-doubles/dd-22.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-22_thumb.jpg"
         },
         {
-            "title": "Integration & Compositing",
-            "description": "Integrating digital doubles into live-action scenes using compositing techniques and VFX tools.",
-            "date": "June 2015",
-            "image": "assets/images/works/digital-doubles/dd-23.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-23_thumb.jpg"
+            "title": "Texturing for Realism",
+            "description": "Creating and applying high-resolution textures using Substance Painter and Photoshop to achieve skin details, color variations, and surface properties for a photorealistic appearance.",
+            "date": "2015-2023",
+            "image": "assets/images/works/digital-doubles/dd-24.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-24_thumb.jpg"
         },
         {
             "title": "Integration & Compositing",
-            "description": "Integrating digital doubles into live-action scenes using compositing techniques and VFX tools.",
-            "date": "June 2015",
-            "image": "assets/images/works/digital-doubles/dd-24.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-24_thumb.jpg"
+            "description": "Seamlessly integrating the digital doubles into live-action footage using advanced compositing techniques and VFX tools to ensure believable performances.",
+            "date": "2015-2023",
+            "image": "assets/images/works/digital-doubles/dd-23.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-23_thumb.jpg"
         }
     ]
 }

@@ -1,73 +1,115 @@
 {
     "id": "dev-4",
     "title": "Alef WebGL Game",
-    "fullDescription": "An educational quest game developed in WebGL for Alef University. The game leverages immersive third-person gameplay to raise awareness about climate change, attracting over 11,000 users. It combines interactive storytelling with a rich visual experience to engage and educate players.",
+    "fullDescription": "Alef WebGL Game is an engaging educational experience designed to teach children about climate change and empower them to take action. I initiated and created this project, and subsequently mentored and directed a team of developers to bring all the missions to completion. A core challenge was the game's open and interactive storytelling structure, where players not only collected items and played mini-games but also solved math problems, watched educational videos, answered quizzes, and engaged in building activities—all within a vast WebGL environment with numerous levels. Players begin by creating their own avatar, which then accompanies them throughout the missions. While the backend was developed by an in-house team, I focused on the frontend game logic and user experience. The game achieved significant traction with over 11,000 active users and an average playtime of 4 hours. To facilitate the creation of diverse missions, I utilized the Quest Machine asset, developing and providing numerous custom actions for other developers to use. The game features support for two languages, a simple inventory system, four distinct mini-games, and a user-friendly dialogue system, all built with Unity 3D and deployed for WebGL.",
     "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2020 - 2023",
     "tools": [
+        "Unity 3D",
         "WebGL",
-        "JavaScript",
-        "Three.js"
+        "C#",
+        "Quest Machine",
+        "JavaScript"
     ],
-    "role": "Lead Technical Artist & Developer",
+    "role": "Project Creator, Lead Developer & Mentor",
     "images": [
         {
             "url": "assets/videos/works/alef-webgl/al-01.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4",
-            "caption": "Immersive third-person game environment showcasing natural landscapes"
+            "caption": "Immersive WebGL environment where children learn about climate change"
         },
         {
             "url": "assets/videos/works/alef-webgl/al-02.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-02_thumb.mp4",
-            "caption": "Interactive quest elements and narrative-driven gameplay"
+            "caption": "Interactive storytelling with quizzes and video integration"
         },
         {
             "url": "assets/images/works/alef-webgl/al-01.webp",
             "thumbnail": "assets/images/works/alef-webgl/al-01.webp",
-            "caption": "Immersive third-person game environment showcasing natural landscapes"
+            "caption": "User avatar interacting with the game world and mission objectives"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/alef-webgl/al-01.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4",
-            "caption": "Immersive third-person game environment showcasing natural landscapes"
+            "caption": "Immersive WebGL environment where children learn about climate change"
         },
         {
             "url": "assets/videos/works/alef-webgl/al-02.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-02_thumb.mp4",
-            "caption": "Interactive quest elements and narrative-driven gameplay"
+            "caption": "Interactive storytelling with quizzes and video integration"
         },
         {
             "url": "assets/videos/works/alef-webgl/al-03.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-03_thumb.mp4",
-            "caption": "Interactive quest elements and narrative-driven gameplay"
+            "caption": "Gameplay featuring math problems and building activities"
         },
         {
             "url": "assets/images/works/alef-webgl/al-01.webp",
             "thumbnail": "assets/images/works/alef-webgl/al-01.webp",
-            "caption": "Immersive third-person game environment showcasing natural landscapes"
+            "caption": "User avatar interacting with the game world and mission objectives"
         },
         {
             "url": "assets/images/works/alef-webgl/al-02.webp",
             "thumbnail": "assets/images/works/alef-webgl/al-02.webp",
-            "caption": "Interactive quest elements and narrative-driven gameplay"
+            "caption": "Example of a mini-game designed to educate about climate change"
+        },
+        {
+            "url": "assets/images/works/alef-webgl/al-04.webp",
+            "thumbnail": "assets/images/works/alef-webgl/al-04.webp",
+            "caption": "Dialogue system facilitating interactive learning"
         }
     ],
     "process": [
         {
-            "title": "Concept & Storyboarding",
-            "description": "Defining the educational narrative and visual storytelling approach.",
-            "date": "January 2020",
+            "title": "Project Creation and Initial Development",
+            "description": "Initiated and established the foundation for the Alef WebGL game, defining the core mechanics and educational objectives focused on climate change.",
+            "date": "2020",
             "image": "assets/images/works/alef-webgl/al-01.webp",
             "thumbnail": "assets/images/works/alef-webgl/al-01.webp"
         },
         {
-            "title": "Interactive Development",
-            "description": "Building interactive elements using WebGL and real-time rendering techniques.",
-            "date": "March 2020",
+            "title": "Mentoring and Directing Development Team",
+            "description": "Mentored and directed other developers to assist in the creation of numerous game missions, ensuring consistency and adherence to the project's vision.",
+            "date": "2021",
+            "image": "assets/videos/works/alef-webgl/al-01.mp4",
+            "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4"
+        },
+        {
+            "title": "Implementing Interactive Storytelling Structure",
+            "description": "Developed the complex and open interactive storytelling structure that integrated diverse gameplay elements such as mini-games, math problems, videos, quizzes, and building activities within a WebGL environment.",
+            "date": "2021",
+            "image": "assets/videos/works/alef-webgl/al-02.mp4",
+            "thumbnail": "assets/videos/works/alef-webgl/al-02_thumb.mp4"
+        },
+        {
+            "title": "Avatar Integration for Personalized Learning",
+            "description": "Integrated the avatar maker (from the previous project) to allow users to create personalized avatars that would represent them throughout their learning journey.",
+            "date": "2021",
+            "image": "assets/images/works/avatar-maker/am-03.jpg",
+            "thumbnail": "assets/images/works/avatar-maker/am-03_thumb.jpg"
+        },
+        {
+            "title": "Utilizing Quest Machine and Creating Custom Actions",
+            "description": "Implemented the Quest Machine asset and developed a wide range of custom actions to provide other developers with the tools needed to create engaging and varied missions.",
+            "date": "2022",
+            "image": "assets/images/works/alef-webgl/al-03.mp4",
+            "thumbnail": "assets/images/works/alef-webgl/al-03_thumb.mp4"
+        },
+        {
+            "title": "Implementing Core Game Features",
+            "description": "Developed key game features including support for two languages, a simple inventory system, four educational mini-games, and a user-friendly dialogue system.",
+            "date": "2022",
             "image": "assets/images/works/alef-webgl/al-02.webp",
             "thumbnail": "assets/images/works/alef-webgl/al-02.webp"
+        },
+        {
+            "title": "Deployment for WebGL and User Engagement",
+            "description": "Successfully built and deployed the game for WebGL, resulting in a highly accessible experience that attracted over 11,000 active users with a significant average playtime.",
+            "date": "2023",
+            "image": "assets/images/works/alef-webgl/al-04.webp",
+            "thumbnail": "assets/images/works/alef-webgl/al-04.webp"
         }
     ]
 }

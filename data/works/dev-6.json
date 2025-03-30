@@ -1,12 +1,15 @@
 {
     "id": "dev-6",
-    "title": "Miscellaneous Development Projects",
-    "fullDescription": "A collection of various personal and experimental projects spanning web, mobile, and interactive applications. This portfolio segment showcases creative coding, small-scale prototypes, and innovative development experiments that highlight technical versatility and creative problem-solving.",
+    "title": "Personal Development Projects",
+    "fullDescription": "This section features a collection of my personal development projects, showcasing my exploration into diverse areas of technology and creative coding. It includes 'Face,' an application focused on high-quality face creation using machine learning; my personal website, a unique blend of a traditional site with Unity WebGL integration and various performance and security enhancements; and a 360 Video Application designed to allow a user to manage and showcase their collection of immersive 360 videos on an interactive map.",
     "client": "Personal",
-    "date": "2012 - 2024",
+    "date": "2018 - 2024",
     "tools": [
         "JavaScript",
         "HTML/CSS",
+        "Unity 3D",
+        "WebGL",
+        "Machine Learning",
         "Various Frameworks"
     ],
     "role": "Technical Artist & Developer",
@@ -14,43 +17,57 @@
         {
             "url": "assets/videos/works/misc-dev/misc-01.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-01_thumb.mp4",
-            "caption": "An innovative prototype showcasing creative coding solutions"
+            "caption": "Face: High-quality face creation using machine learning (Prototype 2018)"
         },
         {
             "url": "assets/videos/works/misc-dev/misc-02.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-02_thumb.mp4",
-            "caption": "An innovative prototype showcasing creative coding solutions"
+            "caption": "My Website: Portfolio with Unity WebGL integration and performance optimizations (2024)"
         },
         {
             "url": "assets/videos/works/misc-dev/misc-03.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-03_thumb.mp4",
-            "caption": "An innovative prototype showcasing creative coding solutions"
+            "caption": "360 Video Application: Interactive map for managing and viewing immersive videos (2023)"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/misc-dev/misc-01.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-01_thumb.mp4",
-            "caption": "An innovative prototype showcasing creative coding solutions"
+            "caption": "Face: Application concept for generating 3D faces using machine learning (2018)"
         },
         {
             "url": "assets/videos/works/misc-dev/misc-02.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-02_thumb.mp4",
-            "caption": "An innovative prototype showcasing creative coding solutions"
+            "caption": "My Website: Showcasing Unity WebGL integration with graceful loading and offline support (2024)"
         },
         {
             "url": "assets/videos/works/misc-dev/misc-03.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-03_thumb.mp4",
-            "caption": "An innovative prototype showcasing creative coding solutions"
+            "caption": "360 Video Application: User interface with a map displaying available immersive video locations (2023)"
         }
     ],
     "process": [
         {
-            "title": "Ideation",
-            "description": "Exploring unique concepts and identifying opportunities for innovative solutions.",
-            "date": "January 2012",
-            "image": "assets/images/works/misc-dev/misc-01.jpg",
-            "thumbnail": "assets/images/works/misc-dev/misc-01_thumb.jpg"
+            "title": "Face: High-Quality Face Creation with Machine Learning",
+            "description": "In 2018, I conceptualized and prototyped 'Face,' an application aimed at teaching machines to sculpt, specifically focusing on generating high-quality 3D face models using machine learning. The idea was to create an environment for the creation, generation, prediction, and stylization of user-created heads with minimal input. This involved exploring data storage for head forms, anatomical features, and uniqueness to train several AI models. The application was designed for dataset creation, training models, and importing/exporting face data, with the goal of artists being able to generate rigged and textured 3D faces automatically.",
+            "date": "2018",
+            "image": "assets/images/works/misc-art/misc-08.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc-08_thumb.jpg"
+        },
+        {
+            "title": "My Website: Unity Portfolio with Advanced Features",
+            "description": "My personal website is a unique blend of traditional web design and Unity WebGL integration, developed entirely with AI assistance. It features graceful loading with particle animation, automatic orientation handling, platform detection, robust error handling, performance monitoring, and memory management for Unity instances. The site also includes dynamic portfolio management, lazy loading of images, a responsive design, and detailed work pages. Performance was a key focus, incorporating efficient resource loading, service worker for offline support, DNS prefetching, and caching strategies. Security was also paramount, with features like CSP, strict referrer policy, and HTTPS enforcement. Additionally, it's a Progressive Web App (PWA) with offline functionality and installability, while also prioritizing accessibility with ARIA landmarks and keyboard navigation.",
+            "date": "2024",
+            "image": "assets/images/works/misc-dev/website-screenshot.png",
+            "thumbnail": "assets/images/works/misc-dev/website-screenshot_thumb.png"
+        },
+        {
+            "title": "360 Video Application: Interactive World Exploration",
+            "description": "I developed a personal application to help a friend manage and showcase their extensive collection of 360 videos captured from travels around the world. The application features an interactive map interface, allowing users to click on locations to access and view the corresponding immersive 360 video. The application provides administrative capabilities for adding, removing, and managing the 360 video content, with potential for future integration into games and other applications.",
+            "date": "2023",
+            "image": "assets/images/works/misc-dev/360-video-app-screenshot.png",
+            "thumbnail": "assets/images/works/misc-dev/360-video-app-screenshot_thumb.png"
         }
     ]
 }

@@ -1,81 +1,123 @@
 {
     "id": "dev-2",
     "title": "Battle of Rovers",
-    "fullDescription": "A cutting-edge multiplayer AAA game designed to support up to 200 concurrent users. The project focused on advanced gameplay systems, network optimization, and seamless integration with Steam, delivering a scalable and engaging multiplayer experience.",
+    "fullDescription": "Battle of Rovers is the best game I've ever created, a production-level multiplayer third-person shooter with rovers, developed incredibly fast and to an amazing quality thanks to the extensive use of AI in both programming and development processes. Players who have experienced it have shown great enthusiasm for the gameplay. As the sole developer on this project, with AI as a powerful assistant, I took an existing asset from Fusion Photon and significantly updated it to create this engaging experience. I also managed and mentored a team of artists who provided the art assets for the game. Battle of Rovers exists in two distinct versions: one with cryptocurrency integration and another for Steam. Utilizing CICD pipelines and custom editor tools, the project automatically switches between these versions. For user management, I implemented Unity Services, and for various backend functionalities, I used AWS Lambda functions. The Steam version features inventory and a shop system, along with extensive rover customization options. Multiplayer functionality for both versions is powered by Photon Fusion. Furthermore, the crypto version includes its own custom launcher and updater, and the game integrates the Tournament SDK for competitive play.",
     "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2020 - 2025",
     "tools": [
         "Unity3D",
         "C#",
         "Photon Fusion",
-        "Steamworks"
+        "Fusion Photon Asset",
+        "AI-Assisted Development",
+        "Steamworks",
+        "Unity Services",
+        "AWS Lambda",
+        "CICD",
+        "Editor Tools",
+        "Tournament SDK"
     ],
-    "role": "Lead Technical Artist & Technical Director",
+    "role": "Solo Developer (with AI Assistance) & Art Team Manager",
     "images": [
         {
             "url": "assets/videos/works/battle-of-rovers/bor-01.mp4",
             "thumbnail": "assets/videos/works/battle-of-rovers/bor-01_thumb.mp4",
-            "caption": "Action-packed gameplay with high-fidelity graphics"
+            "caption": "Intense multiplayer third-person shooter gameplay with customizable rovers"
         },
         {
             "url": "assets/images/works/battle-of-rovers/bor-01.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-01_thumb.jpg",
-            "caption": "Action-packed gameplay with high-fidelity graphics"
+            "caption": "Action-packed third-person rover combat"
         },
         {
             "url": "assets/images/works/battle-of-rovers/bor-02.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-02_thumb.jpg",
-            "caption": "User interface designed for optimal player experience"
+            "caption": "User interface showcasing rover customization options"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/battle-of-rovers/bor-01.mp4",
             "thumbnail": "assets/videos/works/battle-of-rovers/bor-01_thumb.mp4",
-            "caption": "Action-packed gameplay with high-fidelity graphics"
+            "caption": "Intense multiplayer third-person shooter gameplay with customizable rovers"
         },
         {
             "url": "assets/images/works/battle-of-rovers/bor-01.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-01_thumb.jpg",
-            "caption": "Action-packed gameplay with high-fidelity graphics"
+            "caption": "Action-packed third-person rover combat"
         },
         {
             "url": "assets/images/works/battle-of-rovers/bor-02.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-02_thumb.jpg",
-            "caption": "User interface designed for optimal player experience"
+            "caption": "User interface showcasing rover customization options"
         },
         {
             "url": "assets/images/works/battle-of-rovers/bor-03.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-03_thumb.jpg",
-            "caption": "Showcasing multiplayer dynamics and intense combat scenarios"
+            "caption": "Multiplayer battle scenario featuring diverse rover types"
         },
         {
             "url": "assets/images/works/battle-of-rovers/bor-04.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-04_thumb.jpg",
-            "caption": "Advanced vehicle customization system"
+            "caption": "Advanced rover customization system with various attachments"
         }
     ],
     "process": [
         {
-            "title": "Gameplay Engineering",
-            "description": "Designing advanced gameplay systems that support large-scale multiplayer interactions.",
-            "date": "January 2020",
+            "title": "Core Gameplay Development with AI Assistance",
+            "description": "Leveraged AI extensively for programming and rapidly developed the core third-person shooter mechanics using an asset from Fusion Photon as a base.",
+            "date": "2024",
             "image": "assets/images/works/battle-of-rovers/bor-01.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-01_thumb.jpg"
         },
         {
-            "title": "Network Optimization",
-            "description": "Ensuring smooth gameplay with robust network architecture and efficient data handling.",
-            "date": "March 2020",
+            "title": "Multiplayer Implementation with Photon Fusion",
+            "description": "Integrated and configured Photon Fusion to create a robust and scalable multiplayer experience for up to 200 concurrent users.",
+            "date": "2024",
+            "image": "assets/videos/works/battle-of-rovers/bor-01.mp4",
+            "thumbnail": "assets/videos/works/battle-of-rovers/bor-01_thumb.mp4"
+        },
+        {
+            "title": "Art Asset Management and Integration",
+            "description": "Managed and mentored a team of artists to create and integrate high-quality art assets for the game environment, rovers, and effects.",
+            "date": "2024",
+            "image": "assets/images/works/battle-of-rovers/bor-03.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/bor-03_thumb.jpg"
+        },
+        {
+            "title": "Steam Version Features: Inventory, Shop & Customization",
+            "description": "Implemented a comprehensive inventory and shop system for the Steam version, allowing players to acquire and manage various rover customizations.",
+            "date": "2024",
             "image": "assets/images/works/battle-of-rovers/bor-02.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-02_thumb.jpg"
         },
         {
-            "title": "Platform Integration",
-            "description": "Seamlessly integrating game services with Steam for inventory and shop functionalities.",
-            "date": "June 2020",
+            "title": "Crypto Version with Crypto Transfer & Custom Launcher",
+            "description": "Developed a dedicated crypto version of the game featuring cryptocurrency transfer functionalities and a custom launcher and updater for seamless access.",
+            "date": "2024",
+            "image": "assets/images/works/battle-of-rovers/bor-04.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/bor-04_thumb.jpg"
+        },
+        {
+            "title": "Tournament Integration & Competitive Play",
+            "description": "Integrated the Tournament SDK to enable competitive gameplay and tournament management within both the crypto and Steam versions.",
+            "date": "2024",
+            "image": "assets/images/works/battle-of-rovers/bor-01.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/bor-01_thumb.jpg"
+        },
+        {
+            "title": "Backend Services with Unity Services & AWS Lambda",
+            "description": "Utilized Unity Services for user management and implemented AWS Lambda functions to handle various backend needs, ensuring a robust and scalable infrastructure.",
+            "date": "2024",
             "image": "assets/images/works/battle-of-rovers/bor-03.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-03_thumb.jpg"
+        },
+        {
+            "title": "Automated Version Switching with CICD & Editor Tools",
+            "description": "Set up CICD pipelines and developed custom editor tools to automate the process of switching between the crypto and Steam versions of the game.",
+            "date": "2024",
+            "image": "assets/images/works/battle-of-rovers/bor-02.jpg",
+            "thumbnail": "assets/images/works/battle-of-rovers/bor-02_thumb.jpg"
         }
     ]
 }

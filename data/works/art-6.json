@@ -1,158 +1,160 @@
 {
     "id": "art-6",
     "title": "Miscellaneous Art Projects",
-    "fullDescription": "A diverse collection of experimental and one-off art projects. This category encompasses concept art explorations, experimental digital collages, and creative exercises that challenge traditional boundaries and spark innovation.",
-    "client": "Various Clients",
+    "fullDescription": "This section showcases a diverse range of experimental and unique art projects, representing explorations beyond conventional categories. From initial concept art sketches and innovative digital collages to personal creative challenges and the development of custom tools like 'face,' this collection highlights a spirit of artistic innovation and a willingness to push creative boundaries.",
+    "client": "Various Clients & Personal Projects",
     "date": "2010 - 2024",
     "tools": [
         "Photoshop",
-        "Illustrator",
-        "Mixed Media"
+        "3ds Max",
+        "ZBrush",
+        "Fusion",
+        "Custom Software ('face')"
     ],
-    "role": "Multidisciplinary Artist",
+    "role": "Multidisciplinary Artist & Innovator",
     "images": [
         {
             "url": "assets/images/works/misc-art/misc-03.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-03_thumb.jpg",
-            "caption": "A unique art experiment blending various media and techniques"
+            "caption": "Hercules - Sculpture depicting Hercules fighting the lion (2021)"
         },
         {
             "url": "assets/images/works/misc-art/misc-01.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-01_thumb.jpg",
-            "caption": "Initial concept sketch that led to an experimental digital collage"
+            "caption": "Metro - Personal Project featuring cartoonish characters in the metro (2015)"
         },
         {
             "url": "assets/images/works/misc-art/misc-02.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-02_thumb.jpg",
-            "caption": "A dynamic fusion of textures, colors, and forms"
+            "caption": "Fisherman - Philosophical image of a fisherman between a desert and an ocean divided by a book wall (2014)"
         }
     ],
     "gallery": [
         {
             "url": "assets/images/works/misc-art/misc-01.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-01_thumb.jpg",
-            "caption": "Initial concept sketch that led to an experimental digital collage"
+            "caption": "Metro - Personal Project featuring cartoonish characters in the metro (2015)"
         },
         {
             "url": "assets/images/works/misc-art/misc-02.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-02_thumb.jpg",
-            "caption": "A dynamic fusion of textures, colors, and forms"
+            "caption": "Fisherman - Philosophical image of a fisherman between a desert and an ocean divided by a book wall (2014)"
         },
         {
             "url": "assets/images/works/misc-art/misc-03.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-03_thumb.jpg",
-            "caption": "A unique art experiment blending various media and techniques"
+            "caption": "Hercules - Sculpture depicting Hercules fighting the lion (2021)"
         },
         {
             "url": "assets/images/works/paintings/p-17.jpg",
             "thumbnail": "assets/images/works/paintings/p-17_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Hercules - Digital Painting (2021)"
         },
         {
             "url": "assets/images/works/misc-art/misc-04.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-04_thumb.jpg",
-            "caption": "Mixed media exploration of abstract concepts"
+            "caption": "Gypsy - Digital Collage (2018)"
         },
         {
             "url": "assets/images/works/misc-art/misc-05.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-05_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Metro Detail - Shot of characters in the metro art image (2015)"
         },
         {
             "url": "assets/images/works/misc-art/misc-06.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-06_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Metro Detail - Shot of characters in the metro art image (2015)"
         },
         {
             "url": "assets/images/works/misc-art/misc-07.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-07_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Metro Detail - Shot of characters in the metro art image (2015)"
         },
         {
             "url": "assets/images/works/misc-art/misc-08.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-08_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Facial Study created with custom 'face' application"
         },
         {
             "url": "assets/images/works/misc-art/misc-09.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-09_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Facial Study created with custom 'face' application"
         },
         {
             "url": "assets/images/works/misc-art/misc-10.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-10_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Facial Study created with custom 'face' application"
         },
         {
             "url": "assets/images/works/misc-art/misc-11.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-11_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Facial Study created with custom 'face' application"
         },
         {
             "url": "assets/images/works/misc-art/misc-12.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-12_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Facial Study created with custom 'face' application"
         },
         {
             "url": "assets/images/works/misc-art/misc-13.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-13_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Facial Study created with custom 'face' application"
         },
         {
             "url": "assets/images/works/misc-art/misc-19.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-19_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Hell Map - Concept Design"
         },
         {
             "url": "assets/images/works/misc-art/misc-27.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-27_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "King - Character Concept (2024)"
         },
         {
             "url": "assets/images/works/misc-art/misc-15.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-15_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Rockilius - Fighter battling a large octopus in the deep ocean (2011)"
         },
         {
             "url": "assets/images/works/misc-art/misc-16.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-16_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Flemish Soldier - Character Concept (2011)"
         },
         {
             "url": "assets/images/works/misc-art/misc-21.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-21_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Dragon Island - Showing an island with dragons (2010)"
         },
         {
             "url": "assets/images/works/misc-art/misc-26.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-26_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Screamer - Creature Design (2009)"
         },
         {
             "url": "assets/images/works/misc-art/misc-28.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-28_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
+            "caption": "Room - Personal Project (2008)"
         }
     ],
     "process": [
         {
-            "title": "Idea Generation",
-            "description": "Exploring uncharted creative territories and sketching multiple ideas.",
-            "date": "January 2010",
+            "title": "Idea Generation & Exploration",
+            "description": "Venturing into uncharted creative territories, from initial brainstorming and sketching to exploring unconventional concepts.",
+            "date": "2010-2024",
             "image": "assets/images/works/misc-art/misc-01.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-01_thumb.jpg"
         },
         {
-            "title": "Experimental Execution",
-            "description": "Combining various media and digital techniques to create a unique aesthetic.",
-            "date": "March 2010",
+            "title": "Diverse Media & Technique Application",
+            "description": "Combining a wide array of media and digital techniques, often in unexpected ways, to achieve unique and experimental aesthetics.",
+            "date": "2010-2024",
             "image": "assets/images/works/misc-art/misc-02.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-02_thumb.jpg"
         },
         {
-            "title": "Review & Iteration",
-            "description": "Evaluating outcomes and refining the work based on experimental feedback.",
-            "date": "June 2010",
+            "title": "Iterative Refinement & Learning",
+            "description": "Evaluating the outcomes of experiments, gathering insights, and iteratively refining the work based on the unique challenges and feedback of each project.",
+            "date": "2010-2024",
             "image": "assets/images/works/misc-art/misc-03.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-03_thumb.jpg"
         }

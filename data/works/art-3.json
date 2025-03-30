@@ -1,7 +1,7 @@
 {
     "id": "art-3",
     "title": "Game Art Collaborations",
-    "fullDescription": "A curated collection of artworks produced during collaborations on various game projects. This portfolio features concept art, in-game assets, character designs, and environmental illustrations created for titles such as LandRocker, Battle of Rovers, Avatar Maker, and Alef Games.",
+    "fullDescription": "A curated selection of artworks representing my role as Art Director and mentor for the art teams on 'LandRocker,' 'Battle of Rovers,' 'Avatar Maker,' and 'Alef WebGL.' This collection showcases the talent and dedication of the collaborating artists (M.K., M.F., S.B., S.S., Gh.Kh., M.R., M.K2., M.Gh., K.M., S.R.), whose entirely human-crafted artwork reflects a commitment to skilled artistry without the use of AI generation.",
     "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2019 - 2025",
     "tools": [
@@ -14,116 +14,102 @@
         {
             "url": "assets/images/works/game-art/lr_01.jpg",
             "thumbnail": "assets/images/works/game-art/lr_01_thumb.jpg",
-            "caption": "Detailed environment design from an interactive game level"
+            "caption": "'LandRocker' - Rovers, Spaceships, and Planet Details (2020)"
         },
         {
             "url": "assets/images/works/game-art/ga-03.webp",
             "thumbnail": "assets/images/works/game-art/ga-03.webp",
-            "caption": "High-resolution asset illustration for in-game use"
+            "caption": "'LandRocker' - Poster, Character Design, and Creature Design"
         },
         {
             "url": "assets/images/works/game-art/ga-01.jpg",
             "thumbnail": "assets/images/works/game-art/ga-01_thumb.jpg",
-            "caption": "Initial character concept for a fantasy game"
+            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design"
         }
     ],
     "gallery": [
         {
             "url": "assets/images/works/game-art/ga-01.jpg",
             "thumbnail": "assets/images/works/game-art/ga-01_thumb.jpg",
-            "caption": "Initial character concept for a fantasy game"
+            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design"
         },
         {
             "url": "assets/images/works/game-art/ga-02.jpg",
             "thumbnail": "assets/images/works/game-art/ga-02_thumb.jpg",
-            "caption": "Detailed environment design from an interactive game level"
+            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design"
         },
         {
             "url": "assets/images/works/game-art/ga-03.jpg",
             "thumbnail": "assets/images/works/game-art/ga-03_thumb.jpg",
-            "caption": "High-resolution asset illustration for in-game use"
+            "caption": "'LandRocker' - Poster, Character Design, and Creature Design"
         },
         {
             "url": "assets/images/works/game-art/ga-04.jpg",
             "thumbnail": "assets/images/works/game-art/ga-04_thumb.jpg",
-            "caption": "Character animation sequence breakdown"
+            "caption": "'Battle of Rovers' - Game Environment Design"
         },
         {
             "url": "assets/images/works/game-art/ga-05.jpg",
             "thumbnail": "assets/images/works/game-art/ga-05_thumb.jpg",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "Metaverse Environment Design"
         },
         {
             "url": "assets/images/works/game-art/ga-06.jpg",
             "thumbnail": "assets/images/works/game-art/ga-06_thumb.jpg",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "Metaverse Environment Design"
         },
         {
             "url": "assets/images/works/game-art/ga-07.jpg",
             "thumbnail": "assets/images/works/game-art/ga-07_thumb.jpg",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "'LandRocker' - Rover Design"
         },
         {
             "url": "assets/images/works/game-art/ga-08.jpg",
             "thumbnail": "assets/images/works/game-art/ga-08_thumb.jpg",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "'LandRocker' - Rover Design"
         },
         {
             "url": "assets/images/works/game-art/ga-09.jpg",
             "thumbnail": "assets/images/works/game-art/ga-09_thumb.jpg",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "'Avatar Maker' - Character Design"
         },
         {
             "url": "assets/images/works/game-art/ga-10.jpg",
             "thumbnail": "assets/images/works/game-art/ga-10_thumb.jpg",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "'Avatar Maker' - Character Design"
         },
         {
             "url": "assets/images/works/game-art/ga-11.jpg",
             "thumbnail": "assets/images/works/game-art/ga-11_thumb.jpg",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "'Avatar Maker' - Character Design"
         },
         {
             "url": "assets/videos/works/game-art/ga-01.mp4",
             "thumbnail": "assets/videos/works/game-art/ga-01_thumb.mp4",
-            "caption": "Environment concept art for fantasy game"
+            "caption": "'LandRocker' - Character Design Showcase"
         }
     ],
     "process": [
         {
-            "title": "Concept Development",
-            "description": "Ideation sessions to establish visual style and game aesthetics.",
-            "date": "January 2019",
+            "title": "Art Direction & Vision Setting",
+            "description": "Establishing the overall visual style and artistic direction for each game, ensuring a cohesive aesthetic across all assets.",
+            "date": "2019-2025",
             "image": "assets/images/works/game-art/lr_030.jpg",
             "thumbnail": "assets/images/works/game-art/lr_030_thumb.jpg"
         },
         {
-            "title": "Asset Production",
-            "description": "Creation of high-fidelity assets and characters, optimized for real-time rendering.",
-            "date": "March 2019",
+            "title": "Team Mentorship & Guidance",
+            "description": "Providing mentorship and guidance to the art team, fostering their skills in asset and character creation optimized for real-time rendering.",
+            "date": "2019-2025",
             "image": "assets/images/works/game-art/lr_032.jpg",
             "thumbnail": "assets/images/works/game-art/lr_032_thumb.jpg"
         },
         {
-            "title": "Iterative Refinement",
-            "description": "Collaborative feedback and iterative revisions to ensure the art aligns with game design.",
-            "date": "June 2019",
+            "title": "Collaborative Feedback & Iteration",
+            "description": "Leading collaborative feedback sessions and guiding iterative revisions to ensure the artwork effectively supports the game design and vision.",
+            "date": "2019-2025",
             "image": "assets/images/works/game-art/lr_034.jpg",
             "thumbnail": "assets/images/works/game-art/lr_034_thumb.jpg"
-        },
-        {
-            "title": "Iterative Refinement",
-            "description": "Collaborative feedback and iterative revisions to ensure the art aligns with game design.",
-            "date": "June 2019",
-            "image": "assets/images/works/game-art/lr_035.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_035_thumb.jpg"
-        },
-        {
-            "title": "Iterative Refinement",
-            "description": "Collaborative feedback and iterative revisions to ensure the art aligns with game design.",
-            "date": "June 2019",
-            "image": "assets/images/works/game-art/lr_036.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_036_thumb.jpg"
         }
     ]
 }

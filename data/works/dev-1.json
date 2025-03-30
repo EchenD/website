@@ -1,173 +1,206 @@
 {
     "id": "dev-1",
     "title": "LandRocker Game",
-    "fullDescription": "A multiplayer space mining game that leverages a unique seed-based planet generator and voxel technology. The project required the integration of procedural generation systems and a physics-based rover controller to allow for unlimited, diggable planets. Players can explore, mine resources, build bases, and engage in multiplayer activities across the procedurally generated universe.",
+    "fullDescription": "LandRocker is a multiplayer space mining game that I was deeply involved in for nearly four years, taking it from initial prototyping to a production-ready state. My contributions spanned across the entire development cycle, including the creation of Android and iOS versions, setting up robust multiplayer functionality, overseeing finalization, and managing a team of developers to achieve production readiness. Key technical achievements include leveraging a voxel generation asset to build a seed-based planet generator, developing a sophisticated rover controller with realistic physics on spherical planets featuring a dynamic day and night system and a custom auto-rigger. The rover was engineered with the ability to dig and fly, and I significantly enhanced Cinemachine to create a dynamic and engaging camera system. Collaborating closely with the development team, we also implemented a third-person character controller for expanded gameplay modes and refined the universe and galaxy system, along with the main menu UI.",
     "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2019-2022",
     "tools": [
         "Unity3D",
         "C#",
         "Photon Fusion",
+        "Voxel Generation Assets",
         "Procedural Generation",
+        "Physics Engine",
+        "Cinemachine",
+        "Android",
+        "iOS",
         "Shader Graph"
     ],
-    "role": "Lead Technical Artist & Project Manager",
+    "role": "Lead Developer, Technical Artist & Project Manager",
     "images": [
         {
             "url": "assets/videos/works/landrocker/landrocker3.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker3_thumb.mp4",
-            "caption": "Rover exploring the procedurally generated terrain"
+            "caption": "Rover exploring a procedurally generated planet with dynamic day/night cycle"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker4.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker4_thumb.mp4",
-            "caption": "Mining operation on an asteroid surface"
+            "caption": "Rover digging operation on a spherical planet"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
-            "caption": "Custom rover designs with physics-based controls"
+            "caption": "Rover with flight ability and dynamic camera system in action"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/landrocker/landrocker3.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker3_thumb.mp4",
-            "caption": "Rover exploring the procedurally generated terrain"
+            "caption": "Rover exploring a procedurally generated planet with dynamic day/night cycle"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker4.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker4_thumb.mp4",
-            "caption": "Mining operation on an asteroid surface"
+            "caption": "Rover digging operation on a spherical planet"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
-            "caption": "Custom rover designs with physics-based controls"
+            "caption": "Rover with flight ability and dynamic camera system in action"
         },
         {
             "url": "assets/images/works/landrocker/lr-00.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-00_thumb.jpg",
-            "caption": "Rover exploring the procedurally generated terrain"
+            "caption": "Seed-based planet generator creating diverse voxel-based worlds"
         },
         {
             "url": "assets/images/works/landrocker/lr-01.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg",
-            "caption": "Mining operation on an asteroid surface"
+            "caption": "Rover controller with realistic physics on a spherical planet"
         },
         {
             "url": "assets/images/works/landrocker/lr-02.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg",
-            "caption": "Custom rover designs with physics-based controls"
+            "caption": "Rover demonstrating its digging ability"
         },
         {
             "url": "assets/images/works/landrocker/lr-03.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-03_thumb.jpg",
-            "caption": "Space station hub for multiplayer interactions"
+            "caption": "Rover utilizing its flight capability"
         },
         {
             "url": "assets/images/works/landrocker/lr-04.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-04_thumb.jpg",
-            "caption": "Resource processing facility built by players"
+            "caption": "Dynamic camera system enhancing the rover exploration experience"
         },
         {
             "url": "assets/images/works/landrocker/lr-05.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-05_thumb.jpg",
-            "caption": "Night exploration with dynamic lighting system"
+            "caption": "Dynamic day and night system on a procedurally generated planet"
         },
         {
             "url": "assets/images/works/landrocker/lr-06.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-06_thumb.jpg",
-            "caption": "Multiplayer mining operation with rover fleet"
+            "caption": "Multiplayer interaction within the LandRocker universe"
         },
         {
             "url": "assets/images/works/landrocker/lr-07.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-07_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "Third-person character controller in one of LandRocker's game modes"
         },
         {
             "url": "assets/images/works/landrocker/lr-09.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-09_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "Enhanced universe and galaxy system for navigation"
         },
         {
             "url": "assets/images/works/landrocker/lr-10.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-10_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "Refined main menu UI for a better user experience"
         },
         {
             "url": "assets/images/works/landrocker/lr-11.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-11_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "Rover auto-rigger system in action"
         },
         {
             "url": "assets/images/works/landrocker/lr-12.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-12_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "LandRocker on iOS platform"
         },
         {
             "url": "assets/images/works/landrocker/lr-13.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-13_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "LandRocker on Android platform"
         },
         {
             "url": "assets/images/works/landrocker/lr-14.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-14_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "Prototyping phase of LandRocker's core mechanics"
         },
         {
             "url": "assets/images/works/landrocker/lr-16.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-16_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "Finalized and production-ready build of LandRocker"
         },
         {
             "url": "assets/images/works/landrocker/lr-18.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-18_thumb.jpg",
-            "caption": "Custom vehicle workshop interface"
+            "caption": "Team collaboration during LandRocker's development"
         }
     ],
     "process": [
         {
-            "title": "Concept & Design Phase",
-            "description": "Initial game design document creation, concept art development, and core gameplay mechanics definition. The team worked on creating the central vision for a multiplayer space mining experience with unlimited exploration possibilities.",
-            "date": "January 2019",
+            "title": "Initial Prototyping & Core Mechanics",
+            "description": "Developed the foundational gameplay loop and experimented with core mechanics, including initial versions of the planet generation and rover control.",
+            "date": "2019",
+            "image": "assets/images/works/landrocker/lr-14.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-14_thumb.jpg"
+        },
+        {
+            "title": "Seed-Based Planet Generator Development",
+            "description": "Integrated a voxel generation asset and engineered a seed-based system to create an infinite universe of unique, diggable planets with varied terrain and resources.",
+            "date": "2019",
             "image": "assets/images/works/landrocker/lr-00.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-00_thumb.jpg"
         },
         {
-            "title": "Procedural Generation System",
-            "description": "Development of the seed-based planet generation system that creates limitless unique worlds with varying terrain, resources, and environments based on mathematical algorithms and noise functions.",
-            "date": "May 2019",
+            "title": "Physics-Based Rover Controller & Auto-Rigger",
+            "description": "Designed and implemented a realistic physics-based rover controller for spherical planets, incorporating a dynamic day and night system and a custom auto-rigger for smooth interactions with the terrain.",
+            "date": "2019",
             "image": "assets/images/works/landrocker/lr-01.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg"
         },
         {
-            "title": "Rover Physics Engine",
-            "description": "Implementation of a custom physics-based rover controller that realistically interacts with the procedurally generated terrain, allowing for an immersive driving experience on different planetary surfaces.",
-            "date": "September 2019",
+            "title": "Rover Flight & Digging Mechanics",
+            "description": "Expanded the rover's capabilities to include digging functionalities for resource extraction and flight mechanics for enhanced exploration.",
+            "date": "2020",
             "image": "assets/images/works/landrocker/lr-02.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg"
         },
         {
-            "title": "Multiplayer Integration",
-            "description": "Integration of Photon Fusion networking to enable seamless multiplayer experiences with up to 32 simultaneous players per server, including lag compensation and state synchronization systems.",
-            "date": "February 2020",
-            "image": "assets/images/works/landrocker/lr-03.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-03_thumb.jpg"
-        },
-        {
-            "title": "Resource System & Economy",
-            "description": "Development of the resource gathering, processing, and economy systems that form the core gameplay loop, allowing players to mine, refine, and trade various materials across the game universe.",
-            "date": "July 2020",
+            "title": "Dynamic Camera System with Cinemachine",
+            "description": "Enhanced Cinemachine to create a dynamic and adaptable camera system that provides an optimal viewing experience for rover exploration and gameplay.",
+            "date": "2020",
             "image": "assets/images/works/landrocker/lr-04.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-04_thumb.jpg"
         },
         {
-            "title": "Beta Testing & Optimization",
-            "description": "Extensive beta testing phase with community feedback integration, performance optimization across various hardware configurations, and final balancing of game systems before launch.",
-            "date": "January 2021",
-            "image": "assets/images/works/landrocker/lr-05.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-05_thumb.jpg"
+            "title": "Multiplayer Implementation with Photon Fusion",
+            "description": "Set up and integrated Photon Fusion to enable a seamless multiplayer experience for players to interact, mine, and explore together.",
+            "date": "2021",
+            "image": "assets/images/works/landrocker/lr-06.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-06_thumb.jpg"
+        },
+        {
+            "title": "Third-Person Character Controller & Universe Expansion",
+            "description": "Collaborated with the development team to add a third-person character controller for different game modes and further enhanced the universe and galaxy system.",
+            "date": "2021",
+            "image": "assets/images/works/landrocker/lr-07.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-07_thumb.jpg"
+        },
+        {
+            "title": "Android & iOS Version Development",
+            "description": "Led the development efforts to create functional versions of LandRocker for both Android and iOS mobile platforms.",
+            "date": "2022",
+            "image": "assets/images/works/landrocker/lr-12.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-12_thumb.jpg"
+        },
+        {
+            "title": "UI/UX Refinement & Main Menu Design",
+            "description": "Contributed to the refinement of the user interface and user experience, including the design and implementation of the main menu.",
+            "date": "2022",
+            "image": "assets/images/works/landrocker/lr-10.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-10_thumb.jpg"
+        },
+        {
+            "title": "Team Management & Production Readiness",
+            "description": "Managed a team of developers, oversaw the finalization of the game, and guided the project to a production-ready state.",
+            "date": "2022",
+            "image": "assets/images/works/landrocker/lr-16.jpg",
+            "thumbnail": "assets/images/works/landrocker/lr-16_thumb.jpg"
         }
     ]
 }

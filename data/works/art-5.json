@@ -1,145 +1,145 @@
 {
     "id": "art-5",
     "title": "Paintings & Personal Art",
-    "fullDescription": "A vibrant collection of personal paintings and mixed media artworks that explore abstract themes and narrative storytelling. This body of work reflects experimental techniques and a personal artistic vision, blending traditional mediums with digital enhancements.",
+    "fullDescription": "This collection primarily features portraiture across various mediums, including digital paintings that capture nuanced expressions, traditional pencil paintings offering a classic touch, and tactile clay sculptures. These personal artworks explore a range of subjects and styles, reflecting a passion for both digital and traditional artistic techniques.",
     "client": "Personal Art",
-    "date": "2012 - 2024",
+    "date": "2012 - 2014",
     "tools": [
-        "Acrylic",
-        "Oil",
-        "Digital Editing Software"
+        "Photoshop",
+        "Pencil",
+        "Clay"
     ],
-    "role": "Painter & Visual Storyteller",
+    "role": "Portrait Artist & Sculptor",
     "images": [
         {
             "url": "assets/images/works/paintings/p-01.jpg",
             "thumbnail": "assets/images/works/paintings/p-01_thumb.jpg",
-            "caption": "A colorful exploration of form and texture"
+            "caption": "Digital portrait of an actress"
         },
         {
             "url": "assets/images/works/paintings/p-02.jpg",
             "thumbnail": "assets/images/works/paintings/p-02_thumb.jpg",
-            "caption": "Layered composition combining acrylics and digital overlays"
+            "caption": "Digital portrait of an actor"
         },
         {
             "url": "assets/images/works/paintings/p-03.jpg",
             "thumbnail": "assets/images/works/paintings/p-03_thumb.jpg",
-            "caption": "Expressive portrait capturing raw emotion and depth"
+            "caption": "Digital portrait of an actor"
         }
     ],
     "gallery": [
         {
             "url": "assets/images/works/paintings/p-01.jpg",
             "thumbnail": "assets/images/works/paintings/p-01_thumb.jpg",
-            "caption": "A colorful exploration of form and texture"
+            "caption": "Digital portrait of an actress"
         },
         {
             "url": "assets/images/works/paintings/p-02.jpg",
             "thumbnail": "assets/images/works/paintings/p-02_thumb.jpg",
-            "caption": "Layered composition combining acrylics and digital overlays"
+            "caption": "Digital portrait of an actor"
         },
         {
             "url": "assets/images/works/paintings/p-03.jpg",
             "thumbnail": "assets/images/works/paintings/p-03_thumb.jpg",
-            "caption": "Expressive portrait capturing raw emotion and depth"
+            "caption": "Digital portrait of an actor"
         },
         {
             "url": "assets/images/works/paintings/p-04.jpg",
             "thumbnail": "assets/images/works/paintings/p-04_thumb.jpg",
-            "caption": "Abstract study in color relationships"
+            "caption": "Digital stylized portrait of a girl"
         },
         {
             "url": "assets/images/works/paintings/p-05.jpg",
             "thumbnail": "assets/images/works/paintings/p-05_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital cloth design"
         },
         {
             "url": "assets/images/works/paintings/p-06.jpg",
             "thumbnail": "assets/images/works/paintings/p-06_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital painting: Wicked Witch"
         },
         {
             "url": "assets/images/works/paintings/p-07.jpg",
             "thumbnail": "assets/images/works/paintings/p-07_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital painting: Leaving Home"
         },
         {
             "url": "assets/images/works/paintings/p-08.jpg",
             "thumbnail": "assets/images/works/paintings/p-08_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital portrait of a girl"
         },
         {
             "url": "assets/images/works/paintings/p-11.jpg",
             "thumbnail": "assets/images/works/paintings/p-11_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-12.jpg",
             "thumbnail": "assets/images/works/paintings/p-12_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-13.jpg",
             "thumbnail": "assets/images/works/paintings/p-13_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-14.jpg",
             "thumbnail": "assets/images/works/paintings/p-14_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-15.jpg",
             "thumbnail": "assets/images/works/paintings/p-15_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-16.jpg",
             "thumbnail": "assets/images/works/paintings/p-16_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Digital portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-09.jpg",
             "thumbnail": "assets/images/works/paintings/p-09_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Pencil portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-10.jpg",
             "thumbnail": "assets/images/works/paintings/p-10_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Pencil portrait study"
         },
         {
             "url": "assets/images/works/paintings/p-18.jpg",
             "thumbnail": "assets/images/works/paintings/p-18_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Clay sculpture"
         },
         {
             "url": "assets/images/works/paintings/p-19.jpg",
             "thumbnail": "assets/images/works/paintings/p-19_thumb.jpg",
-            "caption": "Mixed media exploration of texture and light"
+            "caption": "Clay sculpture: Balerian"
         }
     ],
     "process": [
         {
-            "title": "Inspiration & Research",
-            "description": "Exploring diverse themes and gathering references from art history and modern culture.",
-            "date": "January 2012",
+            "title": "Inspiration & Sketching",
+            "description": "Developing initial concepts and sketches for portraits and other subjects, exploring different compositions and expressions.",
+            "date": "2012-2014",
             "image": "assets/images/works/paintings/p-01.jpg",
             "thumbnail": "assets/images/works/paintings/p-01_thumb.jpg"
         },
         {
-            "title": "Layered Creation",
-            "description": "Applying traditional painting techniques with digital enhancements for depth and vibrancy.",
-            "date": "March 2012",
-            "image": "assets/images/works/paintings/p-02.jpg",
-            "thumbnail": "assets/images/works/paintings/p-02_thumb.jpg"
+            "title": "Medium Exploration",
+            "description": "Experimenting with various mediums such as digital painting, pencil drawing, and clay sculpting to bring the concepts to life.",
+            "date": "2012-2014",
+            "image": "assets/images/works/paintings/p-08.jpg",
+            "thumbnail": "assets/images/works/paintings/p-08_thumb.jpg"
         },
         {
-            "title": "Final Touches",
-            "description": "Meticulous detailing and color correction to produce a cohesive final piece.",
-            "date": "June 2012",
-            "image": "assets/images/works/paintings/p-03.jpg",
-            "thumbnail": "assets/images/works/paintings/p-03_thumb.jpg"
+            "title": "Refinement & Detailing",
+            "description": "Adding layers of detail and refining the artwork to achieve the desired level of realism or artistic style in each piece.",
+            "date": "2012-2014",
+            "image": "assets/images/works/paintings/p-18.jpg",
+            "thumbnail": "assets/images/works/paintings/p-18_thumb.jpg"
         }
     ]
 }
