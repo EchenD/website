@@ -2,6 +2,7 @@
     "id": "art-5",
     "title": "Paintings & Personal Art",
     "fullDescription": "A vibrant collection of personal paintings and mixed media artworks that explore abstract themes and narrative storytelling. This body of work reflects experimental techniques and a personal artistic vision, blending traditional mediums with digital enhancements.",
+    "client": "Personal Art",
     "date": "2012 - 2024",
     "tools": [
         "Acrylic",
@@ -105,6 +106,16 @@
         {
             "url": "assets/images/works/paintings/p-10.jpg",
             "thumbnail": "assets/images/works/paintings/p-10_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-18.jpg",
+            "thumbnail": "assets/images/works/paintings/p-18_thumb.jpg",
+            "caption": "Mixed media exploration of texture and light"
+        },
+        {
+            "url": "assets/images/works/paintings/p-19.jpg",
+            "thumbnail": "assets/images/works/paintings/p-19_thumb.jpg",
             "caption": "Mixed media exploration of texture and light"
         }
     ],

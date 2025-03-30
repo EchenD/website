@@ -2,6 +2,7 @@
     "id": "art-6",
     "title": "Miscellaneous Art Projects",
     "fullDescription": "A diverse collection of experimental and one-off art projects. This category encompasses concept art explorations, experimental digital collages, and creative exercises that challenge traditional boundaries and spark innovation.",
+    "client": "Various Clients",
     "date": "2010 - 2024",
     "tools": [
         "Photoshop",
@@ -98,8 +99,13 @@
             "caption": "Digital art experiment with procedural elements"
         },
         {
-            "url": "assets/images/works/misc-art/misc-14.jpg",
-            "thumbnail": "assets/images/works/misc-art/misc-14_thumb.jpg",
+            "url": "assets/images/works/misc-art/misc-19.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc-19_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc-27.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc-27_thumb.jpg",
             "caption": "Digital art experiment with procedural elements"
         },
         {
@@ -113,11 +119,6 @@
             "caption": "Digital art experiment with procedural elements"
         },
         {
-            "url": "assets/images/works/misc-art/misc-19.jpg",
-            "thumbnail": "assets/images/works/misc-art/misc-19_thumb.jpg",
-            "caption": "Digital art experiment with procedural elements"
-        },
-        {
             "url": "assets/images/works/misc-art/misc-21.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-21_thumb.jpg",
             "caption": "Digital art experiment with procedural elements"
@@ -125,6 +126,11 @@
         {
             "url": "assets/images/works/misc-art/misc-26.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-26_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/images/works/misc-art/misc-28.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc-28_thumb.jpg",
             "caption": "Digital art experiment with procedural elements"
         }
     ],

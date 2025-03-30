@@ -855,6 +855,10 @@ async function openWorkModal(workId) {
                 <div class="work-gallery"></div>
                 <div class="work-details">
                     <div class="work-description"></div>
+                    <div class="work-client-info" style="margin-top: 1.5rem;">
+                        <strong>Client:</strong>
+                        <span class="work-client"></span>
+                    </div>
                     <div class="work-meta">
                         <div class="meta-item">
                             <strong>Date:</strong>
@@ -887,6 +891,7 @@ async function openWorkModal(workId) {
         // Re-get elements after reconstruction
         const modalDescription = modal.querySelector('.work-description');
         const modalGallery = modal.querySelector('.work-gallery');
+        const modalClient = modal.querySelector('.work-client');
         const modalDate = modal.querySelector('.work-date');
         const modalTools = modal.querySelector('.work-tools');
         const modalRole = modal.querySelector('.work-role');
@@ -896,6 +901,7 @@ async function openWorkModal(workId) {
         // Populate modal content
         if (modalTitle) modalTitle.textContent = workDetail.title;
         if (modalDescription) modalDescription.innerHTML = workDetail.fullDescription || workDetail.description;
+        if (modalClient) modalClient.innerHTML = workDetail.client || '';
         if (modalDate) modalDate.textContent = workDetail.date;
         if (modalTools) modalTools.textContent = workDetail.tools ? workDetail.tools.join(', ') : '';
         if (modalRole) modalRole.textContent = workDetail.role || '';

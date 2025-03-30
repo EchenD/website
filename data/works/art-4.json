@@ -2,6 +2,7 @@
     "id": "art-4",
     "title": "Digital Doubles",
     "fullDescription": "A comprehensive showcase of over 20 digital doubles created for film productions. This work highlights the technical and artistic challenges of replicating realistic characters and creatures. Each digital double was meticulously crafted to blend seamlessly with live-action footage, enhancing cinematic realism.",
+    "client": "<a href='https://mainroadpost.com' target='_blank' class='client-link'>Main Road Post</a>",
     "date": "2015 - 2023",
     "tools": [
         "ZBrush",
@@ -42,11 +43,6 @@
             "url": "assets/images/works/digital-doubles/dd-02.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-02_thumb.jpg",
             "caption": "Side-by-side comparison of actor and digital double"
-        },
-        {
-            "url": "assets/images/works/digital-doubles/dd-03.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-03_thumb.jpg",
-            "caption": "Close-up detail of facial features and texturing"
         },
         {
             "url": "assets/images/works/digital-doubles/dd-04.jpg",
@@ -152,21 +148,6 @@
             "url": "assets/images/works/digital-doubles/dd-21.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-21_thumb.jpg",
             "caption": "Full body digital double in action pose"
-        },
-        {
-            "url": "assets/images/works/digital-doubles/dd-22.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-22_thumb.jpg",
-            "caption": "Full body digital double in action pose"
-        },
-        {
-            "url": "assets/images/works/digital-doubles/dd-23.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-23_thumb.jpg",
-            "caption": "Full body digital double in action pose"
-        },
-        {
-            "url": "assets/images/works/digital-doubles/dd-24.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-24_thumb.jpg",
-            "caption": "Full body digital double in action pose"
         }
     ],
     "process": [
@@ -174,22 +155,29 @@
             "title": "Data Acquisition",
             "description": "Gathering reference data and high-resolution scans of actors for accurate digital reproduction.",
             "date": "January 2015",
-            "image": "assets/images/works/digital-doubles/dd-00.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-00_thumb.jpg"
+            "image": "assets/images/works/digital-doubles/dd-03.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-03_thumb.jpg"
         },
         {
             "title": "Digital Sculpting",
             "description": "Sculpting highly detailed models using ZBrush and refining textures and features.",
             "date": "March 2015",
-            "image": "assets/images/works/digital-doubles/dd-01.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-01_thumb.jpg"
+            "image": "assets/images/works/digital-doubles/dd-22.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-22_thumb.jpg"
         },
         {
             "title": "Integration & Compositing",
             "description": "Integrating digital doubles into live-action scenes using compositing techniques and VFX tools.",
             "date": "June 2015",
-            "image": "assets/images/works/digital-doubles/dd-02.jpg",
-            "thumbnail": "assets/images/works/digital-doubles/dd-02_thumb.jpg"
+            "image": "assets/images/works/digital-doubles/dd-23.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-23_thumb.jpg"
+        },
+        {
+            "title": "Integration & Compositing",
+            "description": "Integrating digital doubles into live-action scenes using compositing techniques and VFX tools.",
+            "date": "June 2015",
+            "image": "assets/images/works/digital-doubles/dd-24.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-24_thumb.jpg"
         }
     ]
 }

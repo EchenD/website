@@ -2,6 +2,7 @@
     "id": "dev-5",
     "title": "VR/AR & Interactive Projects",
     "fullDescription": "A diverse collection of VR, AR, Kinect, and interactive installations developed for exhibitions and events. These projects explore the intersection of technology and art, delivering immersive experiences that enhance audience engagement through innovative simulation and interactive design.",
+    "client": "Irancell, Abedini, Novo Nordisk",
     "date": "2016 - 2023",
     "tools": [
         "Unity3D",

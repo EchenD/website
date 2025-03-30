@@ -2,11 +2,14 @@
     "id": "art-2",
     "title": "Sculptures",
     "fullDescription": "A personal collection of six intricate sculptures created using ZBrush, 3ds Max, and Photoshop. Each sculpture represents a fusion of traditional art techniques with modern digital sculpting. Turntable videos on YouTube showcase the full 360° view of these pieces, emphasizing texture, detail, and form.  httpswww.youtube.com@echendeligani1799",
+    "client": "Personal Art",
     "date": "2022 - 2024",
     "tools": [
         "ZBrush",
         "3ds Max",
-        "Photoshop"
+        "Photoshop",
+        "Fume FX",
+        "V-Ray"
     ],
     "role": "Sculptor & Digital Artist",
     "images": [

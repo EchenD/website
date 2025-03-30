@@ -3600,4 +3600,16 @@ video.media-error {
     }
 }
 
-/* ... existing code ... */
+
+.client-link {
+    color: #FFA500;
+    /* Orange color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.client-link:hover {
+    color: #FF8C00;
+    /* Darker orange on hover */
+    text-decoration: underline;
+}

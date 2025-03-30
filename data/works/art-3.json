@@ -2,6 +2,7 @@
     "id": "art-3",
     "title": "Game Art Collaborations",
     "fullDescription": "A curated collection of artworks produced during collaborations on various game projects. This portfolio features concept art, in-game assets, character designs, and environmental illustrations created for titles such as LandRocker, Battle of Rovers, Avatar Maker, and Alef Games.",
+    "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2019 - 2025",
     "tools": [
         "Photoshop",
@@ -80,6 +81,11 @@
         {
             "url": "assets/images/works/game-art/ga-11.jpg",
             "thumbnail": "assets/images/works/game-art/ga-11_thumb.jpg",
+            "caption": "Environment concept art for fantasy game"
+        },
+        {
+            "url": "assets/videos/works/game-art/ga-01.mp4",
+            "thumbnail": "assets/videos/works/game-art/ga-01_thumb.mp4",
             "caption": "Environment concept art for fantasy game"
         }
     ],

@@ -2,6 +2,7 @@
     "id": "dev-2",
     "title": "Battle of Rovers",
     "fullDescription": "A cutting-edge multiplayer AAA game designed to support up to 200 concurrent users. The project focused on advanced gameplay systems, network optimization, and seamless integration with Steam, delivering a scalable and engaging multiplayer experience.",
+    "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2020 - 2025",
     "tools": [
         "Unity3D",
@@ -28,6 +29,11 @@
         }
     ],
     "gallery": [
+        {
+            "url": "assets/videos/works/battle-of-rovers/bor-01.mp4",
+            "thumbnail": "assets/videos/works/battle-of-rovers/bor-01_thumb.mp4",
+            "caption": "Action-packed gameplay with high-fidelity graphics"
+        },
         {
             "url": "assets/images/works/battle-of-rovers/bor-01.jpg",
             "thumbnail": "assets/images/works/battle-of-rovers/bor-01_thumb.jpg",

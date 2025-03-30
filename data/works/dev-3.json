@@ -2,6 +2,7 @@
     "id": "dev-3",
     "title": "Avatar Maker",
     "fullDescription": "An interactive WebGL avatar maker developed for a major football world championship event. The application allows users to customize avatars with team jerseys and facial features, with an integrated QR code feature for saving and sharing creations, thereby boosting user engagement.",
+    "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2021 - 2022",
     "tools": [
         "WebGL",

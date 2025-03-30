@@ -2,6 +2,7 @@
     "id": "art-1",
     "title": "Movies & Animations",
     "fullDescription": "An extensive portfolio of artworks created for various movies and animations, showcasing a diverse range of styles and techniques. This collection includes character designs, environment concepts, and visual effects work that has contributed to multiple productions.",
+    "client": "<a href='https://mainroadpost.com' target='_blank' class='client-link'>Main Road Post</a>, Online VFX and CubinCup Animation",
     "date": "2020-2025",
     "tools": [
         "ZBrush",
@@ -30,8 +31,33 @@
     ],
     "gallery": [
         {
+            "url": "assets/videos/works/movies/ex-01.mp4",
+            "thumbnail": "assets/videos/works/movies/ex-01_thumb.mp4",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
             "url": "assets/images/works/movies/mo-01.jpg",
             "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
+            "url": "assets/images/works/movies/mo-21.jpg",
+            "thumbnail": "assets/images/works/movies/mo-21_thumb.jpg",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
+            "url": "assets/images/works/movies/mo-22.jpg",
+            "thumbnail": "assets/images/works/movies/mo-22_thumb.jpg",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
+            "url": "assets/images/works/movies/mo-23.jpg",
+            "thumbnail": "assets/images/works/movies/mo-23_thumb.jpg",
+            "caption": "Alien creature concept design for sci-fi film"
+        },
+        {
+            "url": "assets/images/works/movies/mo-24.jpg",
+            "thumbnail": "assets/images/works/movies/mo-24_thumb.jpg",
             "caption": "Alien creature concept design for sci-fi film"
         },
         {
@@ -125,9 +151,19 @@
             "caption": "Storyboard to 3D comparison for narrative sequence2"
         },
         {
+            "url": "assets/images/works/misc-art/misc-14.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc-14_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
             "url": "assets/videos/works/movies/r-01.mp4",
             "thumbnail": "assets/videos/works/movies/r-01_thumb.mp4",
             "caption": "robiki animation 2011-2012 responsible for modeling of all the characters "
+        },
+        {
+            "url": "assets/images/works/movies/mo-25.jpg",
+            "thumbnail": "assets/images/works/movies/mo-25.jpg",
+            "caption": "Storyboard to 3D comparison for narrative sequence2"
         },
         {
             "url": "assets/images/works/movies/mo-18.jpg",
@@ -177,6 +213,16 @@
         {
             "url": "assets/images/works/movies/misc-25.jpg",
             "thumbnail": "assets/images/works/movies/misc-25_thumb.jpg",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/videos/works/misc-art/misc-01.mp4",
+            "thumbnail": "assets/videos/works/misc-art/misc-01_thumb.mp4",
+            "caption": "Digital art experiment with procedural elements"
+        },
+        {
+            "url": "assets/videos/works/movies/ca-01.mp4",
+            "thumbnail": "assets/videos/works/movies/ca-01_thumb.mp4",
             "caption": "Digital art experiment with procedural elements"
         }
     ],

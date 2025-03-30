@@ -2,6 +2,7 @@
     "id": "dev-4",
     "title": "Alef WebGL Game",
     "fullDescription": "An educational quest game developed in WebGL for Alef University. The game leverages immersive third-person gameplay to raise awareness about climate change, attracting over 11,000 users. It combines interactive storytelling with a rich visual experience to engage and educate players.",
+    "client": "<a href='https://infinite8.ae/' target='_blank' class='client-link'>Infinite8</a>",
     "date": "2020 - 2023",
     "tools": [
         "WebGL",
