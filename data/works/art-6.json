@@ -11,6 +11,11 @@
     "role": "Multidisciplinary Artist",
     "images": [
         {
+            "url": "assets/images/works/misc-art/misc-03.jpg",
+            "thumbnail": "assets/images/works/misc-art/misc-03_thumb.jpg",
+            "caption": "A unique art experiment blending various media and techniques"
+        },
+        {
             "url": "assets/images/works/misc-art/misc-01.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-01_thumb.jpg",
             "caption": "Initial concept sketch that led to an experimental digital collage"
@@ -19,11 +24,6 @@
             "url": "assets/images/works/misc-art/misc-02.jpg",
             "thumbnail": "assets/images/works/misc-art/misc-02_thumb.jpg",
             "caption": "A dynamic fusion of textures, colors, and forms"
-        },
-        {
-            "url": "assets/images/works/misc-art/misc-03.jpg",
-            "thumbnail": "assets/images/works/misc-art/misc-03_thumb.jpg",
-            "caption": "A unique art experiment blending various media and techniques"
         }
     ],
     "gallery": [

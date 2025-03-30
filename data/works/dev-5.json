@@ -23,8 +23,8 @@
             "caption": "Augmented reality installation engaging live audiences"
         },
         {
-            "url": "assets/videos/works/vr-ar/ar-03.mp4",
-            "thumbnail": "assets/videos/works/vr-ar/ar-03_thumb.mp4",
+            "url": "assets/videos/works/vr-ar/ar-08.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-08_thumb.mp4",
             "caption": "Interactive project using Kinect for gesture-based control"
         }
     ],
@@ -62,6 +62,21 @@
         {
             "url": "assets/videos/works/vr-ar/ar-07.mp4",
             "thumbnail": "assets/videos/works/vr-ar/ar-07_thumb.mp4",
+            "caption": "Motion tracking visualization system"
+        },
+        {
+            "url": "assets/images/works/misc-dev/misc-01.jpg",
+            "thumbnail": "assets/images/works/misc-dev/misc-01_thumb.jpg",
+            "caption": "An innovative prototype showcasing creative coding solutions"
+        },
+        {
+            "url": "assets/videos/works/vr-ar/ar-08.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-08_thumb.mp4",
+            "caption": "Motion tracking visualization system"
+        },
+        {
+            "url": "assets/videos/works/vr-ar/ar-09.mp4",
+            "thumbnail": "assets/videos/works/vr-ar/ar-09_thumb.mp4",
             "caption": "Motion tracking visualization system"
         }
     ],
