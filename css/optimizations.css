@@ -1,0 +1,45 @@
+/* Blur-up technique styles */
+.blur-up {
+    filter: blur(10px);
+    transform: scale(1.1);
+    transition: filter 0.3s ease-out, transform 0.3s ease-out;
+}
+
+/* Critical CSS optimizations */
+@media screen and (max-width: 768px) {
+
+    /* Mobile-first optimizations */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Print styles optimization */
+@media print {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* High contrast mode optimization */
+@media (forced-colors: active) {
+    img {
+        forced-color-adjust: none;
+    }
+}

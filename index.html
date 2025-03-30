@@ -4,8 +4,70 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Echen Deligani's Portfolio - Game Developer and Designer">
-    <title>Echen Deligani Portfolio</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Echen Deligani - Game Developer & Digital Artist Portfolio</title>
+    <meta name="title" content="Echen Deligani - Game Developer & Digital Artist Portfolio">
+    <meta name="description"
+        content="Professional portfolio showcasing game development, digital art, and interactive experiences. Expert in Unity, 3D modeling, and creative digital solutions.">
+    <meta name="keywords"
+        content="game developer, digital artist, Unity developer, 3D modeling, portfolio, interactive experiences">
+    <meta name="author" content="Echen Deligani">
+
+    <!-- Critical CSS -->
+    <style>
+        /* Critical rendering path CSS */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .main-content {
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+
+        .main-content.loaded {
+            opacity: 1;
+        }
+    </style>
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="css/optimizations.css" as="style">
+    <link rel="preload" href="js/image-optimization.js" as="script">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://echend.github.io/website/">
+    <meta property="og:title" content="Echen Deligani - Game Developer & Digital Artist Portfolio">
+    <meta property="og:description"
+        content="Professional portfolio showcasing game development, digital art, and interactive experiences. Expert in Unity, 3D modeling, and creative digital solutions.">
+    <meta property="og:image" content="https://echend.github.io/website/assets/icons/thumbnail.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://echend.github.io/website/">
+    <meta property="twitter:title" content="Echen Deligani - Game Developer & Digital Artist Portfolio">
+    <meta property="twitter:description"
+        content="Professional portfolio showcasing game development, digital art, and interactive experiences. Expert in Unity, 3D modeling, and creative digital solutions.">
+    <meta property="twitter:image" content="https://echend.github.io/website/assets/icons/thumbnail.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://echend.github.io/website/">
 
     <!-- Unity WebGL Support -->
     <meta name="unity:webgl:template" content="Portfolio-Website">
@@ -22,7 +84,7 @@
     <!-- Security Headers -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' blob: https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: blob: https:; connect-src 'self' https://www.google-analytics.com https://api.emailjs.com; worker-src 'self' blob:; frame-src 'self'; font-src 'self' https://cdnjs.cloudflare.com;">
+        content="default-src 'self' https:; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https: blob:; worker-src 'self' blob:; child-src 'self' blob:; connect-src 'self' https: blob:; font-src 'self' https: data:;">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <!-- Font Awesome -->
@@ -30,6 +92,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/optimizations.css">
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="assets/icons/favicon.ico">
@@ -40,14 +103,52 @@
 
     <!-- Preload Critical Assets -->
     <link rel="preload" href="assets/icons/loading-spinner.gif" as="image">
-    <link rel="preload" href="js/particle-loader.js" as="script">
-    <link rel="preload" href="js/unity-loader.js" as="script">
-    <link rel="preload" href="js/main.js" as="script">
+    <link rel="preload" href="js/particle-loader.js" as="script" crossorigin="anonymous">
+    <link rel="preload" href="js/unity-loader.js" as="script" crossorigin="anonymous">
+    <link rel="preload" href="js/main.js" as="script" crossorigin="anonymous">
     <link rel="preload" href="css/style.css" as="style">
 
     <!-- Performance Optimization -->
     <link rel="preconnect" href="https://www.google-analytics.com">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Echen Deligani",
+        "url": "https://echend.github.io/website/",
+        "image": "https://echend.github.io/website/assets/icons/thumbnail.png",
+        "sameAs": [
+            "https://github.com/EchenD",
+            "https://www.linkedin.com/in/echen-deligani/"
+        ],
+        "jobTitle": "Game Developer & Digital Artist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance"
+        },
+        "description": "Professional game developer and digital artist specializing in Unity development, 3D modeling, and interactive experiences.",
+        "knowsAbout": ["Game Development", "Unity", "3D Modeling", "Digital Art", "Interactive Experiences"]
+    }
+    </script>
+
+    <!-- Additional JSON-LD for Website -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Echen Deligani Portfolio",
+        "url": "https://echend.github.io/website/",
+        "description": "Professional portfolio showcasing game development, digital art, and interactive experiences.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://echend.github.io/website/#works{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
 </head>
 
 <body>
@@ -495,7 +596,8 @@
     <div id="fullscreenViewer" class="fullscreen-viewer"></div>
 
     <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" crossorigin="anonymous"></script>
+    <script src="js/image-optimization.js" defer crossorigin="anonymous"></script>
     <script>
         // Track script loading state
         window.scriptLoadState = {
@@ -573,10 +675,10 @@
             checkScriptLoadState();
         });
     </script>
-    <script src="js/particle-loader.js" defer></script>
-    <script src="js/unity-loader.js" defer></script>
-    <script type="module" src="js/main.js"></script>
-    <script src="js/contact.js"></script>
+    <script src="js/particle-loader.js" defer crossorigin="anonymous"></script>
+    <script src="js/unity-loader.js" defer crossorigin="anonymous"></script>
+    <script type="module" src="js/main.js" crossorigin="anonymous"></script>
+    <script src="js/contact.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /sitemap.xml
+Disallow: /Build/
+Disallow: /data/
+
+Sitemap: https://echend.github.io/website/sitemap.xml 
