@@ -1217,7 +1217,8 @@ function openProgressPage(workDetail) {
         ? workDetail.process.map(step => ({
             src: step.image || step.thumbnail || 'assets/images/placeholder.jpg',
             caption: step.title || '',
-            description: step.description || ''
+            description: step.description || '',
+            logo: step.logo || null
         }))
         : [];
 
@@ -1367,6 +1368,10 @@ function openFullscreenImage(src, caption, imageCollection = null, index = 0) {
         fullscreenState.hasNavigation = false;
     }
 
+    // Get current image data including potential logo
+    const currentImage = fullscreenState.images[fullscreenState.currentIndex];
+    const logo = currentImage.logo || null;
+
     const isVideo = /\.(mp4|webm|ogg)$/i.test(src);
 
     // Create the initial loading structure
@@ -1381,6 +1386,7 @@ function openFullscreenImage(src, caption, imageCollection = null, index = 0) {
             `}
             <div class="image-placeholder" style="display: none;">Media not available</div>
             ${caption ? `<div class="fullscreen-caption">${caption}</div>` : ''}
+            ${logo ? `<img src="${logo}" alt="Logo" class="fullscreen-logo">` : ''}
             <button class="fullscreen-close">✕</button>
             ${!isVideo ? `<button class="zoom-reset-btn">Reset Zoom</button>` : ''}
             ${fullscreenState.hasNavigation ? `

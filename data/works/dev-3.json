@@ -16,49 +16,58 @@
         {
             "url": "assets/videos/works/avatar-maker/am-01.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
-            "caption": "WebGL Demo: Real-time customization of the male avatar."
+            "caption": "WebGL Demo: Real-time customization of the male avatar.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/avatar-maker/am-02.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4",
-            "caption": "WebGL Demo: Real-time customization of the female avatar."
+            "caption": "WebGL Demo: Real-time customization of the female avatar.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/alef-webgl/al-01.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4",
-            "caption": "Integration Showcase: Avatar maker in action within the Alef game."
+            "caption": "Integration Showcase: Avatar maker in action within the Alef game.",
+            "logo": "assets/images/logos/INF.png"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/avatar-maker/am-01.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
-            "caption": "WebGL Demo: Real-time customization of the male avatar."
+            "caption": "WebGL Demo: Real-time customization of the male avatar.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/avatar-maker/am-02.mp4",
             "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4",
-            "caption": "WebGL Demo: Real-time customization of the female avatar."
+            "caption": "WebGL Demo: Real-time customization of the female avatar.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/alef-webgl/al-01.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4",
-            "caption": "Integration Showcase: Avatar maker in action within the Alef game."
+            "caption": "Integration Showcase: Avatar maker in action within the Alef game.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-09.jpg",
             "thumbnail": "assets/images/works/game-art/ga-09_thumb.jpg",
-            "caption": "Character Design: Example of diverse avatar assets."
+            "caption": "Character Design: Example of diverse avatar assets.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-10.jpg",
             "thumbnail": "assets/images/works/game-art/ga-10_thumb.jpg",
-            "caption": "Character Design: Further examples of avatar customization options."
+            "caption": "Character Design: Further examples of avatar customization options.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-11.jpg",
             "thumbnail": "assets/images/works/game-art/ga-11_thumb.jpg",
-            "caption": "Character Design: Showcasing the range of available avatar features."
+            "caption": "Character Design: Showcasing the range of available avatar features.",
+            "logo": "assets/images/logos/INF.png"
         }
     ],
     "process": [
@@ -67,35 +76,40 @@
             "description": "The avatar maker was architected and developed entirely in WebGL, emphasizing a lightweight and efficient design for broad usability.",
             "date": "2021",
             "image": "assets/videos/works/avatar-maker/am-01.mp4",
-            "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4"
+            "thumbnail": "assets/videos/works/avatar-maker/am-01_thumb.mp4",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Avatar Baking and GLB Export Implementation",
             "description": "A robust system was engineered for baking customized avatars into an optimized format, coupled with the implementation of GLB export for universal compatibility.",
             "date": "2021",
             "image": "assets/videos/works/avatar-maker/am-02.mp4",
-            "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4"
+            "thumbnail": "assets/videos/works/avatar-maker/am-02_thumb.mp4",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Addressable Assets System Integration",
             "description": "Unity's Addressable Assets system was strategically integrated to ensure the efficient management and dynamic loading/unloading of an extensive array of customization options, optimizing performance.",
             "date": "2021",
             "image": "assets/videos/works/alef-webgl/al-01.mp4",
-            "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4"
+            "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Art Asset Management and Team Leadership",
             "description": "Oversight and direction were provided to a team of 10 artists in the creation of over 100 diverse avatar assets, ensuring a cohesive and high-quality visual experience.",
             "date": "2021",
             "image": "assets/images/works/game-art/ga-09.jpg",
-            "thumbnail": "assets/images/works/game-art/ga-09_thumb.jpg"
+            "thumbnail": "assets/images/works/game-art/ga-09_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Integration with the Alef Game",
             "description": "A tailored integration was developed for the Alef game, encompassing automated avatar baking, GLB export and upload, and seamless in-game loading. (Captured During Development)",
             "date": "2022",
             "image": "assets/videos/works/alef-webgl/al-02.mp4",
-            "thumbnail": "assets/videos/works/alef-webgl/al-02_thumb.mp4"
+            "thumbnail": "assets/videos/works/alef-webgl/al-02_thumb.mp4",
+            "logo": "assets/images/logos/INF.png"
         }
     ]
 }

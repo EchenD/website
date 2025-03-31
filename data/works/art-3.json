@@ -14,79 +14,94 @@
         {
             "url": "assets/images/works/game-art/lr_01.jpg",
             "thumbnail": "assets/images/works/game-art/lr_01_thumb.jpg",
-            "caption": "'LandRocker' - Rovers, Spaceships, and Planet Details (2020)"
+            "caption": "'LandRocker' - Rovers, Spaceships, and Planet Details (2020)",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-03.webp",
             "thumbnail": "assets/images/works/game-art/ga-03.webp",
-            "caption": "'LandRocker' - Poster, Character Design, and Creature Design"
+            "caption": "'LandRocker' - Poster, Character Design, and Creature Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-01.jpg",
             "thumbnail": "assets/images/works/game-art/ga-01_thumb.jpg",
-            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design"
+            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design",
+            "logo": "assets/images/logos/INF.png"
         }
     ],
     "gallery": [
         {
             "url": "assets/images/works/game-art/ga-01.jpg",
             "thumbnail": "assets/images/works/game-art/ga-01_thumb.jpg",
-            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design"
+            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-02.jpg",
             "thumbnail": "assets/images/works/game-art/ga-02_thumb.jpg",
-            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design"
+            "caption": "'Battle of Rovers' - Rover Design, VFX Design, and Environment Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-03.jpg",
             "thumbnail": "assets/images/works/game-art/ga-03_thumb.jpg",
-            "caption": "'LandRocker' - Poster, Character Design, and Creature Design"
+            "caption": "'LandRocker' - Poster, Character Design, and Creature Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-04.jpg",
             "thumbnail": "assets/images/works/game-art/ga-04_thumb.jpg",
-            "caption": "'Battle of Rovers' - Game Environment Design"
+            "caption": "'Battle of Rovers' - Game Environment Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-05.jpg",
             "thumbnail": "assets/images/works/game-art/ga-05_thumb.jpg",
-            "caption": "Metaverse Environment Design"
+            "caption": "Metaverse Environment Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-06.jpg",
             "thumbnail": "assets/images/works/game-art/ga-06_thumb.jpg",
-            "caption": "Metaverse Environment Design"
+            "caption": "Metaverse Environment Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-07.jpg",
             "thumbnail": "assets/images/works/game-art/ga-07_thumb.jpg",
-            "caption": "'LandRocker' - Rover Design"
+            "caption": "'LandRocker' - Rover Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-08.jpg",
             "thumbnail": "assets/images/works/game-art/ga-08_thumb.jpg",
-            "caption": "'LandRocker' - Rover Design"
+            "caption": "'LandRocker' - Rover Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-09.jpg",
             "thumbnail": "assets/images/works/game-art/ga-09_thumb.jpg",
-            "caption": "'Avatar Maker' - Character Design"
+            "caption": "'Avatar Maker' - Character Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-10.jpg",
             "thumbnail": "assets/images/works/game-art/ga-10_thumb.jpg",
-            "caption": "'Avatar Maker' - Character Design"
+            "caption": "'Avatar Maker' - Character Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/game-art/ga-11.jpg",
             "thumbnail": "assets/images/works/game-art/ga-11_thumb.jpg",
-            "caption": "'Avatar Maker' - Character Design"
+            "caption": "'Avatar Maker' - Character Design",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/game-art/ga-01.mp4",
             "thumbnail": "assets/videos/works/game-art/ga-01_thumb.mp4",
-            "caption": "'LandRocker' - Character Design Showcase"
+            "caption": "'LandRocker' - Character Design Showcase",
+            "logo": "assets/images/logos/INF.png"
         }
     ],
     "process": [
@@ -95,21 +110,24 @@
             "description": "Establishing the overall visual style and artistic direction for each game, ensuring a cohesive aesthetic across all assets.",
             "date": "2019-2025",
             "image": "assets/images/works/game-art/lr_030.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_030_thumb.jpg"
+            "thumbnail": "assets/images/works/game-art/lr_030_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Team Mentorship & Guidance",
             "description": "Providing mentorship and guidance to the art team, fostering their skills in asset and character creation optimized for real-time rendering.",
             "date": "2019-2025",
             "image": "assets/images/works/game-art/lr_032.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_032_thumb.jpg"
+            "thumbnail": "assets/images/works/game-art/lr_032_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Collaborative Feedback & Iteration",
             "description": "Leading collaborative feedback sessions and guiding iterative revisions to ensure the artwork effectively supports the game design and vision.",
             "date": "2019-2025",
             "image": "assets/images/works/game-art/lr_034.jpg",
-            "thumbnail": "assets/images/works/game-art/lr_034_thumb.jpg"
+            "thumbnail": "assets/images/works/game-art/lr_034_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         }
     ]
 }

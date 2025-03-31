@@ -3613,3 +3613,23 @@ video.media-error {
     /* Darker orange on hover */
     text-decoration: underline;
 }
+
+/* Logo in fullscreen view */
+.fullscreen-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 50px;
+    max-height: 20px;
+    z-index: calc(var(--z-index-modal) + 130);
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .fullscreen-logo {
+        max-width: 50px;
+        max-height: 20px;
+        top: 15px;
+        left: 15px;
+    }
+}

@@ -17,114 +17,136 @@
         {
             "url": "assets/images/works/movies/mo-01.jpg",
             "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
-            "caption": "Alien Exoskeleton Suit for the Movie 'Attraction' (2017)"
+            "caption": "Alien Exoskeleton Suit for the Movie 'Attraction' (2017)",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-11.jpg",
             "thumbnail": "assets/images/works/movies/mo-11_thumb.jpg",
-            "caption": "Simulated Cloth Created with Marmoset Designer"
+            "caption": "Simulated Cloth Created with Marmoset Designer",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-03.jpg",
             "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg",
-            "caption": "Flora-Inspired Creature for the Movie 'Warriors of the Future' (2019)"
+            "caption": "Flora-Inspired Creature for the Movie 'Warriors of the Future' (2019)",
+            "logo": "assets/images/logos/MRP.png"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/movies/ex-01.mp4",
             "thumbnail": "assets/videos/works/movies/ex-01_thumb.mp4",
-            "caption": "Exoskeleton for 'Attraction' (2017) - Turntable View"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Turntable View",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-01.jpg",
             "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
-            "caption": "Exoskeleton for 'Attraction' (2017) - Final Sculpt"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Final Sculpt",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-21.jpg",
             "thumbnail": "assets/images/works/movies/mo-21_thumb.jpg",
-            "caption": "Exoskeleton for 'Attraction' (2017) - Crushed Mechanical Arms Detail"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Crushed Mechanical Arms Detail",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-22.jpg",
             "thumbnail": "assets/images/works/movies/mo-22_thumb.jpg",
-            "caption": "Exoskeleton for 'Attraction' (2017) - Alternate View of Crushed Arms"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Alternate View of Crushed Arms",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-23.jpg",
             "thumbnail": "assets/images/works/movies/mo-23_thumb.jpg",
-            "caption": "Exoskeleton for 'Attraction' (2017) - Interior Components"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Interior Components",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-24.jpg",
             "thumbnail": "assets/images/works/movies/mo-24_thumb.jpg",
-            "caption": "Exoskeleton for 'Attraction' (2017) - Arm Mechanism Detail"
+            "caption": "Exoskeleton for 'Attraction' (2017) - Arm Mechanism Detail",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-02.jpg",
             "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg",
-            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Detail Sculpt"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Detail Sculpt",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-03.jpg",
             "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg",
-            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Full View"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Full View",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/videos/works/movies/pf_01.mp4",
             "thumbnail": "assets/videos/works/movies/pf_01_thumb.mp4",
-            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Turntable Video"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Turntable Video",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/videos/works/movies/pf_02.mp4",
             "thumbnail": "assets/videos/works/movies/pf_02_thumb.mp4",
-            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Connecting Flower Detail"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Connecting Flower Detail",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-04.jpg",
             "thumbnail": "assets/images/works/movies/mo-04_thumb.jpg",
-            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Final Sculpt"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Final Sculpt",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-05.jpg",
             "thumbnail": "assets/images/works/movies/mo-05_thumb.jpg",
-            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Closed State"
+            "caption": "Flora Creature for 'Warriors of the Future' (2019) - Closed State",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-06.jpg",
             "thumbnail": "assets/images/works/movies/mo-06_thumb.jpg",
-            "caption": "Statue Design for the Movie 'Attraction 2' (2019)"
+            "caption": "Statue Design for the Movie 'Attraction 2' (2019)",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-07.jpg",
             "thumbnail": "assets/images/works/movies/mo-07_thumb.jpg",
-            "caption": "Character Design for the Movie 'Cosmoball' (2019) - Head Concept"
+            "caption": "Character Design for the Movie 'Cosmoball' (2019) - Head Concept",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-08.jpg",
             "thumbnail": "assets/images/works/movies/mo-08_thumb.jpg",
-            "caption": "Character Design for the Movie 'Cosmoball' (2019) - Body Concept"
+            "caption": "Character Design for the Movie 'Cosmoball' (2019) - Body Concept",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-09.jpg",
             "thumbnail": "assets/images/works/movies/mo-09_thumb.jpg",
-            "caption": "Creature Design Exploration"
+            "caption": "Creature Design Exploration",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-10.jpg",
             "thumbnail": "assets/images/works/movies/mo-10_thumb.jpg",
-            "caption": "Creature Design - Texture Study"
+            "caption": "Creature Design - Texture Study",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-11.jpg",
             "thumbnail": "assets/images/works/movies/mo-11_thumb.jpg",
-            "caption": "Simulated Cloth Created with Marmoset Designer"
+            "caption": "Simulated Cloth Created with Marmoset Designer",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-12.jpg",
             "thumbnail": "assets/images/works/movies/mo-12_thumb.jpg",
-            "caption": "Simulated Cloth - Texture Detail"
+            "caption": "Simulated Cloth - Texture Detail",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-13.jpg",
@@ -139,17 +161,20 @@
         {
             "url": "assets/images/works/movies/mo-15.jpg",
             "thumbnail": "assets/images/works/movies/mo-15_thumb.jpg",
-            "caption": "Visual Effects Design for the Movie 'Ninth'"
+            "caption": "Visual Effects Design for the Movie 'Ninth'",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-16.jpg",
             "thumbnail": "assets/images/works/movies/mo-16_thumb.jpg",
-            "caption": "Village Design Concept for the Movie 'Ninth'"
+            "caption": "Village Design Concept for the Movie 'Ninth'",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-17.jpg",
             "thumbnail": "assets/images/works/movies/mo-17_thumb.jpg",
-            "caption": "Alien Tree Sculpt for the Movie 'Cosmoball' (2019)"
+            "caption": "Alien Tree Sculpt for the Movie 'Cosmoball' (2019)",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/misc-art/misc-14.jpg",
@@ -233,21 +258,24 @@
             "description": "Collaborating with directors to establish the visual language through initial sketches and concept explorations for characters and environments.",
             "date": "2015-2023",
             "image": "assets/images/works/movies/mo-01.jpg",
-            "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg"
+            "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "title": "3D Modeling & Sculpting",
             "description": "Creating detailed 3D models and sculptures in ZBrush and Maya, focusing on anatomical accuracy and artistic design to realize character concepts.",
             "date": "2015-2023",
             "image": "assets/images/works/movies/mo-02.jpg",
-            "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg"
+            "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "title": "Texturing & Shading",
             "description": "Developing realistic and stylized materials and textures using Substance Painter and custom shader networks to achieve the desired aesthetic.",
             "date": "2015-2023",
             "image": "assets/images/works/movies/mo-12.jpg",
-            "thumbnail": "assets/images/works/movies/mo-12_thumb.jpg"
+            "thumbnail": "assets/images/works/movies/mo-12_thumb.jpg",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "title": "Animation & Rigging",

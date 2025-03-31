@@ -21,114 +21,136 @@
         {
             "url": "assets/videos/works/landrocker/landrocker3.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker3_thumb.mp4",
-            "caption": "Gameplay demo: Exploring planets, digging, and extracting resources."
+            "caption": "Gameplay demo: Exploring planets, digging, and extracting resources.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker4.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker4_thumb.mp4",
-            "caption": "Third-person combat: Character battles enemies on planets to capture them."
+            "caption": "Third-person combat: Character battles enemies on planets to capture them.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
-            "caption": "Rover mechanics: Digging, environmental interactions, and dynamic weather system."
+            "caption": "Rover mechanics: Digging, environmental interactions, and dynamic weather system.",
+            "logo": "assets/images/logos/INF.png"
         }
     ],
     "gallery": [
         {
             "url": "assets/videos/works/landrocker/landrocker3.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker3_thumb.mp4",
-            "caption": "Gameplay demo: Exploring planets, digging, and extracting resources."
+            "caption": "Gameplay demo: Exploring planets, digging, and extracting resources.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker4.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker4_thumb.mp4",
-            "caption": "Third-person combat: Character battles enemies on planets to capture them."
+            "caption": "Third-person combat: Character battles enemies on planets to capture them.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
             "thumbnail": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
-            "caption": "Rover mechanics: Digging, environmental interactions, and dynamic weather system."
+            "caption": "Rover mechanics: Digging, environmental interactions, and dynamic weather system.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-00.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-00_thumb.jpg",
-            "caption": "Early LandRocker gameplay screenshot."
+            "caption": "Early LandRocker gameplay screenshot.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-01.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg",
-            "caption": "Early LandRocker UI menu design."
+            "caption": "Early LandRocker UI menu design.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-02.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg",
-            "caption": "Early LandRocker UI menu design."
+            "caption": "Early LandRocker UI menu design.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-03.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-03_thumb.jpg",
-            "caption": "Early LandRocker UI menu design."
+            "caption": "Early LandRocker UI menu design.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-04.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-04_thumb.jpg",
-            "caption": "Early LandRocker UI menu design."
+            "caption": "Early LandRocker UI menu design.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-05.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-05_thumb.jpg",
-            "caption": "Early LandRocker UI menu design."
+            "caption": "Early LandRocker UI menu design.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-06.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-06_thumb.jpg",
-            "caption": "Early LandRocker UI menu design."
+            "caption": "Early LandRocker UI menu design.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-07.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-07_thumb.jpg",
-            "caption": "Early LandRocker UI menu design."
+            "caption": "Early LandRocker UI menu design.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-09.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-09_thumb.jpg",
-            "caption": "Rover test drive in the menu UI."
+            "caption": "Rover test drive in the menu UI.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-10.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-10_thumb.jpg",
-            "caption": "Showcase of procedurally generated planets."
+            "caption": "Showcase of procedurally generated planets.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-11.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-11_thumb.jpg",
-            "caption": "Planet generator interface."
+            "caption": "Planet generator interface.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-12.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-12_thumb.jpg",
-            "caption": "Galaxy system visualization."
+            "caption": "Galaxy system visualization.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-13.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-13_thumb.jpg",
-            "caption": "Early LandRocker gameplay screenshot."
+            "caption": "Early LandRocker gameplay screenshot.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-14.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-14_thumb.jpg",
-            "caption": "Early LandRocker gameplay screenshot."
+            "caption": "Early LandRocker gameplay screenshot.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-16.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-16_thumb.jpg",
-            "caption": "Early LandRocker gameplay screenshot."
+            "caption": "Early LandRocker gameplay screenshot.",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "url": "assets/images/works/landrocker/lr-18.jpg",
             "thumbnail": "assets/images/works/landrocker/lr-18_thumb.jpg",
-            "caption": "Early LandRocker gameplay screenshot."
+            "caption": "Early LandRocker gameplay screenshot.",
+            "logo": "assets/images/logos/INF.png"
         }
     ],
     "process": [
@@ -137,70 +159,80 @@
             "description": "My approach is not to reinvent the wheel, but to refine and enhance it. I first seek out the best available assets and tools, then build upon them. In this case, I integrated a voxel planet generator and a realistic physics-based rover controller before developing the core gameplay mechanics.",
             "date": "2019",
             "image": "assets/images/works/landrocker/lr-14.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-14_thumb.jpg"
+            "thumbnail": "assets/images/works/landrocker/lr-14_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Seed-Based Planet Generator Development",
             "description": "Integrated a voxel generation asset and engineered a seed-based system to create an infinite universe of unique, diggable planets with varied terrain and resources.",
             "date": "2019",
             "image": "assets/images/works/landrocker/lr-10.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-10_thumb.jpg"
+            "thumbnail": "assets/images/works/landrocker/lr-10_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Physics-Based Rover Controller & Auto-Rigger",
             "description": "Designed and implemented a realistic physics-based rover controller for spherical planets, incorporating a dynamic day and night system and a custom auto-rigger for smooth interactions with the terrain.",
             "date": "2019",
             "image": "assets/images/works/landrocker/lr-02.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg"
+            "thumbnail": "assets/images/works/landrocker/lr-02_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Rover Flight & Digging Mechanics",
             "description": "Expanded the rover's capabilities to include digging functionalities for resource extraction and flight mechanics for enhanced exploration.",
             "date": "2020",
             "image": "assets/videos/works/landrocker/landrocker2.mp4",
-            "thumbnail": "assets/videos/works/landrocker/landrocker2_thumb.mp4"
+            "thumbnail": "assets/videos/works/landrocker/landrocker2_thumb.mp4",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Dynamic Camera System with Cinemachine",
             "description": "Enhanced Cinemachine to create a dynamic and adaptable camera system that provides an optimal viewing experience for rover exploration and gameplay.",
             "date": "2021",
             "image": "assets/videos/works/landrocker/landrocker3.mp4",
-            "thumbnail": "assets/videos/works/landrocker/landrocker3_thumb.mp4"
+            "thumbnail": "assets/videos/works/landrocker/landrocker3_thumb.mp4",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Multiplayer Implementation with Photon Fusion",
             "description": "Initially integrated Unity Netcode for a seamless multiplayer experience, allowing players to mine and explore together. Later, I developed a PvP mode called Martian Domination, where two teams of up to five players fought for territorial control. This groundwork led to the creation of Battle of Rovers in 2024.",
             "date": "2022",
             "image": "assets/images/works/landrocker/lr-06.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-06_thumb.jpg"
+            "thumbnail": "assets/images/works/landrocker/lr-06_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Third-Person Character Controller & Universe Expansion",
             "description": "Collaborated with the development team to add a third-person character controller for different game modes and further enhanced the universe and galaxy system.",
             "date": "2019-2022",
             "image": "assets/videos/works/landrocker/landrocker4.mp4",
-            "thumbnail": "assets/videos/works/landrocker/landrocker4_thumb.mp4"
+            "thumbnail": "assets/videos/works/landrocker/landrocker4_thumb.mp4",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Android & iOS Version Development",
             "description": "Led the development efforts to create functional versions of LandRocker for both Android and iOS mobile platforms.",
             "date": "2022",
             "image": "assets/images/works/landrocker/lr-12.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-12_thumb.jpg"
+            "thumbnail": "assets/images/works/landrocker/lr-12_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "UI/UX Refinement & Main Menu Design",
             "description": "Refined the user interface and user experience, focusing on an intuitive main menu design and smooth navigation.",
             "date": "2024",
             "image": "assets/images/works/landrocker/lr-01.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg"
+            "thumbnail": "assets/images/works/landrocker/lr-01_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         },
         {
             "title": "Team Management & Production Readiness",
             "description": "Managed a team of developers, oversaw the finalization of the game, and guided the project to a production-ready state.",
             "date": "2022",
             "image": "assets/images/works/landrocker/lr-16.jpg",
-            "thumbnail": "assets/images/works/landrocker/lr-16_thumb.jpg"
+            "thumbnail": "assets/images/works/landrocker/lr-16_thumb.jpg",
+            "logo": "assets/images/logos/INF.png"
         }
     ]
 }
