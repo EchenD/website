@@ -66,22 +66,22 @@
             "title": "Inspiration & Conceptualization",
             "description": "Drawing inspiration from fiction, philosophical concepts, and observations of the world, I translated these ideas into initial sketches and conceptual explorations to envision each sculpture's narrative.",
             "date": "First Step",
-            "image": "assets/images/works/sculptures/s-06.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-06_thumb.jpg"
+            "image": "assets/images/works/sculptures/progress-02.jpg",
+            "thumbnail": "assets/images/works/sculptures/progress-02_thumb.jpg"
         },
         {
             "title": "Digital Sculpting & Refinement",
             "description": "Utilizing ZBrush and 3ds Max, I meticulously sculpted detailed 3D models, focusing on the interplay of forms, textures, and overall composition to bring the initial concepts to life.",
             "date": "Second Step",
-            "image": "assets/images/works/sculptures/s-05.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-05.jpg"
+            "image": "assets/videos/works/sculptures/progress-01.mp4",
+            "thumbnail": "assets/videos/works/sculptures/progress-01.mp4"
         },
         {
             "title": "Rendering & Visual Presentation",
             "description": "Final rendering was achieved using V-Ray with simple lighting and shading techniques to highlight the sculptural qualities. Fume FX was employed to create atmospheric effects such as smoke and water, enhancing the visual narrative.",
             "date": "Third Step",
-            "image": "assets/images/works/sculptures/s-04.jpg",
-            "thumbnail": "assets/images/works/sculptures/s-04.jpg"
+            "image": "assets/images/works/sculptures/progress-01.jpg",
+            "thumbnail": "assets/images/works/sculptures/progress-01_thumb.jpg"
         }
     ]
 }

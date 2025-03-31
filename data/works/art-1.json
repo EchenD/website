@@ -246,29 +246,29 @@
             "title": "Texturing & Shading",
             "description": "Developing realistic and stylized materials and textures using Substance Painter and custom shader networks to achieve the desired aesthetic.",
             "date": "2015-2023",
-            "image": "assets/images/works/movies/mo-03.jpg",
-            "thumbnail": "assets/images/works/movies/mo-03_thumb.jpg"
+            "image": "assets/images/works/movies/mo-12.jpg",
+            "thumbnail": "assets/images/works/movies/mo-12_thumb.jpg"
         },
         {
             "title": "Animation & Rigging",
             "description": "Building character rigs and animation sequences to convey personality and emotion through fluid and expressive movements.",
             "date": "2015-2023",
-            "image": "assets/images/works/movies/mo-04.jpg",
-            "thumbnail": "assets/images/works/movies/mo-04_thumb.jpg"
+            "image": "assets/images/works/movies/misc-17.jpg",
+            "thumbnail": "assets/images/works/movies/misc-17_thumb.jpg"
         },
         {
             "title": "Visual Effects Integration",
             "description": "Designing and implementing particle effects, dynamic simulations, and procedural animations to enhance key narrative moments.",
             "date": "2015-2023",
-            "image": "assets/images/works/movies/mo-05.jpg",
-            "thumbnail": "assets/images/works/movies/mo-05_thumb.jpg"
+            "image": "assets/images/works/movies/misc-22.jpg",
+            "thumbnail": "assets/images/works/movies/misc-22_thumb.jpg"
         },
         {
             "title": "Final Rendering & Compositing",
             "description": "Optimizing lighting and rendering pipelines to achieve high-quality visuals, followed by compositing elements for the final presentation.",
             "date": "2015-2023",
-            "image": "assets/images/works/movies/mo-06.jpg",
-            "thumbnail": "assets/images/works/movies/mo-07_thumb.jpg"
+            "image": "assets/videos/works/misc-art/misc-01.mp4",
+            "thumbnail": "assets/videos/works/misc-art/misc-01_thumb.mp4"
         }
     ]
 }
