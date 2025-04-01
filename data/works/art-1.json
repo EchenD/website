@@ -107,6 +107,12 @@
             "logo": "assets/images/logos/MRP.png"
         },
         {
+            "url": "assets/images/works/movies/mo-26.jpg",
+            "thumbnail": "assets/images/works/movies/mo-26_thumb.jpg",
+            "caption": "Horse Head for commercial project",
+            "logo": "assets/images/logos/MRP.png"
+        },
+        {
             "url": "assets/images/works/movies/mo-06.jpg",
             "thumbnail": "assets/images/works/movies/mo-06_thumb.jpg",
             "caption": "Statue Design for the Movie 'Attraction 2' (2019)",
@@ -149,14 +155,10 @@
             "logo": "assets/images/logos/MRP.png"
         },
         {
-            "url": "assets/images/works/movies/mo-13.jpg",
-            "thumbnail": "assets/images/works/movies/mo-13_thumb.jpg",
-            "caption": "Texturing Workflow with Substance Painter"
-        },
-        {
-            "url": "assets/images/works/movies/mo-14.jpg",
-            "thumbnail": "assets/images/works/movies/mo-14_thumb.jpg",
-            "caption": "Modeling and Texturing Showcase"
+            "url": "assets/images/works/movies/mo-17.jpg",
+            "thumbnail": "assets/images/works/movies/mo-17_thumb.jpg",
+            "caption": "Alien Tree Sculpt for the Movie 'Cosmoball' (2019)",
+            "logo": "assets/images/logos/MRP.png"
         },
         {
             "url": "assets/images/works/movies/mo-15.jpg",
@@ -171,10 +173,14 @@
             "logo": "assets/images/logos/MRP.png"
         },
         {
-            "url": "assets/images/works/movies/mo-17.jpg",
-            "thumbnail": "assets/images/works/movies/mo-17_thumb.jpg",
-            "caption": "Alien Tree Sculpt for the Movie 'Cosmoball' (2019)",
-            "logo": "assets/images/logos/MRP.png"
+            "url": "assets/images/works/movies/mo-13.jpg",
+            "thumbnail": "assets/images/works/movies/mo-13_thumb.jpg",
+            "caption": "Texturing Workflow with Substance Painter"
+        },
+        {
+            "url": "assets/images/works/movies/mo-14.jpg",
+            "thumbnail": "assets/images/works/movies/mo-14_thumb.jpg",
+            "caption": "Modeling and Texturing Showcase"
         },
         {
             "url": "assets/images/works/misc-art/misc-14.jpg",
@@ -185,11 +191,6 @@
             "url": "assets/videos/works/movies/r-01.mp4",
             "thumbnail": "assets/videos/works/movies/r-01_thumb.mp4",
             "caption": "'Robiki' Animation (2011-2012) - Character Modeling and Texturing Reel"
-        },
-        {
-            "url": "assets/images/works/movies/mo-25.jpg",
-            "thumbnail": "assets/images/works/movies/mo-25.jpg",
-            "caption": "'Robiki' Animation (2011-2012) - Poster Design"
         },
         {
             "url": "assets/images/works/movies/mo-18.jpg",

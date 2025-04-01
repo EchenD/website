@@ -57,6 +57,18 @@
             "logo": "assets/images/logos/MRP.png"
         },
         {
+            "url": "assets/images/works/digital-doubles/dd-25.jpg",
+            "thumbnail": "assets/images/works/digital-doubles/dd-25_thumb.jpg",
+            "caption": "Digital Double for the Movie 'Grome' (2022)",
+            "logo": "assets/images/logos/MRP.png"
+        },
+        {
+            "url": "assets/videos/works/digital-doubles/dd-04.mp4",
+            "thumbnail": "assets/videos/works/digital-doubles/dd-04_thumb.mp4",
+            "caption": "Digital Double for the Movie 'Grome' (2022)",
+            "logo": "assets/images/logos/MRP.png"
+        },
+        {
             "url": "assets/images/works/digital-doubles/dd-05.jpg",
             "thumbnail": "assets/images/works/digital-doubles/dd-05_thumb.jpg",
             "caption": "Digital Double",
