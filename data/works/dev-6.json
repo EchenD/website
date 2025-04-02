@@ -45,6 +45,16 @@
             "url": "assets/videos/works/misc-dev/misc-03.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-03_thumb.mp4",
             "caption": "360 Video Application: User interface with a map displaying available immersive video locations (2016)"
+        },
+        {
+            "url": "assets/videos/works/misc-dev/misc-04.mp4",
+            "thumbnail": "assets/videos/works/misc-dev/misc-04_thumb.mp4",
+            "caption": "Behaviour Tree showcase (2021)"
+        },
+        {
+            "url": "assets/videos/works/misc-dev/misc-05.mp4",
+            "thumbnail": "assets/videos/works/misc-dev/misc-05_thumb.mp4",
+            "caption": "Behaviour Tree showcase (2021)"
         }
     ],
     "process": [
