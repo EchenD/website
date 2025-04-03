@@ -55,6 +55,11 @@
             "url": "assets/videos/works/misc-dev/misc-05.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-05_thumb.mp4",
             "caption": "Behaviour Tree showcase (2021)"
+        },
+        {
+            "url": "assets/images/works/misc-dev/misc-02.jpg",
+            "thumbnail": "assets/images/works/misc-dev/misc-02_thumb.jpg",
+            "caption": "Behaviour Tree showcase (2021)"
         }
     ],
     "process": [
@@ -75,9 +80,16 @@
         {
             "title": "360 Video Application: Interactive World Exploration",
             "description": "I developed a personal application to help a friend manage and showcase their extensive collection of 360 videos captured from travels around the world. The application features an interactive map interface, allowing users to click on locations to access and view the corresponding immersive 360 video. The application provides administrative capabilities for adding, removing, and managing the 360 video content, with potential for future integration into games and other applications.",
-            "date": "2023",
+            "date": "2016",
             "image": "assets/videos/works/misc-dev/misc-03.mp4",
             "thumbnail": "assets/videos/works/misc-dev/misc-03_thumb.mp4"
+        },
+        {
+            "title": "Showcase: Procedural NPC Eating System",
+            "description": "This presentation showcases the eating behaviour of an NPC, a system I developed using a behaviour tree to simulate realistic survival instincts like hunger and the search for sustenance. The demonstration highlights how the NPC identifies nearby food, procedurally animates using a knife to cut larger items to a suitable size, and then consumes it. This entire sequence is governed by the behaviour tree, enhanced by the Opsive Behavior Tree asset and Final IK for procedural animation and inverse kinematics.",
+            "date": "2021",
+            "image": "assets/videos/works/misc-dev/misc-04.mp4",
+            "thumbnail": "assets/videos/works/misc-dev/misc-04_thumb.mp4"
         }
     ]
 }

@@ -56,7 +56,7 @@
         {
             "title": "Project Creation and Initial Development",
             "description": "Initiated and established the foundation for the Alef WebGL game, defining the core mechanics and educational objectives focused on climate change.",
-            "date": "2020",
+            "date": "2022",
             "image": "assets/images/works/alef-webgl/al-01.webp",
             "thumbnail": "assets/images/works/alef-webgl/al-01.webp",
             "logo": "assets/images/logos/INF.png"
@@ -64,7 +64,7 @@
         {
             "title": "Mentoring and Directing Development Team",
             "description": "Mentored and directed other developers to assist in the creation of numerous game missions, ensuring consistency and adherence to the project's vision. (Captured During Development)",
-            "date": "2021",
+            "date": "2022",
             "image": "assets/images/works/alef-webgl/al-02.webp",
             "thumbnail": "assets/images/works/alef-webgl/al-02.webp",
             "logo": "assets/images/logos/INF.png"
@@ -72,7 +72,7 @@
         {
             "title": "Implementing Interactive Storytelling Structure",
             "description": "Developed the complex and open interactive storytelling structure that integrated diverse gameplay elements such as mini-games, math problems, videos, quizzes, and building activities within a WebGL environment.  (Captured During Development)",
-            "date": "2021",
+            "date": "2022",
             "image": "assets/videos/works/alef-webgl/al-02.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-02_thumb.mp4",
             "logo": "assets/images/logos/INF.png"
@@ -80,7 +80,7 @@
         {
             "title": "Avatar Integration for Personalized Learning",
             "description": "Integrated the avatar maker (from the previous project) to allow users to create personalized avatars that would represent them throughout their learning journey.",
-            "date": "2021",
+            "date": "2022",
             "image": "assets/videos/works/alef-webgl/al-01.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-01_thumb.mp4",
             "logo": "assets/images/logos/INF.png"
@@ -104,7 +104,7 @@
         {
             "title": "Deployment for WebGL and User Engagement",
             "description": "Successfully built and deployed the game for WebGL, resulting in a highly accessible experience that attracted over 11,000 active users with a significant average playtime.",
-            "date": "2023",
+            "date": "2022",
             "image": "assets/videos/works/alef-webgl/al-03.mp4",
             "thumbnail": "assets/videos/works/alef-webgl/al-03_thumb.mp4",
             "logo": "assets/images/logos/INF.png"

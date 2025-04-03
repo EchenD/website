@@ -257,7 +257,7 @@
         {
             "title": "Concept Development",
             "description": "Collaborating with directors to establish the visual language through initial sketches and concept explorations for characters and environments.",
-            "date": "2015-2023",
+            "date": "2011-2024",
             "image": "assets/images/works/movies/mo-01.jpg",
             "thumbnail": "assets/images/works/movies/mo-01_thumb.jpg",
             "logo": "assets/images/logos/MRP.png"
@@ -265,7 +265,7 @@
         {
             "title": "3D Modeling & Sculpting",
             "description": "Creating detailed 3D models and sculptures in ZBrush and Maya, focusing on anatomical accuracy and artistic design to realize character concepts.",
-            "date": "2015-2023",
+            "date": "2011-2024",
             "image": "assets/images/works/movies/mo-02.jpg",
             "thumbnail": "assets/images/works/movies/mo-02_thumb.jpg",
             "logo": "assets/images/logos/MRP.png"
@@ -273,7 +273,7 @@
         {
             "title": "Texturing & Shading",
             "description": "Developing realistic and stylized materials and textures using Substance Painter and custom shader networks to achieve the desired aesthetic.",
-            "date": "2015-2023",
+            "date": "2011-2024",
             "image": "assets/images/works/movies/mo-12.jpg",
             "thumbnail": "assets/images/works/movies/mo-12_thumb.jpg",
             "logo": "assets/images/logos/MRP.png"
@@ -281,21 +281,21 @@
         {
             "title": "Animation & Rigging",
             "description": "Building character rigs and animation sequences to convey personality and emotion through fluid and expressive movements.",
-            "date": "2015-2023",
+            "date": "2011-2024",
             "image": "assets/images/works/movies/misc-17.jpg",
             "thumbnail": "assets/images/works/movies/misc-17_thumb.jpg"
         },
         {
             "title": "Visual Effects Integration",
             "description": "Designing and implementing particle effects, dynamic simulations, and procedural animations to enhance key narrative moments.",
-            "date": "2015-2023",
+            "date": "2011-2024",
             "image": "assets/images/works/movies/misc-22.jpg",
             "thumbnail": "assets/images/works/movies/misc-22_thumb.jpg"
         },
         {
             "title": "Final Rendering & Compositing",
             "description": "Optimizing lighting and rendering pipelines to achieve high-quality visuals, followed by compositing elements for the final presentation.",
-            "date": "2015-2023",
+            "date": "2011-2024",
             "image": "assets/videos/works/misc-art/misc-01.mp4",
             "thumbnail": "assets/videos/works/misc-art/misc-01_thumb.mp4"
         }
